@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/english-study/static/css/main.073c9b0a.css",
+    "main.js": "/english-study/static/js/main.a2e1d75c.js",
+    "static/js/562.d4c73bf2.chunk.js": "/english-study/static/js/562.d4c73bf2.chunk.js",
+    "static/media/logo.svg": "/english-study/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/english-study/index.html",
+    "main.073c9b0a.css.map": "/english-study/static/css/main.073c9b0a.css.map",
+    "main.a2e1d75c.js.map": "/english-study/static/js/main.a2e1d75c.js.map",
+    "562.d4c73bf2.chunk.js.map": "/english-study/static/js/562.d4c73bf2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.a2e1d75c.js"
+  ]
+}
