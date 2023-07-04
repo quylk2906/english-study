@@ -51,7 +51,6 @@ export const vocabularies: Data[] = [
     word: 'complement',
     description: [
       'to make something else seem better or more attractive when combining with it',
-      '',
     ],
     sentences: [
       'Strawberries and cream complement each other perfectly.',
@@ -138,7 +137,7 @@ export const vocabularies: Data[] = [
   },
   {
     word: 'fruitful (c1)',
-    description: ['producing good results',  ],
+    description: ['producing good results', ],
     sentences: [
     'It was a most fruitful discussion, with both sides agreeing to adopt a common policy.', 
     'After months of hard work, the team\'s collaboration resulted in a fruitful outcome.', 
@@ -147,7 +146,7 @@ export const vocabularies: Data[] = [
   },
   {
     word: 'hatred (c1)',
-    description: [`an extremely strong feeling of dislike`, `__`],
+    description: [`an extremely strong feeling of dislike`, ],
      sentences: [
     `She gave me a look of intense hatred.`, 
     `His relationship with his mother left him with a psychotic hatred of women.`, 
@@ -208,7 +207,6 @@ export const vocabularies: Data[] = [
     `The teacher was accommodating to the students' different learning styles, providing various resources and approaches.`,
      `The restaurant had a diverse menu, accommodating different dietary preferences and restrictions.`,
      `The company implemented flexible work hours, accommodating employees' personal needs and schedules.`,
-     `__`
      ],
   },
   {
@@ -291,7 +289,6 @@ export const vocabularies: Data[] = [
     `The government implemented policies to streamline the adoption process and encourage more families to adopt.`,
      `She felt a strong connection with the stray kitten and made the decision to adopt it.`,
      `The couple faced many challenges during the adoption process, but their perseverance paid off when they finally welcomed their child into their family.`,
-     `__`
      ],
   },
   // No has image
@@ -512,8 +509,7 @@ export const vocabularies: Data[] = [
   {
     word: 'annoyed',
     description: [
-    `__`, 
-    `__`
+    `angry`, 
     ],
      sentences: [
     `She was annoyed by the constant noise coming from the construction site next to her apartment.`, 
@@ -525,8 +521,8 @@ export const vocabularies: Data[] = [
   {
     word: 'anticipate',
     description: [
-    `__`, 
-    `__`
+    `to imagine or expect that something will happen`, 
+    `to imagine or expect that something will happen, sometimes taking action in preparation for it`
     ],
      sentences: [
     `The team eagerly anticipated the release of the new product.`, 
@@ -539,8 +535,8 @@ export const vocabularies: Data[] = [
   {
     word: 'anxious',
     description: [
-    `__`, 
-    `__`
+    `worried and nervous`, 
+    `eager to do something`
     ],
      sentences: [
     `He felt anxious before giving a presentation in front of a large audience.`, 
@@ -552,8 +548,8 @@ export const vocabularies: Data[] = [
   {
     word: 'anxiously',
     description: [
-    `__`, 
-    `__`
+    `in a way that shows you are worried or nervous`, 
+    `in a way that shows you are eager to get or do something`
     ],
      sentences: [
     `She paced back and forth, anxiously waiting for the test results.`, 
@@ -565,8 +561,8 @@ export const vocabularies: Data[] = [
   {
     word: 'apparent',
     description: [
-    `__`, 
-    `__`
+    `able to be seen or understood`, 
+    `seeming to exist or be true`
     ],
      sentences: [
     `It was apparent from his body language that he was upset.`, 
@@ -578,78 +574,75 @@ export const vocabularies: Data[] = [
   {
     word: 'appetite',
     description: [
-    `__`, 
-    `__`
+    `the feeling that you want to eat food`, 
+    `a desire or need for something, esp. food`
     ],
      sentences: [
     `After a long hike, she had a ravenous appetite and devoured a large meal.`, 
     `The tantalizing aroma from the kitchen whetted their appetite for the upcoming dinner.`, 
     `The flu left him with a diminished appetite, and he struggled to eat.`,
     `The restaurant's extensive menu caters to different tastes and appetites.`,
-    `__`,
      ],
   },
   {
     word: 'apprehension',
     description: [
-    `__`, 
-    `__`
+    `worry about the future, or a fear that something unpleasant is going to happen`, 
+    `the act of understanding something, or the way that something is understood`
     ],
      sentences: [
     `She felt a sense of apprehension before boarding the roller coaster.`, 
     `The driver's reckless behavior caused apprehension among the passengers.`, 
     `The first day at a new job is often filled with apprehension and nerves.`,
     `The dark clouds in the sky filled them with apprehension of an impending storm.`,
-    `__`,
+    `A full apprehension of all that is involved is utterly beyond us.`,
      ],
   },
   {
     word: 'apprehensive',
     description: [
-    `__`, 
-    `__`
+    `feeling worried about something that you are going to do or that is going to happen`, 
+    `feeling anxiety about the future; fearing that something unpleasant will happen`
     ],
      sentences: [
     `She was apprehensive about flying for the first time, as she had a fear of heights.`, 
     `The student was apprehensive about the upcoming exam, unsure if they had studied enough.`, 
     `He was apprehensive about the outcome of the important meeting with his boss.`,
     `The team felt apprehensive about the challenging project, unsure if they could meet the deadlines.`,
-    `__`,
      ],
   },
   {
     word: 'apprentice',
     description: [
-    `__`, 
-    `__`
+    `someone who has agreed to work for a skilled person for a particular period of time and often for low payment, in order to learn that person's skills`, 
+    `(v) to make someone an apprentice`
     ],
      sentences: [
     `He started his career as an apprentice in a renowned woodworking studio.`, 
     `The chef took on an apprentice to pass down their culinary expertise.`, 
     `The young artist eagerly accepted an apprenticeship with a well-known painter.`,
     `The company implemented an apprentice program to provide opportunities for aspiring professionals.`,
-    `__`,
      ],
   },
   {
     word: 'appropriate',
     description: [
-    `__`, 
-    `__`
+    `(adj) suitable or right for a particular situation or occasion`, 
+    `(v) to take something for your own use, usually without permission`
     ],
      sentences: [
     `He chose an appropriate outfit for the formal event.`, 
     `The teacher provided appropriate resources to support the students' learning.`, 
     `It is important to use appropriate language when addressing a diverse audience.`,
     `The committee decided to allocate an appropriate budget for the project.`,
-    `__`,
+    `He lost his job when he was found to have appropriated some of the company's money.`,
      ],
   },
   {
     word: 'arouse',
     description: [
-    `__`, 
-    `__`
+    `to cause someone to feel sexual excitement`, 
+    `to cause someone to have a particular feeling`
     ],
      sentences: [
     `The beautiful melody of the music aroused feelings of nostalgia within her.`, 
@@ -662,36 +655,34 @@ export const vocabularies: Data[] = [
   {
     word: 'arrangement',
     description: [
-    `__`, 
-    `__`
+    `a plan for how something will happen`, 
+    `an agreement between two people or groups about how something happens or will happen`
     ],
      sentences: [
     `The florist created a stunning floral arrangement for the wedding reception.`, 
     `The musician composed a new arrangement of a classic song.`, 
     `The team worked together to make the seating arrangement for the conference.`,
     `The couple made an arrangement with their neighbors to water their plants while they were on vacatio`,
-    `__`,
      ],
   },
   {
     word: 'arrive',
     description: [
-    `__`, 
-    `__`
+    `to reach a place, especially at the end of a journey`, 
     ],
      sentences: [
     `The train is scheduled to arrive at the station in ten minutes.`, 
     `We should arrive at the airport at least two hours before the flight.`, 
     `The delivery truck finally arrived with the long-awaited package.`,
     `She was excited to arrive at her dream destination after a long journey.`,
-    `__`,
+    `What time will your train arrive?`,
      ],
   },
   {
     word: 'ascertain',
     description: [
-    `__`, 
-    `__`
+    `to discover something`, 
+    `to discover a fact; to make certain`
     ],
      sentences: [
     `The investigator conducted interviews to ascertain the truth behind the crime.`, 
@@ -704,204 +695,187 @@ export const vocabularies: Data[] = [
   {
     word: 'aspiring',
     description: [
-    `__`, 
-    `__`
+    `(c2) someone who is trying to become a successful actor, politician, writer, etc`, 
+    `wishing to become successful in a particular type of job`
     ],
      sentences: [
     `She is an aspiring singer who dreams of performing on big stages.`, 
     `The workshop was attended by aspiring writers eager to improve their skills.`, 
     `The young athlete trained relentlessly, driven by their aspiring goal of winning a championship.`,
     `The mentoring program was designed to support aspiring entrepreneurs in starting their own businesses.`,
-    `__`,
      ],
   },
   {
     word: 'assay',
     description: [
-    `__`, 
-    `__`
+    `to examine a substance to find out how pure it is or what its properties (= qualities) are`, 
     ],
      sentences: [
     `The scientist conducted an assay to determine the chemical composition of the substance.`, 
     `The laboratory performed an assay to test the efficacy of the new drug.`, 
     `The company commissioned an assay of the mineral deposits in the area.`,
     `The jeweler used an assay to verify the authenticity of the diamond`,
-    `__`,
      ],
   },
   {
     word: 'assemble_manufacture',
     description: [
-    `__`, 
-    `__`
+    `to come together in a single place or bring parts together in a single group`, 
+    `to make something by joining separate parts`
     ],
      sentences: [
     `The workers assembled the furniture according to the instructions provided.`, 
     `The company manufactures high-quality electronics for global distribution.`, 
     `The automotive factory assembled cars on a large scale.`,
     `The company decided to manufacture its products locally to support the local economy.`,
-    `__`,
      ],
   },
   {
     word: 'associated',
     description: [
-    `__`, 
-    `__`
+    `connected`, 
     ],
      sentences: [
     `The brand is strongly associated with luxury and elegance.`, 
     `He is closely associated with the charitable organization and actively participates in their events.`, 
     `The new policy is associated with improved efficiency and productivity.`,
     `The disease is commonly associated with exposure to certain environmental factors.`,
-    `__`,
      ],
   },
   {
     word: 'attain',
     description: [
-    `__`, 
-    `__`
+    `to reach or succeed in getting something`, 
+    `to achieve something difficult to do or obtain`
     ],
      sentences: [
     `She worked hard to attain her dream of becoming a doctor.`, 
     `The athlete trained rigorously to attain peak physical fitness for the competition.`, 
     `The company's goal was to attain a significant market share within the next year.`,
     `With dedication and perseverance, he was able to attain academic success.`,
-    `__`,
      ],
   },
   {
     word: 'attainment',
     description: [
-    `__`, 
-    `__`
+    `the act of achieving something`, 
+    `the act of achieving something, or something that is achieved`
     ],
      sentences: [
     `Graduating from university was a significant attainment for her.`, 
     `The musician's album received critical acclaim, marking a major attainment in their career.`, 
     `The company celebrated the attainment of their sales target for the year.`,
     `The program focuses on the holistic development of students, fostering intellectual and personal attainments.`,
-    `__`,
      ],
   },
   {
     word: 'avert',
     description: [
-    `__`, 
-    `__`
+    `to prevent something bad from happening`, 
+    `to turn away your eyes or thoughts:`
     ],
      sentences: [
     `The quick actions of the lifeguard helped avert a potential drowning incident at the beach.`, 
     `The driver swerved to avert a collision with a speeding car.`, 
     `The company implemented safety measures to avert workplace accidents.`,
     `The diplomat's negotiation skills were crucial in helping avert a diplomatic crisis.`,
-    `__`,
      ],
   },
   {
     word: 'awful',
     description: [
-    `__`, 
-    `__`
+    `extremely bad or unpleasant`, 
+    `very bad, unpleasant, or of low quality`
     ],
      sentences: [
     `The storm caused awful damage to the coastal town, leaving many homes destroyed.`, 
     `The food at the restaurant was awful; it was tasteless and poorly cooked.`, 
     `She had an awful headache that made it difficult to concentrate.`,
     `The movie received awful reviews from critics and was considered a box office flop.`,
-    `__`,
      ],
   },
   {
     word: 'awkward',
     description: [
-    `__`, 
-    `__`
+    `causing problems, worry, or embarrassment`, 
+    `difficult to use, do, or deal with`
     ],
      sentences: [
     `They had an awkward encounter when they accidentally bumped into each other at the grocery store.`, 
     `He felt awkward attending the party alone, not knowing anyone there.`, 
     `The conversation turned awkward when sensitive topics were brought up.`,
     `The student's awkward dance moves drew laughter from their classmates.`,
-    `__`,
      ],
   },
   {
     word: 'be tempted',
     description: [
-    `__`, 
-    `__`
+    `to make someone want to have or do something, especially something that is unnecessary or wrong`, 
+    `to encourage someone to want to have or do something, esp. something wrong`
     ],
      sentences: [
     `She tried to resist, but the mouthwatering aroma of freshly baked cookies tempted her.`, 
     `He was tempted to skip the gym and stay home to watch TV instead.`, 
     `The enticing sale tempted her to buy more clothes than she needed.`,
     `The delicious cake on the dessert menu was too tempting to resist.`,
-    `__`,
      ],
   },
   {
     word: 'beforehand',
     description: [
-    `__`, 
-    `__`
+    `earlier (than a particular time)`, 
+    `earlier (than a particular time); in advance`
     ],
      sentences: [
     `She prepared the presentation slides beforehand to ensure a smooth delivery.`, 
     `They booked their flight tickets well beforehand to secure lower prices.`, 
     `He discussed the details with his team beforehand to avoid any last-minute confusion.`,
     `The party planner arranged all the decorations beforehand to save time on the day of the event.`,
-    `__`,
      ],
   },
   {
     word: 'beneficial',
     description: [
-    `__`, 
-    `__`
+    `helpful, useful, or good`, 
+    `tending to help; having a good effect`
     ],
      sentences: [
     `Regular exercise has numerous beneficial effects on overall health and well-being.`, 
     `The new software system proved to be beneficial in streamlining the company's workflow.`, 
     `Reading books is beneficial for expanding knowledge and improving vocabulary.`,
     `The mentor provided beneficial advice to help the aspiring entrepreneur succeed.`,
-    `__`,
      ],
   },
   {
     word: 'berth',
     description: [
-    `__`, 
-    `__`
+    `a bed in a boat, train, etc., or a place for a ship or boat to stay in a port`, 
+    `(v) If a ship or boat berths or if you berth it somewhere, it is tied up and stays in that place`
     ],
      sentences: [
     `The captain skillfully maneuvered the ship into its designated berth at the port.`, 
     `They reserved a berth on the overnight train to ensure a comfortable journey.`, 
     `The cruise ship had spacious cabins with ocean-view berths.`,
     `The truck driver parked the vehicle in an empty berth at the truck stop.`,
-    `__`,
      ],
   },
   {
     word: 'beware',
     description: [
-    `__`, 
-    `__`
+    `used to warn someone to be very careful about something or someone`, 
+    `to be very careful about something or someone`
     ],
      sentences: [
     `Beware of scams that promise quick and easy money-making schemes.`, 
     `The sign at the zoo warned visitors to beware of feeding the animals.`, 
     `She received a warning from a friend to beware of a suspicious email scam.`,
     `The hiker was cautious and kept a lookout to beware of any dangerous wildlife.`,
-    `__`,
      ],
   },
   {
     word: 'bizarre',
     description: [
-    `__`, 
-    `__`
+    `very strange and unusual`, 
     ],
      sentences: [
     `The fashion show featured models wearing bizarre and avant-garde outfits.`, 
@@ -914,50 +888,49 @@ export const vocabularies: Data[] = [
   {
     word: 'blame',
     description: [
-    `__`, 
-    `__`
+    `to say or think that someone or something did something wrong or is responsible for something bad happening`, 
     ],
      sentences: [
     `She was quick to place blame on others without taking responsibility for her own actions.`, 
     `The investigation revealed that no one could be solely blamed for the accident.`, 
     `It's unfair to blame the entire team for the failure; everyone played their part.`,
     `The boss took the blame for the project's shortcomings, even though it was a collective effort.`,
-    `__`,
      ],
   },
   {
     word: 'bond',
     description: [
-    `__`, 
-    `__`
+    `a close connection joining two or more people`, 
+    `(v) to develop a close connection or strong relationship with someone, or to make someone do this`
     ],
      sentences: [
     `The siblings shared a strong bond and supported each other through thick and thin.`, 
     `The team-building activities helped foster a bond among the employees.`, 
     `The bond between the dog and its owner was evident in their deep connection.`,
     `The secret agent relied on their bond with their partner to successfully complete the mission.`,
-    `__`,
+    `The aim was to bond the group into a closely knit team.`,
+    `The hospital gives mothers no quiet private time in which to bond with their babies.`,
      ],
   },
   {
     word: 'boost',
     description: [
-    `__`, 
-    `__`
+    `to increase or improve something`, 
+    `(n) an occasion when something is improved or increased`
     ],
      sentences: [
     `The new marketing campaign helped boost sales for the company.`, 
     `She drank a cup of coffee to boost her energy before the important meeting.`, 
     `The positive feedback from customers boosted the team's morale.`,
     `The government implemented policies to boost economic growth and create more jobs.`,
-    `__`,
+    `The lowering of interest rates will give a much-needed boost to the economy.`,
      ],
   },
   {
     word: 'booth',
     description: [
-    `__`, 
-    `__`
+    `a small space like a box that a person can go into`, 
+    `a small structure just big enough for one person to use`
     ],
      sentences: [
     `They reserved a booth at the restaurant for their family gathering.`, 
@@ -969,8 +942,8 @@ export const vocabularies: Data[] = [
   {
     word: 'brew',
     description: [
-    `__`, 
-    `__`
+    `to make beer`, 
+    `If you ___ tea or coffee, you add boiling water to it to make a hot drink, and if it brews, it gradually develops flavour in the container in which it was made`
     ],
      sentences: [
     `He liked to brew his own beer as a hobby and experiment with different flavors.`, 
@@ -982,8 +955,8 @@ export const vocabularies: Data[] = [
   {
     word: 'broadcast',
     description: [
-    `__`, 
-    `__`
+    `to send out a programme on television or radio`, 
+    `to spread information to a lot of people`
     ],
      sentences: [
     `The radio station broadcasted the live coverage of the sports event.`, 
@@ -995,50 +968,46 @@ export const vocabularies: Data[] = [
   {
     word: 'broaden',
     description: [
-    `__`, 
-    `__`
+    `to become wider, or to cause something to become wider`, 
+    `to increase the range of something`
     ],
      sentences: [
     `Traveling broadens one's perspective by exposing them to different cultures and traditions.`, 
     `The university offers a range of elective courses to broaden students' knowledge.`, 
     `He joined a book club to broaden his reading interests and discover new authors.`,
     `The internship opportunity allowed her to broaden her professional network.`,
-    `__`,
      ],
   },
   {
     word: 'bulletin',
     description: [
-    `__`, 
-    `__`
+    `a short news programme on television or radio, often about something that has just happened, or a short newspaper printed by an organization`, 
+    `a short piece of news on television or radio, or a short report or news item released by an organization`
     ],
      sentences: [
     `The school posted a bulletin with important announcements and upcoming events.`, 
     `The company sent out a bulletin to all employees regarding the change in office hours.`, 
     `The community center displayed a bulletin with local news and community initiatives.`,
     `The bulletin board in the office served as a central communication hub for employees.`,
-    `__`,
      ],
   },
   {
     word: 'bystander',
     description: [
-    `__`, 
-    `__`
+    `a person who is standing near and watching something that is happening but is not taking part in it`, 
     ],
      sentences: [
     `The bystander witnessed the accident and rushed to call for help.`, 
     `Despite the commotion, the bystanders stood by, not offering any assistance.`, 
     `The brave bystander intervened to stop the altercation and protect the victim.`,
     `The campaign aimed to raise awareness about the importance of bystander intervention in preventing bullying.`,
-    `__`,
      ],
   },
   {
     word: 'cage',
     description: [
-    `__`, 
-    `__`
+    `(v) to put or keep birds or animals in a cage`, 
+    `(n) a structure shaped like a box but with bars or wires as its sides, for keeping pets or for housing animals`
     ],
      sentences: [
     `The zookeeper carefully placed the new arrival, a rare bird, in its cage.`, 
@@ -1050,22 +1019,20 @@ export const vocabularies: Data[] = [
   {
     word: 'carriage',
     description: [
-    `__`, 
-    `__`
+    `a vehicle with four wheels pulled by a horse or horses`, 
     ],
      sentences: [
     `The horse-drawn carriage took tourists on a scenic ride through the city.`, 
     `She looked elegant as she stepped out of the luxurious carriage at the red carpet event.`, 
     `The old photographs showed people traveling in carriages during the early 1900s.`,
     `The royal wedding procession included a beautifully adorned carriage carrying the bride and groom`,
-    `__`,
      ],
   },
   {
     word: 'cartridge',
     description: [
-    `__`, 
-    `__`
+    `a container that is used in a larger piece of equipment, and which can be replaced with another similar part`, 
+    `a small tube containing an explosive substance and a bullet for use in a gun`
     ],
      sentences: [
     `The video game console required inserting a game cartridge to play.`, 
@@ -1077,8 +1044,8 @@ export const vocabularies: Data[] = [
   {
     word: 'casually',
     description: [
-    `__`, 
-    `__`
+    `in a way that is not formal or not suitable for a special or official occasion`, 
+    `in a way that is not regular or fixed`
     ],
      sentences: [
     `He casually strolled down the street, hands in his pockets, without a care in the world.`, 
@@ -1090,49 +1057,46 @@ export const vocabularies: Data[] = [
   {
     word: 'chase',
     description: [
-    `__`, 
-    `__`
+    `to hurry after someone or something in order to catch him, her, or it`, 
+    `to try to get something that is difficult to get or achieve`,
+    `to run after a person or an animal in a threatening way in order to make him, her, or it leave:`
     ],
      sentences: [
     `The children ran through the park, playing a game of chase.`, 
     `The police chased the suspect through the narrow alleys, determined to apprehend them.`, 
     `The cat eagerly chased after the toy mouse, swatting at it with its paws.`,
     `She chased her dreams relentlessly, never giving up on her aspirations.`,
-    `__`,
      ],
   },
   {
     word: 'choosy',
     description: [
-    `__`, 
-    `__`
+    `difficult to please because you are very exact about what you like`, 
     ],
      sentences: [
     `He was known for being choosy when it came to selecting his friends.`, 
     `The picky eater was choosy about the ingredients and flavors of their meals.`, 
     `The fashion designer was choosy about the fabrics and materials used in their designs.`,
     `The company had high standards and was choosy when it came to hiring new employees.`,
-    `__`,
+    `She's very choosy about what she eats and drinks.`,
      ],
   },
   {
     word: 'cigarette butt',
     description: [
-    `__`, 
-    `__`
+    `the part of a cigarette that is left after it has been smoked`, 
     ],
      sentences: [
     `The littering person carelessly dropped their cigarette butt on the ground instead of disposing of it properly.`, 
     `The environmental activist organized a campaign to raise awareness about the harmful effects of cigarette butt pollution.`, 
     `The park had designated smoking areas with designated bins for cigarette butt disposal.`,
     `She found a discarded cigarette butt and disposed of it in the appropriate container.`,
-    `__`,
      ],
   },
   {
     word: 'civic center',
     description: [
-    `__`, 
+    `The building was transformed into a museum and ___`, 
     `__`
     ],
      sentences: [
@@ -1146,162 +1110,147 @@ export const vocabularies: Data[] = [
   {
     word: 'claim',
     description: [
-    `__`, 
-    `__`
+    `to say that something is true or is a fact, although you cannot prove it and other people might not believe it`, 
+    `to ask for something of value because you think it belongs to you or because you think you have a right to it`
     ],
      sentences: [
     `The insurance company processed her claim and provided compensation for the damage to her car.`, 
     `He made a bold claim during the debate, asserting that his proposal would solve the problem.`, 
     `The archaeologist made a groundbreaking claim about the origins of the ancient artifact.`,
     `The customer called the helpline to report a faulty product and initiate a warranty claim.`,
-    `__`,
      ],
   },
   {
     word: 'clarity',
     description: [
-    `__`, 
-    `__`
+    `the quality of being clear and easy to understand`, 
+    `the ability to think clearly and not be confused`
     ],
      sentences: [
     `The presenter used visual aids to enhance the clarity of the information being conveyed.`, 
     `The teacher's explanations brought clarity to the complex subject matter.`, 
     `The author's writing style was admired for its clarity and ease of understanding.`,
     `The clear blue sky added to the clarity of the breathtaking view.`,
-    `__`,
      ],
   },
   {
     word: 'clumsy',
     description: [
-    `__`, 
-    `__`
+    `A clumsy person often has accidents because they do not behave in a careful, controlled way`, 
+    `not skilful in the way you deal with or express something`
     ],
      sentences: [
     `He knocked over a vase with his clumsy movements.`, 
     `The toddler took clumsy steps as they were just learning to walk.`, 
     `She felt clumsy trying to dance in high heels for the first time.`,
     `The clumsy attempt to fix the broken chair only made it worse.`,
-    `__`,
      ],
   },
   {
     word: 'coincide',
     description: [
-    `__`, 
-    `__`
+    `to happen at or near the same time`, 
+    `to come together in position or happen at or near the same time`
     ],
      sentences: [
     `The meeting coincided with her birthday, so her colleagues surprised her with a celebration.`, 
     `The start of the concert coincided with the sunset, creating a magical atmosphere.`, 
     `The company's decision to launch a new product will coincide with the holiday season.`,
     `Their schedules didn't coincide, so they had a hard time finding a suitable time to meet.`,
-    `__`,
      ],
   },
   {
     word: 'collate',
     description: [
-    `__`, 
-    `__`
+    `to bring together different pieces of written information so that the similarities and differences can be seen`, 
+    `to collect and arrange in correct order the sheets of a document`
     ],
      sentences: [
     `The secretary collated all the documents and organized them in a folder.`, 
     `The researcher collated the data from multiple sources to analyze the trends.`, 
     `The librarian collated the books on the shelves according to their genres.`,
     `The project manager asked the team members to collate their findings into a comprehensive report.`,
-    `__`,
      ],
   },
   {
     word: 'college',
     description: [
-    `__`, 
-    `__`
+    `a university where you can study for an undergraduate (= first) degree`, 
     ],
      sentences: [
     `She enrolled in a prestigious college to pursue her degree in engineering.`, 
     `The college campus was buzzing with activity during the first week of classes.`, 
     `He formed lifelong friendships while living in the college dormitory.`,
     `The college provided various extracurricular activities to enhance students' overall learning experience.`,
-    `__`,
      ],
   },
   {
     word: 'commendable',
     description: [
-    `__`, 
-    `__`
+    `deserving praise`, 
     ],
      sentences: [
     `Her dedication and hard work on the project were commendable.`, 
     `The student received a commendable grade for their exceptional essay.`, 
     `The company's efforts to reduce its carbon footprint were commendable.`,
     `The organization recognized her commendable contributions with an award.`,
-    `__`,
      ],
   },
   {
     word: 'commensurate',
     description: [
-    `__`, 
-    `__`
+    `(adj) in a correct and suitable amount compared to something else`, 
+    `(adj) suitable in amount or quality compared to something else; matching in degree:`
     ],
      sentences: [
     `The salary increase was commensurate with her years of experience and expertise.`, 
     `The size of the project required a commensurate amount of resources and manpower.`, 
     `The punishment given to the offender was commensurate with the seriousness of the crime.`,
     `The effort she put into her presentation was commensurate with the positive feedback she received.`,
-    `__`,
      ],
   },
   {
     word: 'commercial',
     description: [
-    `__`, 
-    `__`
+    `related to making money by buying and selling things`, 
+    `used for selling goods or providing services for money, rather than for personal use`
     ],
      sentences: [
     `The television aired a commercial promoting the new product.`, 
     `They rented a commercial space to open their own bakery.`, 
     `The company invested heavily in a commercial advertising campaign to boost sales.`,
     `The filmmaker's latest project was both critically acclaimed and commercially successful.`,
-    `__`,
      ],
   },
   {
     word: 'comparative',
     description: [
-    `__`, 
-    `__`
+    `the form of an adjective or adverb that expresses a difference in amount, number, degree, or quality`, 
     ],
      sentences: [
     `The study conducted a comparative analysis of the effectiveness of different treatments.`, 
     `She presented a comparative study of two famous novels during her literature class.`, 
     `The professor encouraged students to write a comparative essay comparing two historical events.`,
     `The comparative advantage of the product made it a popular choice in the market.`,
-    `__`,
      ],
   },
   {
     word: 'compelled',
     description: [
-    `__`, 
-    `__`
+    `having to do something, because you are forced to or feel it is necessary`, 
     ],
      sentences: [
     `The compelling story in the book compelled readers to stay up all night to finish it.`, 
     `The evidence presented in court compelled the jury to reach a guilty verdict.`, 
     `She felt compelled to help the less fortunate and volunteered at a local shelter.`,
     `The compelling performance by the actor moved the audience to tears.`,
-    `__`,
      ],
   },
   {
     word: 'compensate',
     description: [
-    `__`, 
-    `__`
+    `to pay someone money in exchange for something that has been lost or damaged or for some problem`, 
+    `to take the place of something useful or needed with something else of similar value`
     ],
      sentences: [
     `The company offered to compensate the customer for the inconvenience caused by the delayed delivery.`, 
@@ -1313,36 +1262,32 @@ export const vocabularies: Data[] = [
   {
     word: 'complacent',
     description: [
-    `__`, 
-    `__`
+    `feeling so satisfied with your own abilities or situation that you feel you do not need to try any harder`, 
     ],
      sentences: [
     `After achieving success, she became complacent and stopped pushing herself further.`, 
     `The team's complacent attitude led to their defeat in the final match.`, 
     `Complacency can hinder personal growth and development.`,
     `The company's complacent approach to customer service resulted in a decline in customer satisfaction.`,
-    `__`,
      ],
   },
   {
     word: 'complication',
     description: [
-    `__`, 
-    `__`
+    `something that makes a situation more difficult, or the act of doing this`, 
     ],
      sentences: [
     `The patient's condition took a turn for the worse, and complications arose during the surgery.`, 
     `The legal case became more complex with the introduction of new complications.`, 
     `Poor communication between team members added unnecessary complications to the project.`,
     `The financial complications forced them to rethink their business strategy.`,
-    `__`,
      ],
   },
   {
     word: 'complimentary',
     description: [
-    `__`, 
-    `__`
+    `praising or expressing admiration for someone`, 
+    `If tickets, books, etc. are ___, they are given free, especially by a business`
     ],
      sentences: [
     `The hotel offered complimentary breakfast to all its guests.`, 
@@ -1355,22 +1300,20 @@ export const vocabularies: Data[] = [
   {
     word: 'composure',
     description: [
-    `__`, 
-    `__`
+    `the feeling of being calm, confident, and in control`, 
+    `the quality of being calm and not emotional`
     ],
      sentences: [
     `Despite the stressful situation, she maintained her composure and handled it calmly.`, 
     `The experienced public speaker displayed confidence and composure on stage.`, 
     `It's important to keep composure during negotiations to achieve the best outcome.`,
     `The actor's composure never wavered, even during intense and emotional scenes.`,
-    `__`,
      ],
   },
   {
     word: 'comprehend',
     description: [
-    `__`, 
-    `__`
+    `to understand something completely`, 
     ],
      sentences: [
     `It took her a while to comprehend the complex instructions.`, 
@@ -1382,8 +1325,8 @@ export const vocabularies: Data[] = [
   {
     word: 'comprehensive',
     description: [
-    `__`, 
-    `__`
+    `(adj) complete and including everything that is necessary`, 
+    `(adj) including everything that is necessary; complete`
     ],
      sentences: [
     `The company conducted a comprehensive market analysis before launching the new product.`, 
@@ -1396,8 +1339,8 @@ export const vocabularies: Data[] = [
   {
     word: 'compulsory',
     description: [
-    `__`, 
-    `__`
+    `If something is ___, you must do it because of a rule or law`, 
+    `(of something) that must be done; necessary by law or a rule`
     ],
      sentences: [
     `The course was compulsory for all first-year students.`, 
@@ -1410,147 +1353,143 @@ export const vocabularies: Data[] = [
   {
     word: 'concede',
     description: [
-    `__`, 
-    `__`
+    `to admit, often unwillingly, that something is true`, 
+    `to allow someone to have something, even if you do not want to`
     ],
      sentences: [
     `After a long argument, he finally conceded and admitted his mistake.`, 
     `The team decided to concede the game to their opponent, as they were clearly outmatched.`, 
     `It's difficult for him to concede a point in a debate, as he is highly competitive.`,
     `The politician refused to concede defeat, even after the election results were announced.`,
-    `__`,
+    `He is not willing to concede any of his power/authority.`,
      ],
   },
   {
     word: 'concentrate',
     description: [
-    `__`, 
-    `__`
+    `to direct your attention or your efforts towards a particular activity, subject, or problem`, 
+    `to bring or come together in a large number or amount in one particular area`,
+    `(n) a liquid from which some of the water has been removed`
     ],
      sentences: [
     `She found it challenging to concentrate on her studies with all the noise around her.`, 
     `The artist shut herself in her studio to concentrate on her latest masterpiece.`, 
     `He took a deep breath to clear his mind and concentrate on the task at hand.`,
     `It's important to concentrate and pay attention during the lecture to fully grasp the content.`,
-    `__`,
+    `fruit-juice concentrate`,
      ],
   },
   {
     word: 'concierge',
     description: [
-    `__`, 
-    `__`
+    `a person who is employed to take care of an apartment building, especially in France`, 
+    `a person working in a hotel, etc. whose job is to help guests, for example by giving them information about restaurants, local places to see, etc`
     ],
      sentences: [
     `The hotel concierge provided excellent recommendations for local restaurants and attractions.`, 
     `The concierge arranged transportation for the guests and ensured their stay was comfortable.`, 
     `The concierge at the apartment building helped residents with various requests and services.`,
     `The concierge desk was available 24/7 to assist guests with any inquiries or needs.`,
-    `__`,
      ],
   },
   {
     word: 'conclusive',
     description: [
-    `__`, 
-    `__`
+    `proving that something is true, or ending any doubt`, 
+    `(of facts, proof, or arguments) ending any doubt or uncertainty about a situation`
     ],
      sentences: [
     `The DNA test results provided conclusive evidence in solving the crime.`, 
     `After months of research, they reached a conclusive conclusion about the experiment.`, 
     `The judge declared the witness's testimony as conclusive and crucial for the case.`,
     `The study's findings were conclusive, confirming the effectiveness of the new treatment.`,
-    `__`,
      ],
   },
   {
     word: 'concrete',
     description: [
-    `__`, 
-    `__`
+    `a very hard building material made by mixing together cement, sand, small stones, and water`, 
+    `(v) clear and certain, or real and existing in a form that can be seen or felt`
     ],
      sentences: [
     `The construction workers poured concrete to form the foundation of the building.`, 
     `She walked carefully on the concrete sidewalk to avoid tripping.`, 
     `The artist used concrete as a medium to create sculptures.`,
     `The road was repaired with new concrete to improve its durability.`,
-    `__`,
+    `They think she killed her husband, but they have no concrete evidence.`,
      ],
   },
   {
     word: 'conducive',
     description: [
-    `__`, 
-    `__`
+    `(adj) providing the right conditions for something good to happen or exist`, 
+    `providing the right conditions for something to happen or exist`
     ],
      sentences: [
     `A quiet and peaceful environment is conducive to studying.`, 
     `The team created a collaborative workspace that was conducive to creativity and innovation.`, 
     `The supportive and positive feedback from her peers was conducive to her personal growth.`,
     `The warm and welcoming atmosphere in the classroom was conducive to effective learning.`,
-    `__`,
      ],
   },
   {
     word: 'congested',
     description: [
-    `__`, 
-    `__`
+    `____ roads and towns have too much traffic and movement is made difficult`, 
+    `If you are or your nose is  ___ed, you cannot breathe through your nose because it is blocked, usually during an infection.`
     ],
      sentences: [
     `The city's rush hour traffic caused the streets to become congested.`, 
     `The doctor's office was so congested with patients that there was a long waiting time.`, 
     `During the holiday season, airports tend to be congested with travelers.`,
     `The congested subway system made commuting a frustrating experience.`,
-    `__`,
      ],
   },
   {
     word: 'conscious',
     description: [
-    `__`, 
-    `__`
+    `to notice that a particular thing or person exists or is present`, 
+    `awake, thinking, and knowing what is happening around you`
     ],
      sentences: [
     `She made a conscious effort to eat healthier and exercise regularly.`, 
     `He was conscious of the impact of his words and chose them carefully.`, 
     `The company implemented eco-friendly practices to be more conscious of the environment.`,
     `She became conscious of her breathing and practiced deep breathing exercises to reduce stress.`,
-    `__`,
      ],
   },
   {
     word: 'consecutive',
     description: [
-    `__`, 
-    `__`
+    `____ events, numbers, etc. follow one after another without an interruption:`, 
+    `following one after another without an interruption`
     ],
      sentences: [
     `He won the championship for three consecutive years.`, 
     `The company reported consecutive quarters of growth in their financial statements.`, 
     `The team lost five consecutive games, causing frustration among the players.`,
     `The marathon runner completed 10 consecutive marathons, setting a new record.`,
-    `__`,
+    `This is the fifth consecutive weekend that I've spent working.`,
      ],
   },
   {
     word: 'consent',
     description: [
-    `__`, 
-    `__`
+    `permission or agreement`, 
+    `(v) to agree to do something, or to allow someone to do something`
     ],
      sentences: [
     `Before conducting the experiment, the participants were required to give their informed consent.`, 
     `The couple decided to get married with the consent of their families.`,
     `The company cannot use your personal information without your consent.`,
     `She asked her parents for their consent before going on the school trip.`,
+    `Very reluctantly, I've consented to lend her my car.`
      ],
   },
   {
     word: 'consequence',
     description: [
-    `__`, 
-    `__`
+    `a result of a particular action or situation, often one that is bad or not convenient`, 
     ],
      sentences: [
     `The consequence of not studying for the exam was a low grade.`, 
@@ -1562,21 +1501,22 @@ export const vocabularies: Data[] = [
   {
     word: 'conservative',
     description: [
-    `__`, 
-    `__`
+    `not usually liking or trusting change, especially sudden change`, 
+    `If you are ____ in your appearance, you wear clothes in traditional colors and styles:`,
+    `not involving or taking unnecessary risks`
     ],
      sentences: [
     `He holds conservative political views and supports limited government intervention.`, 
     `The company took a conservative approach to financial planning to minimize risks.`, 
     `Her conservative dress sense reflected her traditional values.`,
     `The conservative estimate for the project's completion was six months.`,
+    `The firm has always had a conservative approach to investment.`
      ],
   },
   {
     word: 'conserve',
     description: [
-    `__`, 
-    `__`
+    `to keep and protect something from damage, change, or waste`, 
     ],
      sentences: [
     `It is important to conserve water by turning off the tap when not in use.`, 
@@ -1588,8 +1528,8 @@ export const vocabularies: Data[] = [
   {
     word: 'consign',
     description: [
-    `__`, 
-    `__`
+    `to send something to someone`, 
+    `to give or send, or to put someone in an unpleasant place or situation`
     ],
      sentences: [
     `The company consigned their products to a local retailer for distribution.`, 
@@ -1601,8 +1541,9 @@ export const vocabularies: Data[] = [
   {
     word: 'constitute',
     description: [
-    `__`, 
-    `__`
+    `to be or be considered as something`, 
+    `to be the parts that form something`, 
+    `to form or make something`
     ],
      sentences: [
     `The various ingredients constitute the recipe for a delicious meal.`, 
@@ -1615,50 +1556,46 @@ export const vocabularies: Data[] = [
   {
     word: 'consul',
     description: [
-    `__`, 
-    `__`
+    `an official chosen by a government to live in a foreign city, in order to take care of people from the official's own country who travel or live there, and to protect the trade interests of that government`, 
+    `a government official who lives in a foreign city in order to take care of the people from the official’s own country who are traveling or living there and to protect the trade interests of that government`
     ],
      sentences: [
     `The consul provided assistance and support to citizens living abroad.`, 
     `The embassy appointed a consul to handle visa applications.`, 
     `The consul facilitated diplomatic relations between the two countries.`,
     `The consul acted as a representative of their home country in a foreign land.`,
-    `__`,
      ],
   },
   {
     word: 'controversial',
     description: [
-    `__`, 
-    `__`
+    `causing disagreement or discussion`, 
+    `causing or likely to cause disagreement`
     ],
      sentences: [
     `The new government policy sparked a controversial debate among the citizens.`, 
     `The controversial book stirred up strong opinions and divided readers.`, 
     `The artist's controversial artwork challenged societal norms and provoked discussions.`,
     `The decision to build a new highway in the protected area was met with controversial opinions.`,
-    `__`,
      ],
   },
   {
     word: 'convention',
     description: [
-    `__`, 
-    `__`
+    `a large formal meeting of people who do a particular job or have a similar interest, or a large meeting for a political party`, 
     ],
      sentences: [
     `The annual convention brings together professionals from different industries to share knowledge and network.`, 
     `The science fiction convention attracts fans from around the world.`, 
     `The political convention is where party members gather to nominate their candidates.`,
     `The convention center offers a spacious venue for hosting large-scale events and conferences.`,
-    `__`,
      ],
   },
   {
     word: 'convict',
     description: [
-    `__`, 
-    `__`
+    `to decide officially in a law court that someone is guilty of a crime`, 
+    `(n) someone who is in prison because they are guilty of a crime`
     ],
      sentences: [
     `The jury found the defendant guilty and convicted him of the crime.`, 
@@ -1671,134 +1608,124 @@ export const vocabularies: Data[] = [
   {
     word: 'correspondence',
     description: [
-    `__`, 
-    `__`
+    `letters, especially official or business letters`, 
+    `the action of writing, receiving, and reading letters, especially between two people`
     ],
      sentences: [
     `The professor and the student exchanged emails as part of their academic correspondence.`, 
     `He kept all the letters as a record of their correspondence over the years.`, 
     `The company's customer service team promptly responded to customer correspondence.`,
     `The historian analyzed the correspondence between two influential figures to gain insights into their relationship.`,
-    `__`,
      ],
   },
   {
     word: 'corridor',
     description: [
-    `__`, 
-    `__`
+    `a long passage in a building or train, especially with rooms on either side`, 
+    `a long piece of one country's land that goes through another country`
     ],
      sentences: [
     `The hospital has long corridors connecting different departments.`, 
     `The students lined up along the corridor, waiting for the bell to ring.`, 
     `The hotel room was located at the end of a quiet corridor, away from the noise.`,
     `The office building had a spacious corridor with several meeting rooms branching off from it.`,
-    `__`,
      ],
   },
   {
     word: 'costume',
     description: [
-    `__`, 
-    `__`
+    `the set of clothes typical of a particular country or period of history, or suitable for a particular activity`, 
+    `a set of clothes worn in order to look like someone or something else, especially for a party or as part of an entertainment`
     ],
      sentences: [
     `She wore a beautiful princess costume for the Halloween party.`, 
     `The actors wore elaborate costumes to portray historical characters on stage.`, 
     `The costume designer meticulously crafted unique outfits for the movie's characters.`,
     `The costume party encouraged attendees to dress up as their favorite fictional characters.`,
-    `__`,
      ],
   },
   {
     word: 'courteous',
     description: [
-    `__`, 
-    `__`
+    `polite and showing respect`
     ],
      sentences: [
     `The receptionist greeted guests with a warm and courteous smile.`, 
     `It's important to be courteous and respectful to others, regardless of their background.`, 
     `He always held the door open for others as a courteous gesture.`,
     `The waiter provided excellent service, being attentive and courteous throughout the meal.`,
-    `__`,
      ],
   },
   {
     word: 'crisis',
     description: [
-    `__`, 
-    `__`
+    `a moment during a serious illness when there is the possibility of suddenly getting either better or worse`, 
+    `a time of great disagreement, confusion, or suffering`
     ],
      sentences: [
     `The country faced an economic crisis due to a sudden downturn in the stock market.`, 
     `The company went into crisis mode when their systems were compromised by a cyberattack.`, 
     `The government implemented emergency measures to deal with the healthcare crisis.`,
     `The crisis brought out the best in people as they came together to support and help each other.`,
-    `__`,
      ],
   },
   {
     word: 'criterion',
     description: [
-    `__`, 
-    `__`
+    `a standard by which you judge, decide about, or deal with something`, 
+    `a condition or fact used as a standard by which something can be judged or considered`
     ],
      sentences: [
     `Academic performance is one criterion for admission to the prestigious university.`, 
     `The selection committee used specific criteria to evaluate the candidates for the job.`, 
     `The movie's success was measured by various criteria, including box office revenue and critical acclaim.`,
     `The judge considered several criteria in reaching a fair and just decision.`,
-    `__`,
      ],
   },
   {
     word: 'crucial',
     description: [
-    `__`, 
-    `__`
+    `extremely important or necessary`, 
+    `(of a decision or event) extremely important because many other things depend on it`
     ],
      sentences: [
     `The final play of the game was crucial for determining the winner.`, 
     `Proper time management is crucial for meeting deadlines.`, 
     `The witness's testimony played a crucial role in solving the case.`,
     `The crucial step in the experiment was the accurate measurement of the ingredients.`,
-    `__`,
      ],
   },
   {
     word: 'cruel',
     description: [
-    `__`, 
-    `__`
+    `(adj) extremely unkind and unpleasant and causing pain to people or animals intentionally`, 
+    `extremely unkind and intentionally causing pain`
     ],
      sentences: [
     `Animal cruelty is a serious offense that should be punished.`, 
     `The dictator ruled with a cruel and iron fist, suppressing dissent.`, 
     `Bullying is a cruel behavior that can have long-lasting effects on its victims.`,
     `The harsh and cruel conditions in the factory led to protests from workers.`,
-    `__`,
      ],
   },
   {
     word: 'cruise',
     description: [
-    `__`, 
-    `__`
+    `a journey on a large ship for pleasure, during which you visit several places`, 
+    `(adj) (of a ship or person) to sail around for pleasure`
     ],
      sentences: [
     `They went on a romantic cruise to the Caribbean for their honeymoon.`, 
     `The cruise ship sailed smoothly through the calm waters of the ocean.`, 
     `The family enjoyed the various onboard activities during their cruise vacation.`,
     `The cruise line offered a luxury experience with gourmet dining and live entertainment.`,
-    `__`,
+    `They spent the summer cruising around the Mediterranean.`,
      ],
   },
   {
     word: 'culinary',
     description: [
-    `__`, 
-    `__`
+    `connected with cooking or kitchens`, 
     ],
      sentences: [
     `The culinary arts program offers hands-on training in cooking and food preparation.`, 
@@ -1811,92 +1738,89 @@ export const vocabularies: Data[] = [
   {
     word: 'debate',
     description: [
-    `__`, 
-    `__`
+    `(n) (a) serious discussion of a subject in which many people take part`, 
+    `(v) to discuss a subject in a formal way`
     ],
      sentences: [
     `The debate focused on the pros and cons of implementing a new policy.`, 
     `Students participated in a lively debate about the effects of social media.`, 
     `The presidential candidates engaged in a heated debate on live television.`,
     `The debate club organized a tournament where teams from different schools competed.`,
-    `__`,
+    `They had been debating for several hours without reaching a conclusion.`,
      ],
   },
   {
     word: 'debut',
     description: [
-    `__`, 
-    `__`
+    `the occasion when someone performs or presents something to the public for the first time`, 
+    `(v) to perform or appear in public, or to be shown or introduced to the public, for the first time`
     ],
      sentences: [
     `The young actress made her debut in a critically acclaimed film.`, 
     `The band's debut album quickly gained popularity among music lovers.`, 
     `The fashion designer showcased their latest collection at a prestigious fashion week debut.`,
     `The athlete's debut in the professional league was highly anticipated.`,
-    `__`,
+    `The company has recently debuted its new website.`,
      ],
   },
   {
     word: 'deceive',
     description: [
-    `__`, 
-    `__`
+    `to persuade someone that something false is the truth, or to keep the truth hidden from someone for your own advantage`, 
+    `to persuade someone that something false is the truth; trick or fool`
     ],
      sentences: [
     `He used clever tactics to deceive his opponents in the game.`, 
     `The scammer deceived unsuspecting individuals with false promises of wealth.`, 
     `She felt hurt and betrayed when she realized her friend had deceived her.`,
     `The illusionist amazed the audience with mind-bending tricks that seemed to deceive the eye`,
-    `__`,
      ],
   },
   {
     word: 'dedication',
     description: [
-    `__`, 
-    `__`
+    `the willingness to give a lot of time and energy to something because it is important`, 
+    `the activity of giving a lot of your energy and time to something you think is important`
     ],
      sentences: [
     `His dedication to his studies paid off when he graduated at the top of his class.`, 
     `The athlete's dedication to training resulted in winning multiple championships.`, 
     `The teacher's dedication to her students was evident through her extra effort and support.`,
     `The nonprofit organization recognized her dedication to community service with an award.`,
-    `__`,
      ],
   },
   {
     word: 'deed',
     description: [
-    `__`, 
-    `__`
+    `an intentional act, especially a very bad or very good one`, 
     ],
      sentences: [
     `The generous philanthropist's deeds had a positive impact on the community.`, 
     `He was recognized for his heroic deeds during the rescue mission.`, 
     `The lawyer prepared the legal documents for the transfer of property deed.`,
     `The volunteer group aimed to perform acts of kindness and good deeds in their community.`,
-    `__`,
+    `She's always helping people and doing good deeds.`,
      ],
   },
   {
     word: 'defect',
     description: [
-    `__`, 
-    `__`
+    `a fault or problem in something or someone that spoils that thing or person or causes it, him, or her not to work correctly`, 
+    `(v) to leave a country, political party, etc., especially in order to join an opposing one`
     ],
      sentences: [
     `The manufacturer issued a recall due to a defect in the product.`, 
     `The detective found a small defect in the suspect's alibi, leading to further investigation.`, 
     `The defect in the car's engine caused it to malfunction unexpectedly.`,
     `Despite its defects, the antique clock held sentimental value for the family.`,
-    `__`,
+    `When the national hockey team visited the US, half the players defected.`,
+    `Some of the mayor’s long-time supporters have defected to other candidates.`
      ],
   },
   {
     word: 'defy',
     description: [
-    `__`, 
-    `__`
+    `to refuse to obey a person, decision, law, situation, etc`, 
     ],
      sentences: [
     `The acrobat's performance seemed to defy gravity with daring stunts.`, 
@@ -1909,162 +1833,148 @@ export const vocabularies: Data[] = [
   {
     word: 'delicate',
     description: [
-    `__`, 
-    `__`
+    `needing careful treatment, especially because easily damaged`, 
+    `needing to be done carefully`
     ],
      sentences: [
     `The fragile vase required careful handling due to its delicate nature.`, 
     `The delicate fabric of the dress required special care during washing.`, 
     `The delicate balance of the ecosystem was disrupted by human activities.`,
     `The delicate negotiations between the two countries required skilled diplomats.`,
-    `__`,
      ],
   },
   {
     word: 'delighted',
     description: [
-    `__`, 
-    `__`
+    `very pleased`, 
     ],
      sentences: [
     `She was delighted to receive an unexpected gift from her best friend.`, 
     `The children were delighted by the magician's tricks and illusions.`, 
     `The host was delighted by the positive response to their event.`,
     `The team's victory in the championship left their coach delighted and proud.`,
-    `__`,
      ],
   },
   {
     word: 'delude',
     description: [
-    `__`, 
-    `__`
+    `to make someone believe something that is not true`, 
+    `to fool yourself into believing something is true because you want it to be true, when it is actually not true`
     ],
      sentences: [
     `The scam artist tried to delude innocent people into giving away their personal information.`, 
     `Don't delude yourself into thinking that success will come without hard work.`, 
     `His false promises were designed to delude his followers into believing in his authority.`,
     `She realized she had been deluded by his charm and deceitful tactics.`,
-    `__`,
      ],
   },
   {
     word: 'demanding',
     description: [
-    `__`, 
-    `__`
+    `needing a lot of time, attention, or energy`, 
+    `needing a lot of attention, effort, or time`
     ],
      sentences: [
     `The job requires a demanding schedule and high level of commitment.`, 
     `She found the rigorous training program to be physically and mentally demanding.`, 
     `The professor set demanding standards for the research project.`,
     `Being a parent can be emotionally demanding, but also incredibly rewarding.`,
-    `__`,
      ],
   },
   {
     word: 'depression',
     description: [
-    `__`, 
-    `__`
+    `the state of feeling very unhappy and without hope for the future`, 
+    `a period in which there is very little business activity and not many jobs`
     ],
      sentences: [
     `He sought therapy to help him cope with his depression.`, 
     `Economic recession often leads to a rise in unemployment and depression.`, 
     `The loss of a loved one can trigger a deep sense of depression and grief.`,
     `Regular exercise and a healthy lifestyle can help alleviate symptoms of depression.`,
-    `__`,
      ],
   },
   {
     word: 'derail',
     description: [
-    `__`, 
-    `__`
+    `If a train ____s or is ____ed, it comes off the railway tracks`, 
+    `to stop something from succeeding`
     ],
      sentences: [
     `The train was derailed due to a faulty track.`, 
     `A sudden conflict between team members threatened to derail the project.`, 
     `The scandal threatened to derail the politician's campaign.`,
     `They had to work extra hours to make up for the delay and prevent the project from derailing.`,
-    `__`,
+    `Investors are very concerned that a new crisis could derail the economic recovery.`,
      ],
   },
   {
     word: 'deserved',
     description: [
-    `__`, 
-    `__`
+    `used to refer to something that you earn or are given because of your behaviour or qualities`, 
     ],
      sentences: [
     `After years of hard work, she finally received the promotion she deserved.`, 
     `The team's victory was well-deserved after their consistent performance throughout the season.`, 
     `He received a standing ovation for his powerful and heartfelt performance, which was well-deserved.`,
     `The scholarship award was given to the student who had demonstrated exceptional academic achievement and deserved recognition.`,
-    `__`,
+    `a well-deserved rest`,
      ],
   },
   {
     word: 'deteriorate',
     description: [
-    `__`, 
-    `__`
+    `to become worse`, 
     ],
      sentences: [
     `The condition of the building continued to deteriorate due to lack of maintenance.`, 
     `His health began to deteriorate after he stopped taking his medication.`, 
     `The relationship between the two countries deteriorated following a series of conflicts.`,
     `If left untreated, the patient's condition is likely to deteriorate further.`,
-    `__`,
      ],
   },
   {
     word: 'detrimental',
     description: [
-    `__`, 
-    `__`
+    `causing harm or damage`, 
     ],
      sentences: [
     `Smoking is known to have detrimental effects on overall health.`, 
     `The company's decision to cut corners had a detrimental impact on the quality of their products.`, 
     `Lack of sleep can be detrimental to cognitive function and overall well-being.`,
     `It is important to avoid detrimental habits that can hinder personal growth and success.`,
-    `__`,
      ],
   },
   {
     word: 'devote',
     description: [
-    `__`, 
-    `__`
+    `to give all of something, especially your time, effort, or love, or yourself, to something you believe in or to a person`, 
     ],
      sentences: [
     `She decided to devote her time and energy to charitable causes.`, 
     `The writer devoted years to researching and writing their novel.`, 
     `He chose to devote himself to a career in medicine to help others.`,
     `They devoted their weekends to renovating their old house.`,
-    `__`,
+    `He left the Senate to devote more time to his family.`,
      ],
   },
   {
     word: 'devotion',
     description: [
-    `__`, 
-    `__`
+    `loyalty and love or care for someone or something`, 
+    `the fact of following religious teachings, or religious worship`
     ],
      sentences: [
     `The couple's love and devotion to each other were evident in their long-lasting marriage.`, 
     `She showed unwavering devotion to her family, always putting their needs first.`, 
     `The fans' devotion to the band was evident in their enthusiastic support at concerts.`,
     `The monk's life was dedicated to spiritual devotion and prayer.`,
-    `__`,
      ],
   },
   {
     word: 'dialogue',
     description: [
-    `__`, 
-    `__`
+    `conversation that is written for a book, play, or film:`, 
     ],
      sentences: [
     `The characters engaged in a deep and meaningful dialogue about the nature of love.`, 
@@ -2077,64 +1987,58 @@ export const vocabularies: Data[] = [
   {
     word: 'digress',
     description: [
-    `__`, 
-    `__`
+    `to move away from the main subject you are writing or talking about and to write or talk about something else`, 
     ],
      sentences: [
     `The speaker tended to digress from the main topic, leading to a lengthy and confusing presentation.`, 
     `Let's not digress from the main issue at hand and focus on finding a solution.`, 
     `The author occasionally digressed to share personal anecdotes in the book.`,
     `The conversation started to digress into unrelated topics, losing its initial focus.`,
-    `__`,
      ],
   },
   {
     word: 'dilemma',
     description: [
-    `__`, 
-    `__`
+    `a situation in which a difficult choice has to be made between two different things you could do`, 
+    `a situation in which a choice has to be made between possibilities that will all have results you do not want`
     ],
      sentences: [
     `She faced a dilemma when she had to choose between pursuing her dream job and staying close to her family.`, 
     `The company found itself in a financial dilemma due to unexpected market changes.`, 
     `The protagonist in the story was torn between two conflicting moral dilemmas.`,
     `Solving the environmental dilemma requires a balance between economic growth and sustainable practices.`,
-    `__`,
      ],
   },
   {
     word: 'diligent',
     description: [
-    `__`, 
-    `__`
+    `careful and using a lot of effort`, 
+    `careful and serious in your work, or done in a careful and determined way`
     ],
      sentences: [
     `The student was diligent in her studies, always completing assignments on time and seeking additional knowledge.`, 
     `The diligent employee always went the extra mile to meet deadlines and deliver high-quality work.`, 
     `The success of the project was largely due to the diligent efforts of the team members.`,
     `The diligent research paid off when they discovered a breakthrough in their field.`,
-    `__`,
      ],
   },
   {
     word: 'dimension',
     description: [
-    `__`, 
-    `__`
+    `a measurement of something in a particular direction, especially its height, length, or width`, 
     ],
      sentences: [
-    `__`, 
-    `__`, 
-    `__`,
-    `__`,
-    `__`,
+    `The concept of dimension refers to the measurement or extent of something in a particular direction or aspect. For example, the dimensions of a rectangular box could be its length, width, and height.`, 
+    `In mathematics, a dimension represents the number of coordinates required to specify a point within a space. For instance, a line exists in one dimension, a plane in two dimensions, and a solid object in three dimensions.`, 
+    `The term "multidimensional" is often used to describe a system or concept that involves multiple aspects or perspectives. In psychology, for instance, personality is often analyzed using various dimensions such as extraversion, neuroticism, and agreeableness.`,
+    `The idea of parallel universes or alternate realities existing alongside our own reality is a popular concept in science fiction. These parallel dimensions are depicted as separate planes of existence that can have different laws of physics or alternative versions of events.`,
      ],
   },
   {
     word: 'dine',
     description: [
-    `__`, 
-    `__`
+    `to eat the main meal of the day, usually in the evening`, 
+    `to eat, esp. the main meal of the day, usually in the evening`
     ],
      sentences: [
     `They decided to dine at their favorite restaurant to celebrate their anniversary.`, 
@@ -2147,106 +2051,100 @@ export const vocabularies: Data[] = [
   {
     word: 'disaster',
     description: [
-    `__`, 
-    `__`
+    `(an event that results in) great harm, damage, or death, or serious difficulty`, 
+    `an event causing great harm, damage, or suffering`
     ],
      sentences: [
     `The hurricane left behind a trail of destruction and was considered a major disaster.`, 
     `The project was a disaster due to poor planning and lack of coordination.`, 
     `The company suffered a financial disaster after the stock market crash.`,
     `The firefighter's quick response and bravery prevented a potential disaster.`,
-    `__`,
      ],
   },
   {
     word: 'discouraging',
     description: [
-    `__`, 
-    `__`
+    `making you feel less confident, enthusiastic, and positive about something, or less willing to do something`, 
+    `causing someone to feel less confident or less hopeful`
     ],
      sentences: [
     `Despite her initial enthusiasm, the continuous setbacks were discouraging her from pursuing her dreams.`, 
     `The negative feedback from her peers was discouraging, but she remained determined.`, 
     `The low test scores were discouraging for the students who had studied hard.`,
     `The lack of progress was discouraging, but they refused to give up.`,
-    `__`,
      ],
   },
   {
     word: 'discreet',
     description: [
-    `__`, 
-    `__`
+    `careful not to cause embarrassment or attract too much attention, especially by keeping something secret`, 
+    `careful not to cause embarrassment or attract a lot of attention`
     ],
      sentences: [
     `He handled the confidential information with discretion, always being discreet about sensitive matters.`, 
     `She gave him a discreet nod, indicating that she understood his secret message.`, 
     `The hotel staff was trained to provide discreet and attentive service to their guests.`,
     `The lawyer advised her client to be discreet and avoid discussing the case with others.`,
-    `__`,
      ],
   },
   {
     word: 'discrepancy',
     description: [
-    `__`, 
-    `__`
+    `a difference between two things that should be the same`, 
+    `a difference between two figures, results, etc. that are expected to be the same`
     ],
      sentences: [
     `There was a discrepancy between the reported sales figures and the actual revenue.`, 
     `The accountant worked diligently to identify and resolve discrepancies in the financial records.`, 
     `The witness's testimony had several discrepancies that raised doubts about its accuracy.`,
     `The team conducted a thorough investigation to uncover the discrepancy in the experiment results.`,
-    `__`,
+    `There is some discrepancy between the two accounts.`,
      ],
   },
   {
     word: 'discriminatory',
     description: [
-    `__`, 
-    `__`
+    `treating a person or group differently from and usually worse than other people, because of their race, gender, sexuality, etc.`, 
+    `unfairly treating a person or particular group of people differently from others`
     ],
      sentences: [
     `The company was accused of engaging in discriminatory hiring practices.`, 
     `Laws were enacted to protect individuals from discriminatory treatment based on their race or gender.`, 
     `The teacher was reprimanded for making discriminatory comments towards a student.`,
     `Discriminatory policies have no place in a fair and inclusive society.`,
-    `__`,
      ],
   },
   {
     word: 'disgust',
     description: [
-    `__`, 
-    `__`
+    `(n) a strong feeling of disapproval and dislike at a situation, person's behaviour, etc.`, 
+    `(v) to make you feel extreme dislike or disapproval`
     ],
      sentences: [
     `The sight of the rotting garbage filled her with disgust.`, 
     `The thought of eating insects disgusted some people, while others found it intriguing.`, 
     `His offensive remarks filled her with disgust and anger.`,
     `The conditions in the prison were deplorable, leaving the inmates feeling a deep sense of disgust.`,
-    `__`,
+    `Doesn't all this violence on TV disgust you?`,
      ],
   },
   {
     word: 'disgusting',
     description: [
-    `__`, 
-    `__`
+    `extremely unpleasant or unacceptable`, 
     ],
      sentences: [
     `The smell coming from the dumpster was absolutely disgusting.`, 
     `They found a dead rat in their food, which was a disgusting experience.`, 
     `The internet troll posted disgusting and offensive comments on social media.`,
     `The movie depicted gruesome and disgusting scenes that made some viewers uncomfortable.`,
-    `__`,
      ],
   },
   {
     word: 'disobey',
     description: [
-    `__`, 
-    `__`
+    `to refuse to do something that you are told to do`, 
+    `to intentionally fail to do what you are told or expected to do; not obey`
     ],
      sentences: [
     `The child was disciplined for continuously disobeying his parents' instructions.`, 
@@ -2259,8 +2157,8 @@ export const vocabularies: Data[] = [
   {
     word: 'disparate',
     description: [
-    `__`, 
-    `__`
+    `different in every way`, 
+    `different in every way`
     ],
      sentences: [
     `The two candidates held disparate views on how to address the issue.`, 
@@ -2273,8 +2171,7 @@ export const vocabularies: Data[] = [
   {
     word: 'dispensable',
     description: [
-    `__`, 
-    `__`
+    `more than you need and therefore not necessary; that can be got rid o`, 
     ],
      sentences: [
     `The unnecessary features of the product were considered dispensable and were removed to reduce costs.`, 
@@ -2287,8 +2184,9 @@ export const vocabularies: Data[] = [
   {
     word: 'disposable',
     description: [
-    `__`, 
-    `__`
+    `(adj) A ___ product is intended to be thrown away after use`, 
+    `used to describe a product that can be bought cheaply and is meant to be thrown away after use`,
+    `(n) a product that is intended to be thrown away after use`
     ],
      sentences: [
     `Single-use plastic bottles are considered disposable and contribute to environmental pollution.`, 
@@ -2300,119 +2198,116 @@ export const vocabularies: Data[] = [
   {
     word: 'dispute',
     description: [
-    `__`, 
-    `__`
+    `(n) an argument or disagreement, especially an official one between, for example, workers and employers or two countries with a common border`, 
+    `(v) to disagree with something that someone says`
     ],
      sentences: [
     `The neighbors had a dispute over the boundary line between their properties.`, 
     `The labor union was in a dispute with the management over working conditions and wages.`, 
     `The contract was terminated due to a legal dispute between the parties.`,
     `They hired a mediator to help resolve their business dispute amicably.`,
-    `__`,
+    `I don't dispute (that) his movies are entertaining, but they don't have much depth.`,
      ],
   },
   {
     word: 'disruption',
     description: [
-    `__`, 
-    `__`
+    `the action of preventing something, especially a system, process, or event, from continuing as usual or as expected`, 
+    `an interruption in the usual way that a system, process, or event works`
     ],
      sentences: [
     `The unexpected power outage caused a disruption in the office, halting work for several hours.`, 
     `The introduction of new technology brought disruption to traditional industries.`, 
     `The protest march created a disruption in the city, affecting traffic and daily activities.`,
     `The sudden change in management strategy caused disruption among the employees.`,
-    `__`,
      ],
   },
   {
     word: 'distant',
     description: [
-    `__`, 
-    `__`
+    `(adj) far away`, 
+    `part of your family but not closely related`
     ],
      sentences: [
     `She could see a distant mountain range on the horizon, shrouded in mist.`, 
     `The couple maintained a long-distance relationship for years before finally being able to live together.`, 
     `He has a distant memory of his childhood, but the details are blurry.`,
     `The old farmhouse was located in a distant corner of the countryside.`,
-    `__`,
+    `a distant relative/cousin`,
      ],
   },
   {
     word: 'distinguished',
     description: [
-    `__`, 
-    `__`
+    `used to describe a respected and admired person, or their work`, 
+    `used to describe a person, especially an older person, who looks formal, stylish, or wise`
     ],
      sentences: [
     `The professor is a distinguished scholar, known for his groundbreaking research.`, 
     `The actor was honored with a distinguished award for his contributions to the film industry.`,
     `The hotel offered a distinguished experience with its luxurious amenities and impeccable service.`,
     `She wore a distinguished outfit to the gala, attracting attention and admiration.`,
+    `I think grey hair on a man can look very distinguished.`
      ],
   },
   {
     word: 'distract',
     description: [
-    `__`, 
-    `__`
+    `to make someone stop giving their attention to something`, 
+    `to take someone’s attention away from what that person is doing or should be doing`
     ],
      sentences: [
     `The loud noise from the construction site distracted her from her work.`, 
     `He tried to distract himself from the pain by focusing on a book.`, 
     `The playful puppy constantly tried to distract its owner during training sessions.`,
     `The colorful advertisement on the billboard distracted drivers on the busy road.`,
-    `__`,
      ],
   },
   {
     word: 'disturb',
     description: [
-    `__`, 
-    `__`
+    `to interrupt what someone is doing`, 
+    `to cause someone to stop what the person is doing, or to interrupt an activity`
     ],
      sentences: [
     `The loud music coming from the party next door disturbed their peaceful evening.`, 
     `She didn't want to disturb her sleeping baby, so she tiptoed quietly out of the room.`, 
     `The disturbing news of the accident spread quickly throughout the community.`,
     `The sudden phone call disturbed his concentration while he was working.`,
-    `__`,
+    `Please don't disturb your sister - she's trying to do her homework.`,
      ],
   },
   {
     word: 'division',
     description: [
-    `__`, 
-    `__`
+    `the act of separating something into parts or groups, or the way that it is separated`, 
+    `the separation of something into parts or groups, or one of the parts or groups that has been separated`
     ],
      sentences: [
     `The company underwent a restructuring, resulting in the creation of new divisions.`, 
     `The debate over the issue created a deep division among the members of the committee.`, 
     `The country faced internal division between different political parties.`,
     `The algebra problem required the division of a large number by a smaller one.`,
-    `__`,
      ],
   },
   {
     word: 'downturn',
     description: [
-    `__`, 
-    `__`
+    `a reduction in the amount or success of something, such as a country's economic activity`, 
+    `a reduction in the amount or success of something`
     ],
      sentences: [
     `The economic downturn led to widespread job losses and financial hardships.`, 
     `The company's profits experienced a sharp downturn due to decreased consumer spending.`, 
     `The stock market witnessed a significant downturn, causing investors to panic.`,
     `The tourism industry suffered a downturn as travel restrictions were imposed.`,
-    `__`,
      ],
   },
   {
     word: 'dramatically',
     description: [
-    `__`, 
-    `__`
+    `suddenly or obviously`, 
+    `in a very sudden or noticeable way`
     ],
      sentences: [
     `The price of the house dropped dramatically, making it more affordable for buyers.`, 
@@ -2424,64 +2319,58 @@ export const vocabularies: Data[] = [
   {
     word: 'dry up',
     description: [
-    `__`, 
-    `__`
+    `to ___ plates, cups, etc. with a cloth after they have been washed`, 
+    `If a river, lake, etc. ___s up, the water in it disappears.`
     ],
      sentences: [
     `The river dried up during the drought, leaving behind a barren landscape.`, 
     `The artist's creativity seemed to dry up, and she struggled to produce new artwork.`, 
     `The company's revenue stream began to dry up as competitors entered the market.`,
     `Her tears started to dry up as she gradually regained her composure.`,
-    `__`,
      ],
   },
   {
     word: 'early_evening',
     description: [
-    `__`, 
-    `__`
+    ` typically refers to the time period shortly after the afternoon and before the night. It is characterized by diminishing daylight and the transition from the day to the evening. `, 
     ],
      sentences: [
     `They decided to take a walk in the park during the pleasant early evening hours.`, 
     `The family gathered around the dinner table in the early evening to enjoy a meal together.`, 
     `The early evening sunlight cast a warm glow on the buildings, creating a picturesque scene.`,
     `They enjoyed a leisurely bike ride through the neighborhood during the early evening.`,
-    `__`,
      ],
   },
   {
     word: 'earpiece',
     description: [
-    `__`, 
-    `__`
+    `a piece of equipment that you wear in or near your ear, that makes it possible for you to hear a recording or hear someone talking to you`, 
     ],
      sentences: [
     `The musician wore an earpiece during the performance to monitor the sound quality.`, 
     `She used a wireless earpiece to listen to music while exercising.`, 
     `The detective received important information through the hidden earpiece during the undercover operation.`,
     `The call center employee wore an earpiece to communicate with customers while keeping their hands free.`,
-    `__`,
      ],
   },
   {
     word: 'economize',
     description: [
-    `__`, 
-    `__`
+    `to try to save money by reducing the amount that you are spending`, 
+    `to intentionally reduce what you are spending or using`
     ],
      sentences: [
     `To save money, they decided to economize by cutting back on unnecessary expenses.`, 
     `The company implemented cost-saving measures to economize their operations.`, 
     `She learned to economize her time by prioritizing tasks and avoiding distractions.`,
     `The family chose to economize on their vacation by opting for budget-friendly accommodations.`,
-    `__`,
      ],
   },
   {
     word: 'efficient',
     description: [
-    `__`, 
-    `__`
+    `working or operating quickly and effectively in an organized way`, 
+    `working or operating in a way that gets the results you want without any waste`
     ],
      sentences: [
     `The new washing machine is more efficient, using less water and energy.`, 
@@ -2494,8 +2383,7 @@ export const vocabularies: Data[] = [
   {
     word: 'elegant',
     description: [
-    `__`, 
-    `__`
+    `graceful and attractive in appearance or behaviour`, 
     ],
      sentences: [
     `She wore an elegant evening gown to the formal event.`, 
@@ -2508,50 +2396,47 @@ export const vocabularies: Data[] = [
   {
     word: 'elemental',
     description: [
-    `__`, 
-    `__`
+    `showing the strong power of nature`, 
+    `basic or simple but strongly felt`
     ],
      sentences: [
     `Oxygen is an elemental component necessary for human survival.`, 
     `The artist used elemental colors and shapes to create a simple yet powerful painting.`, 
     `The book explored the elemental forces of nature and their impact on the environment.`,
     `The scientist conducted experiments to understand the elemental composition of different substances.`,
-    `__`,
      ],
   },
   {
     word: 'eliminate',
     description: [
-    `__`, 
-    `__`
+    `to remove or take away someone or something`, 
+    `to defeat someone so that they cannot continue in a competition`
     ],
      sentences: [
     `The team worked together to eliminate all errors in the final report.`, 
     `The goal of the diet plan is to eliminate unhealthy eating habits and promote better nutrition.`, 
     `The company implemented new technology to eliminate manual processes and increase efficiency.`,
     `The pest control measures were successful in eliminating the infestation.`,
-    `__`,
      ],
   },
   {
     word: 'eloquent',
     description: [
-    `__`, 
-    `__`
+    `giving a clear, strong message`, 
+    `using language to express ideas or opinions clearly and well, so that they have a strong effect on others`
     ],
      sentences: [
     `The speaker delivered an eloquent speech that moved the audience to tears.`, 
     `She expressed her thoughts in an eloquent manner, captivating her listeners.`, 
     `The writer's eloquent prose painted vivid images in the reader's mind.`,
     `The lawyer's eloquent arguments convinced the jury of his client's innocence.`,
-    `__`,
      ],
   },
   {
     word: 'embark',
     description: [
-    `__`, 
-    `__`
+    `to go onto a ship`, 
+    `to go onto a ship, aircraft, or train`
     ],
      sentences: [
     `They decided to embark on a backpacking trip across Europe.`, 
@@ -2564,8 +2449,8 @@ export const vocabularies: Data[] = [
   {
     word: 'emission',
     description: [
-    `__`, 
-    `__`
+    `the act of sending out gas, heat, light, etc`, 
+    `an amount of something, especially a gas that harms the environment, that is sent out into the air`
     ],
      sentences: [
     `The new car model boasts lower emissions, making it more environmentally friendly.`, 
@@ -2578,22 +2463,22 @@ export const vocabularies: Data[] = [
   {
     word: 'enchant',
     description: [
-    `__`, 
-    `__`
+    `to attract or please someone very much`, 
+    `to charm or please someone a lot`
     ],
      sentences: [
     `The beautiful melody of the music enchanted everyone in the audience.`, 
     `The picturesque scenery of the countryside enchanted visitors from around the world.`, 
     `The fairy tale book enchanted children with its captivating stories and illustrations.`,
     `The magician's tricks and illusions enchanted the audience, leaving them in awe.`,
-    `__`,
      ],
   },
   {
     word: 'encounter',
     description: [
-    `__`, 
-    `__`
+    `(n) a meeting, especially one that happens by chance`, 
+    `(v) to meet someone unexpectedly, or to experience, esp. something unpleasant`,
+    `to experience a situation, especially something that is unexpected or unpleasant`
     ],
      sentences: [
     `She had a chance encounter with her favorite celebrity at the coffee shop.`, 
@@ -2606,22 +2491,21 @@ export const vocabularies: Data[] = [
   {
     word: 'endure',
     description: [
-    `__`, 
-    `__`
+    `to suffer something difficult, unpleasant, or painful`, 
+    `to continue to exist for a long time`
     ],
      sentences: [
     `Despite the difficulties, they remained strong and determined to endure the challenges.`, 
     `The marathon runner trained hard to build the stamina needed to endure the race.`, 
     `The old bridge has endured for centuries, standing as a symbol of resilience.`,
     `He had to endure the pain of physical therapy to recover from his injury.`,
-    `__`,
      ],
   },
   {
     word: 'enforce',
     description: [
-    `__`, 
-    `__`
+    `to make people obey a law, or to make a particular situation happen or be accepted`, 
+    `to cause a law or rule to be obeyed`
     ],
      sentences: [
     `The police were assigned to enforce traffic laws and ensure public safety.`, 
@@ -2634,8 +2518,8 @@ export const vocabularies: Data[] = [
   {
     word: 'enforceable',
     description: [
-    `__`, 
-    `__`
+    `(of a law or rule) possible to make people obey, or possible to make happen or be accepted`, 
+    `an ____ law, rule, contract, etc. is one that people can be made to obey`
     ],
      sentences: [
     `The contract contained enforceable clauses to protect the rights and obligations of both parties.`, 
@@ -2648,36 +2532,32 @@ export const vocabularies: Data[] = [
   {
     word: 'engaged',
     description: [
-    `__`, 
-    `__`
+    `having formally agreed to marry`, 
+    `involved in something`
     ],
      sentences: [
     `The couple got engaged during their vacation in Paris.`, 
     `The students were actively engaged in the classroom discussion, sharing their ideas and opinions.`, 
     `She was engaged in her work, focusing intently on the task at hand.`,
     `The company organized team-building activities to keep employees engaged and motivated.`,
-    `__`,
+    `They've been engaged in a legal battle with the council for several months.`,
      ],
   },
   {
     word: 'enormous',
     description: [
-    `__`, 
-    `__`
+    `extremely large`, 
     ],
      sentences: [
     `The dinosaur exhibit showcased the skeletons of enormous creatures that once roamed the Earth.`, 
     `The project required an enormous amount of time and resources to complete.`, 
     `The concert attracted an enormous crowd, filling the stadium to its capacity.`,
     `The impact of the natural disaster had an enormous effect on the local community.`,
-    `__`,
      ],
   },
   {
     word: 'enthusiastic',
     description: [
-    `__`, 
-    `__`
     ],
      sentences: [
     `The students were enthusiastic about the upcoming field trip and eagerly prepared for it.`, 
@@ -2690,36 +2570,32 @@ export const vocabularies: Data[] = [
   {
     word: 'envision',
     description: [
-    `__`, 
-    `__`
+    `to imagine or expect something to happen, appear, etc. in a particular way`, 
     ],
      sentences: [
     `The architect envisioned a modern and sustainable design for the new building.`, 
     `The CEO shared his vision and goals, encouraging employees to envision the company's future success.`, 
     `She could envision herself living in a peaceful countryside cottage surrounded by nature.`,
     `The artist envisioned a vibrant and colorful painting, bringing her imagination to life.`,
-    `__`,
      ],
   },
   {
     word: 'equivalence',
     description: [
-    `__`, 
-    `__`
+    `the fact of having the same amount, value, purpose, qualities, etc`, 
     ],
      sentences: [
     `The exchange rate between the two currencies was set at a fixed equivalence.`, 
     `The scientist discovered the chemical equivalence between the two substances.`, 
     `The teacher explained the mathematical equivalence of different equations.`,
     `The two groups had different methods, but their results were of equivalent value.`,
-    `__`,
      ],
   },
   {
     word: 'equivalent',
     description: [
-    `__`, 
-    `__`
+    `having the same amount, value, purpose, qualities, etc`, 
+    `(n) something that has the same amount, value, purpose, qualities, etc. as something else`
     ],
      sentences: [
     `The university degree from the foreign institution was considered equivalent to a local degree.`, 
@@ -2732,36 +2608,36 @@ export const vocabularies: Data[] = [
   {
     word: 'erode',
     description: [
-    `__`, 
-    `__`
+    `to rub or be rubbed away gradually`, 
+    `to slowly reduce or destroy something`,
+    `to weaken or damage something by taking away parts of it gradually, or to become weaker in this way`
     ],
      sentences: [
     `The constant exposure to water caused the rocks to erode over time.`, 
     `The coastal erosion was a major concern for the residents living near the shore.`, 
     `The company's market share started to erode due to increased competition.`,
     `The passage of time had eroded his memory of the events.`,
-    `__`,
      ],
   },
   {
     word: 'errand',
     description: [
-    `__`, 
-    `__`
+    `a short journey either to take a message or to take or collect something`, 
+    `a short trip you make to do something, such as buying or delivering things in the neighborhood`
     ],
      sentences: [
     `She ran a quick errand to pick up groceries from the store.`, 
     `The boss asked him to run an errand to deliver important documents to a client.`, 
     `The child was given the responsibility of running small errands around the house.`,
     `She forgot to complete the errand, causing a delay in the project.`,
-    `__`,
      ],
   },
   {
     word: 'escort',
     description: [
-    `__`, 
-    `__`
+    `to go with a person or vehicle, especially to make certain that he, she, or it leaves or arrives safely`, 
+    `to go with someone and show them a place`,
+    `(n) a person who goes with another person as a partner to a social event`
     ],
      sentences: [
     `The security guard escorted the VIP guest into the building.`, 
@@ -2774,8 +2650,8 @@ export const vocabularies: Data[] = [
   {
     word: 'estate',
     description: [
-    `__`, 
-    `__`
+    `a large area of land in the country that is owned by a family or an organization and is often used for growing crops or raising animals`, 
+    `a group of houses or factories built in a planned way`
     ],
      sentences: [
     `The wealthy businessman owned a large estate with a grand mansion and extensive gardens.`, 
@@ -2788,22 +2664,20 @@ export const vocabularies: Data[] = [
   {
     word: 'evaluation',
     description: [
-    `__`, 
-    `__`
+    `the process of judging or calculating the quality, importance, amount, or value of something`, 
+    `the process of judging something's quality, importance, or value, or a report that includes this information:`
     ],
      sentences: [
     `The teacher conducted a thorough evaluation of the students' performance to assess their understanding of the subject.`, 
     `The company hired a consultant to provide an evaluation of their marketing strategy.`, 
     `The evaluation of the new product revealed areas for improvement.`,
     `The athlete underwent a medical evaluation to determine the extent of the injury.`,
-    `__`,
      ],
   },
   {
     word: 'evident',
     description: [
-    `__`, 
-    `__`
+    `easily seen or understood`, 
     ],
      sentences: [
     `The success of the project was evident in the increased sales and positive customer feedback.`, 
@@ -2816,36 +2690,34 @@ export const vocabularies: Data[] = [
   {
     word: 'examine',
     description: [
-    `__`, 
-    `__`
+    `to look at or consider a person or thing carefully and in detail in order to discover something about them`, 
+    `to test someone's knowledge or skill in a particular subject`
     ],
      sentences: [
     `The doctor will examine your throat to determine the cause of your soreness.`, 
     `The investigator carefully examined the clues at the crime scene to gather evidence.`, 
     `The teacher instructed the students to examine the text closely for important details.`,
     `The art curator invited experts to examine the painting for authenticity.`,
-    `__`,
      ],
   },
   {
     word: 'exceptional',
     description: [
-    `__`, 
-    `__`
+    `much greater than usual, especially in skill, intelligence, quality, etc`, 
+    `unusual; not what happens regularly or is expected`
     ],
      sentences: [
     `Her musical talent was exceptional, captivating audiences with her performances.`, 
     `The company received an award for its exceptional customer service.`, 
     `The student's exceptional academic achievements earned them a scholarship.`,
     `The chef prepared an exceptional meal, delighting the guests with exquisite flavors.`,
-    `__`,
      ],
   },
   {
     word: 'excerpt',
     description: [
-    `__`, 
-    `__`
+    `a short part taken from a speech, book, film, etc.`, 
+    `(v) to take a small part from a speech, book, film, etc. in order to publish it separately`
     ],
      sentences: [
     `The author read an exciting excerpt from their new book during the book launch event.`, 
@@ -2857,49 +2729,49 @@ export const vocabularies: Data[] = [
   {
     word: 'exclusive',
     description: [
-    `__`, 
-    `__`
+    `limited to only one person or group of people`, 
+    `a story that is published in one magazine, website, etc., and no others`
     ],
      sentences: [
     `The exclusive club only allowed members to access its facilities.`, 
     `The fashion designer launched an exclusive line of clothing available only to VIP customers.`, 
     `The journalist received an exclusive interview with the celebrity, providing unique insights into their life.`,
     `The resort offered exclusive packages that included personalized services and private amenities.`,
-    `__`,
      ],
   },
   {
     word: 'expedite',
     description: [
-    `__`, 
-    `__`
+    `to make something happen more quickly`, 
+    `to cause something to be done or progress more quickly`
     ],
      sentences: [
     `The manager requested additional resources to expedite the completion of the project.`, 
     `The airport implemented automated check-in systems to expedite the boarding process.`, 
     `The company hired a courier service to expedite the delivery of important documents.`,
     `The government implemented measures to expedite the visa application process for skilled workers.`,
-    `__`,
      ],
   },
   {
     word: 'explicit',
     description: [
-    `__`, 
-    `__`
+    `clear and exact`, 
+    `(adj) communicated directly in a clear and exact way`
     ],
      sentences: [
     `The instructions provided in the manual were clear and explicit, guiding users through the setup process.`, 
     `The contract included explicit terms and conditions regarding payment and delivery.`, 
     `The teacher gave explicit examples to illustrate the concept to the students.`,
     `The movie carried an explicit content warning due to its mature themes and scenes.`,
+    `I gave them explicit directions on how to get here.`
      ],
   },
   {
     word: 'expose',
     description: [
-    `__`, 
-    `__`
+    `to remove what is covering something so that it can be seen`, 
+    `to make public something bad or dishonest`,
+    `to make something covered or hidden able to be seen`
     ],
      sentences: [
     `The investigative journalist's report exposed corruption within the government.`, 
@@ -2912,8 +2784,8 @@ export const vocabularies: Data[] = [
   {
     word: 'exposition',
     description: [
-    `__`, 
-    `__`
+    `a clear and full explanation of an idea or theory`, 
+    `a show in which industrial goods, works of art, etc. are shown to the public`
     ],
      sentences: [
     `The museum organized an exposition showcasing the works of renowned artists.`, 
@@ -2926,22 +2798,20 @@ export const vocabularies: Data[] = [
   {
     word: 'extinct',
     description: [
-    `__`, 
-    `__`
+    `not now existing`, 
+    `no longer existing`
     ],
      sentences: [
     `The dinosaur species became extinct millions of years ago.`, 
     `The rare flower species is on the brink of extinction due to habitat loss.`, 
     `The advent of modern technology rendered typewriters virtually extinct.`,
     `The ancient language is no longer spoken and considered extinct.`,
-    `__`,
      ],
   },
   {
     word: 'facilitate',
     description: [
-    `__`, 
-    `__`
+    `to make something possible or easier`, 
     ],
      sentences: [
     `The new software system was implemented to facilitate efficient communication within the organization.`, 
@@ -2954,8 +2824,8 @@ export const vocabularies: Data[] = [
   {
     word: 'faculty',
     description: [
-    `__`, 
-    `__`
+    `a natural ability to hear, see, think, move, etc.`, 
+    `the people who teach in a university, college, or US high school, or in one of its departments (education)`
     ],
      sentences: [
     `The university's faculty comprises experienced professors and scholars in various academic disciplines.`, 
@@ -2968,190 +2838,177 @@ export const vocabularies: Data[] = [
   {
     word: 'faint',
     description: [
-    `__`, 
-    `__`
+    `not strong or clear; slight`, 
+    `(v) to suddenly become unconscious for a short time, usually falling down:`
     ],
      sentences: [
     `She felt dizzy and lightheaded, causing her to faint during the presentation.`, 
     `The faint sound of music could be heard in the distance.`, 
     `The faint smell of freshly baked bread filled the air, enticing passersby.`,
     `He felt a faint sense of nostalgia when he visited his childhood home.`,
-    `__`,
+    `He faints at the sight of blood.`,
+    `I nearly fainted in the heat.`,
      ],
   },
   {
     word: 'falsify',
     description: [
-    `__`, 
-    `__`
+    `to change something, such as a document, in order to deceive people`, 
+    `to change documents, figures, records, etc. in order to deceive someone:`
     ],
      sentences: [
     `It is unethical to falsify data in scientific research to support desired outcomes.`, 
     `The detective discovered evidence that someone had attempted to falsify the crime scene.`, 
     `The company faced severe consequences for falsifying financial statements to deceive investors.`,
     `The journalist was fired for falsifying information in the news article.`,
-    `__`,
      ],
   },
   {
     word: 'fancy',
     description: [
-    `__`, 
-    `__`
+    `(v) to want to have or do something`, 
+    `(adj) decorative or complicated`
     ],
      sentences: [
     `She wore a fancy gown to the gala event, attracting attention with her elegant style.`, 
     `The chef prepared a fancy seven-course meal for the VIP guests.`, 
     `The couple decided to have a small, simple wedding instead of a fancy ceremony.`,
     `He had a fancy for vintage cars and spent his weekends restoring old models.`,
-    `__`,
+    `Do you fancy a drink this evening?`,
      ],
   },
   {
     word: 'fascinating',
     description: [
-    `__`, 
-    `__`
+    `extremely interesting`, 
     ],
      sentences: [
     `The documentary provided a fascinating insight into the lives of endangered species.`, 
     `The historian's lecture on ancient civilizations was both informative and fascinating.`, 
     `The museum exhibit showcased fascinating artifacts from different historical periods.`,
     `The book captivated readers with its fascinating storyline and well-developed characters.`,
-    `__`,
      ],
   },
   {
     word: 'fasten',
     description: [
-    `__`, 
-    `__`
+    `to (cause something to) become firmly fixed together, or in position, or closed`, 
+    `to make or become firmly attached or closed`
     ],
      sentences: [
     `Please fasten your seatbelt before the plane takes off.`, 
     `The tailor offered to fasten the loose buttons on the shirt.`, 
     `He used a rope to fasten the branches of the tree together.`,
     `The lock on the gate was fastened securely to prevent unauthorized entry.`,
-    `__`,
      ],
   },
   {
     word: 'fatigue',
     description: [
-    `__`, 
-    `__`
+    `(n) extreme tiredness, the condition of being extremely tired`, 
+    `(v) to make someone extremely tired`
     ],
      sentences: [
     `After a long day at work, she felt a deep sense of fatigue and needed to rest.`, 
     `The athlete experienced fatigue after completing a strenuous marathon.`, 
     `Chronic fatigue can significantly impact a person's daily life and productivity.`,
     `The doctor advised the patient to manage their workload to avoid mental and physical fatigue.`,
-    `__`,
      ],
   },
   {
     word: 'fed up',
     description: [
-    `__`, 
-    `__`
+    `bored, annoyed, or disappointed, especially by something that you have experienced for too long`, 
+    `annoyed or disgusted by something that you have experienced for too long`
     ],
      sentences: [
     `She was fed up with the constant delays and inefficiency of public transportation.`, 
     `The employees were fed up with the company's lack of communication and unfair treatment.`, 
     `He reached a point where he was fed up with the never-ending arguments and decided to walk away.`,
     `The community was fed up with the noise pollution caused by late-night parties and took action to address the issue.`,
-    `__`,
      ],
   },
   {
     word: 'fence',
     description: [
-    `__`, 
-    `__`
+    `a structure that divides two areas of land, similar to a wall but made of wood or wire and supported with posts`, 
+    `(v) to fight as a sport with a long, thin sword`
     ],
      sentences: [
     `The farmer installed a sturdy fence around the perimeter of the field to protect the crops from wild animals.`, 
     `The children played hide-and-seek in the backyard, using the fence as a boundary.`, 
     `The neighborhood association agreed to repair the damaged fence at the community park.`,
     `The house had a beautiful white picket fence, adding charm to its exterior.`,
-    `__`,
+    `The area is fenced on three sides but not along the highway.`,
      ],
   },
   {
     word: 'flaw',
     description: [
-    `__`, 
-    `__`
+    `(n) a fault, mistake, or weakness, especially one that happens while something is being planned or made, or that causes something not to be perfect`, 
+    `(v) to cause something to be not perfect`
     ],
      sentences: [
     `The diamond had a small flaw, but it didn't diminish its overall beauty.`, 
     `The architect reviewed the building plans and identified a flaw in the structural design.`, 
     `She was a perfectionist and couldn't tolerate any flaws in her artwork.`,
     `The detective noticed a flaw in the suspect's alibi, raising doubts about their innocence.`,
-    `__`,
+    `A tiny mark flawed the otherwise perfect silk shirt.`,
      ],
   },
   {
     word: 'forthcoming',
     description: [
-    `__`, 
-    `__`
+    `happening soon`, 
     ],
      sentences: [
     `The author announced that a forthcoming book in the series would be released next month.`, 
     `The company's CEO shared some exciting news about forthcoming product updates.`, 
     `The politician promised to address the issue during the forthcoming town hall meeting.`,
     `The students eagerly awaited the forthcoming exam results.`,
-    `__`,
      ],
   },
   {
     word: 'fortitude',
     description: [
-    `__`, 
-    `__`
+    `courage over a long period`, 
+    `bravery when dealing with pain or difficulty, esp. over a long period`
     ],
      sentences: [
     `Despite facing numerous challenges, she displayed remarkable fortitude and persevered towards her goals.`, 
     `The soldiers demonstrated immense fortitude in the face of adversity on the battlefield.`, 
     `He relied on his inner strength and fortitude to overcome the hardships of life.`,
     `The cancer survivor's story inspired others with her courage and fortitude.`,
-    `__`,
+    `Throughout his illness, he showed great fortitude.`,
      ],
   },
   {
     word: 'fountain_pen',
     description: [
-    `__`, 
-    `__`
     ],
      sentences: [
     `The writer preferred using a fountain pen for its smooth and elegant writing experience.`, 
     `He received a luxurious fountain pen as a gift, which became his cherished writing instrument.`, 
     `The calligrapher showcased their artistic skills using a beautiful fountain pen.`,
     `The antique shop displayed a collection of vintage fountain pens from different eras.`,
-    `__`,
      ],
   },
   {
     word: 'fraud',
     description: [
-    `__`, 
-    `__`
+    `the crime of getting money by deceiving people`, 
     ],
      sentences: [
     `The company implemented strict measures to prevent fraud and protect customer information.`, 
     `The authorities arrested the businessman for engaging in fraudulent financial activities.`, 
     `The email claimed to be a lottery win but turned out to be a fraud designed to deceive unsuspecting individuals.`,
     `The insurance investigator uncovered evidence of fraud in the accident claim.`,
-    `__`,
      ],
   },
   {
     word: 'fraudulently_unlawfully',
     description: [
-    `__`, 
-    `__`
+    `in a way that intends to deceive by doing something dishonest and illegal`, 
     ],
      sentences: [
     `The company's former executive was charged with fraudulently obtaining funds from investors.`, 
@@ -3164,36 +3021,35 @@ export const vocabularies: Data[] = [
   {
     word: 'freak',
     description: [
-    `__`, 
-    `__`
+    `a thing, person, animal, or event that is extremely unusual or unlikely, and not like any other of its type`, 
+    `to become or cause someone to become extremely emotional`
     ],
      sentences: [
     `A sudden storm caused a freak accident that uprooted several trees.`, 
     `He had a collection of oddities and curiosities, including a two-headed calf, in his freak museum.`, 
     `The unusual creature spotted in the forest was considered a genetic freak of nature.`,
     `The roller coaster ride offered an exhilarating experience for thrill-seekers and adrenaline junkies.`,
-    `__`,
+    `My parents freaked when I told them I was pregnant.`,
      ],
   },
   {
     word: 'freight',
     description: [
-    `__`, 
-    `__`
+    `goods, but not passengers, that are carried from one place to another, by ship, aircraft, train, or truck, or the system of transporting these goods`, 
+    `to send goods by air, sea, or train`
     ],
      sentences: [
     `The cargo ship transported a large quantity of freight across international waters.`, 
     `The logistics company specialized in providing efficient freight services to businesses.`, 
     `The delivery truck was loaded with various types of freight, including packages and pallets.`,
     `The port was bustling with activity as cranes unloaded freight from cargo ships.`,
-    `__`,
+    `Grapes from this region are freighted all over the world.`,
      ],
   },
   {
     word: 'frightening',
     description: [
-    `__`, 
-    `__`
+    `making you feel fear`, 
     ],
      sentences: [
     `The horror movie had many frightening scenes that made the audience jump in their seats.`, 
@@ -3205,8 +3061,8 @@ export const vocabularies: Data[] = [
   {
     word: 'frustration',
     description: [
-    `__`, 
-    `__`
+    `the feeling of being annoyed or less confident because you cannot achieve what you want, or something that makes you feel like this`, 
+    `disappointment or discouragement, or a discouraging situation:`
     ],
      sentences: [
     `He expressed his frustration over the constant delays in public transportation.`, 
@@ -3219,8 +3075,7 @@ export const vocabularies: Data[] = [
   {
     word: 'funding',
     description: [
-    `__`, 
-    `__`
+    `money given by a government or organization for an event or activity`, 
     ],
      sentences: [
     `The nonprofit organization received generous funding from donors to support its charitable initiatives.`, 
@@ -3233,8 +3088,7 @@ export const vocabularies: Data[] = [
   {
     word: 'garment',
     description: [
-    `__`, 
-    `__`
+    `a piece of clothing`, 
     ],
      sentences: [
     `She sewed her own garments, designing and creating unique pieces of clothing.`, 
@@ -3247,22 +3101,20 @@ export const vocabularies: Data[] = [
   {
     word: 'glare',
     description: [
-    `__`, 
-    `__`
+    `a long, angry look`, 
+    `(v) to look directly and continuously at someone or something in an angry way`
     ],
      sentences: [
     `The bright sunlight reflected off the snow, creating a blinding glare.`, 
     `She put on a pair of sunglasses to protect her eyes from the intense glare of the headlights.`, 
     `The office had anti-glare screens installed on the computer monitors to reduce eye strain.`,
     `The driver's vision was impaired by the glare from the oncoming car's headlights.`,
-    `__`,
+    `She glared angrily at everyone and stormed out of the room.`,
      ],
   },
   {
     word: 'go_straight_to',
     description: [
-    `__`, 
-    `__`
     ],
      sentences: [
     `If you want to reach the bookstore, go straight to the end of the street and turn right.`, 
@@ -3275,8 +3127,6 @@ export const vocabularies: Data[] = [
   {
     word: 'goggles',
     description: [
-    `__`, 
-    `__`
     ],
      sentences: [
     `The scientist wore protective goggles to shield their eyes from the chemical fumes.`, 
@@ -3289,8 +3139,7 @@ export const vocabularies: Data[] = [
   {
     word: 'grape',
     description: [
-    `__`, 
-    `__`
+    `a small, round, purple or pale green fruit that you can eat or make into wine`, 
     ],
      sentences: [
     `She enjoyed the sweet and juicy taste of red grapes as a healthy snack.`, 
@@ -3303,22 +3152,20 @@ export const vocabularies: Data[] = [
   {
     word: 'growth',
     description: [
-    `__`, 
-    `__`
+    `The ___ of a person, animal, or plant is its process of increasing in size`, 
+    `the process of developing or of increasing in size`
     ],
      sentences: [
     `The company experienced rapid growth, expanding its operations to new markets.`, 
     `The child's growth chart showed steady progress in height and weight.`, 
     `The city's infrastructure development supported the growth of businesses and population.`,
     `The gardener ensured proper care and nourishment for the plants to promote healthy growth.`,
-    `__`,
      ],
   },
   {
     word: 'hamper',
     description: [
-    `__`, 
-    `__`
+    `o prevent someone doing something easily`, 
     ],
      sentences: [
     `The heavy rain hampered the progress of the construction project.`, 
@@ -3331,8 +3178,7 @@ export const vocabularies: Data[] = [
   {
     word: 'handy',
     description: [
-    `__`, 
-    `__`
+    `useful or convenient`, 
     ],
      sentences: [
     `The multitool with various functions proved to be very handy during camping trips.`, 
@@ -3345,8 +3191,8 @@ export const vocabularies: Data[] = [
   {
     word: 'harmony',
     description: [
-    `__`, 
-    `__`
+    `a pleasant musical sound made by different notes being played or sung at the same time`, 
+    `the situation in which people live or work happily together without any big problems`
     ],
      sentences: [
     `The choir's voices blended in perfect harmony, creating a beautiful melody.`, 
@@ -3359,50 +3205,47 @@ export const vocabularies: Data[] = [
   {
     word: 'hazard',
     description: [
-    `__`, 
-    `__`
+    `something that is dangerous and likely to cause damage`, 
+    `(v) to risk doing something, especially making a guess, suggestion, etc.`
     ],
      sentences: [
     `The construction site had warning signs indicating potential hazards.`, 
     `The icy road posed a hazard to drivers, requiring extra caution.`, 
     `The chemical spill in the lab created a hazardous environment, necessitating evacuation.`,
     `The hiker encountered various hazards, such as steep cliffs and slippery trails.`,
-    `__`,
      ],
   },
   {
     word: 'heat',
     description: [
-    `__`, 
-    `__`
+    `(n) the quality of being hot or warm, or the temperature of something`, 
+    `(v) to make something hot or warm, or to become hot or warm`
     ],
      sentences: [
     `The summer heat was sweltering, prompting people to seek shade or stay indoors.`, 
     `She used a hairdryer to apply heat to the sticker, making it easier to remove.`, 
     `The chef turned up the heat on the stove to quickly cook the vegetables.`,
     `The heat from the fireplace provided warmth and coziness during the winter.`,
-    `__`,
+    `Shall I heat up some soup for lunch?`,
      ],
   },
   {
     word: 'hitchhike',
     description: [
-    `__`, 
-    `__`
+    `to travel by getting free rides in someone else's vehicle`, 
     ],
      sentences: [
     `When her car broke down, she had to hitchhike to get to the nearest town.`, 
     `He decided to hitchhike across the country to have an adventurous travel experience.`, 
     `The backpacker relied on hitchhiking to cover long distances during their journey.`,
     `Hitchhiking was a common`,
-    `__`,
      ],
   },
   {
     word: 'horrible',
     description: [
-    `__`, 
-    `__`
+    `very unpleasant or bad`, 
+    `very shocking and frightening`
     ],
      sentences: [
     `The horror movie had a plot filled with suspense and terrifying scenes, making it a truly horrible experience.`, 
@@ -3415,8 +3258,7 @@ export const vocabularies: Data[] = [
   {
     word: 'hygiene',
     description: [
-    `__`, 
-    `__`
+    `the degree to which people keep themselves or their environment clean, especially to prevent disease`, 
     ],
      sentences: [
     `It's important to maintain good personal hygiene by regularly washing hands and taking showers.`, 
@@ -3429,8 +3271,8 @@ export const vocabularies: Data[] = [
   {
     word: 'imagine',
     description: [
-    `__`, 
-    `__`
+    `to form or have a mental picture or idea of something`, 
+    `to believe that something is probably true`
     ],
      sentences: [
     `She closed her eyes and let her imagination run wild, picturing herself in a peaceful garden.`, 
@@ -3443,8 +3285,7 @@ export const vocabularies: Data[] = [
   {
     word: 'immeasurable',
     description: [
-    `__`, 
-    `__`
+    `so large or great that it cannot be measured or known exactly`, 
     ],
      sentences: [
     `Her love for her children was immeasurable; she would do anything to see them happy.`, 
@@ -3457,8 +3298,7 @@ export const vocabularies: Data[] = [
   {
     word: 'immunity',
     description: [
-    `__`, 
-    `__`
+    `a situation in which you are protected against disease or from legal action`, 
     ],
      sentences: [
     `Vaccination helps build immunity against certain diseases by stimulating the body's defense system.`, 
@@ -3471,22 +3311,20 @@ export const vocabularies: Data[] = [
   {
     word: 'impair',
     description: [
-    `__`, 
-    `__`
+    `to spoil something or make it weaker so that it is less effective`, 
+    `to damage or weaken something so that it is less effective`
     ],
      sentences: [
     `The accident impaired his ability to walk, requiring him to use crutches.`, 
     `Lack of sleep can impair cognitive function and decision-making skills.`, 
     `Excessive alcohol consumption can impair judgment and coordination.`,
     `The company's financial losses severely impaired its ability to invest in new projects.`,
-    `__`,
      ],
   },
   {
     word: 'imperative',
     description: [
-    `__`, 
-    `__`
+    `extremely important or urgent`, 
     ],
      sentences: [
     `It is imperative to wear protective gear when riding a motorcycle to minimize the risk of injury.`, 
@@ -3499,8 +3337,8 @@ export const vocabularies: Data[] = [
   {
     word: 'impertinent',
     description: [
-    `__`, 
-    `__`
+    `(adj) rude and not showing respect, especially towards someone older or in a higher position than you`, 
+    `not showing enough respect; rude`
     ],
      sentences: [
     `The student's impertinent remark disrupted the class and showed a lack of respect for the teacher.`, 
@@ -3512,8 +3350,8 @@ export const vocabularies: Data[] = [
   {
     word: 'impose',
     description: [
-    `__`, 
-    `__`
+    `to officially force a rule, tax, punishment, etc. to be obeyed or received`, 
+    `to establish something as a rule to be obeyed, or to force the acceptance of something`
     ],
      sentences: [
     `The government imposed a curfew to maintain public safety during the protest.`, 
@@ -3526,8 +3364,8 @@ export const vocabularies: Data[] = [
   {
     word: 'improperly',
     description: [
-    `__`, 
-    `__`
+    `in a way that is dishonest or against a law or a rule`, 
+    `in a way that is unsuitable or not correct for a particular use or occasion`
     ],
      sentences: [
     `The package was improperly handled during shipping, resulting in damage to its contents.`, 
@@ -3540,7 +3378,7 @@ export const vocabularies: Data[] = [
   {
     word: 'in dispute',
     description: [
-    `__`, 
+    `being doubted`, 
     `__`
     ],
      sentences: [
@@ -3548,14 +3386,14 @@ export const vocabularies: Data[] = [
     `The contract terms are still in dispute, and negotiations are ongoing.`, 
     `The court case is in dispute as both parties present different versions of the events.`,
     `The decision made by the committee is in dispute, leading to further discussions.`,
-    `__`,
+    `I don't think her ability is in dispute - what I question is her attitude`,
      ],
   },
   {
     word: 'in the meantime',
     description: [
-    `__`, 
-    `__`
+    `until something expected happens, or while something else is happening`, 
+    `the time while something else is happening`
     ],
      sentences: [
     `The repairs will take some time; in the meantime, you can use a temporary solution.`, 
@@ -3568,7 +3406,7 @@ export const vocabularies: Data[] = [
   {
     word: 'inaugural',
     description: [
-    `__`, 
+    `An ___ event is the first in a series of planned events`, 
     `__`
     ],
      sentences: [
@@ -3576,14 +3414,13 @@ export const vocabularies: Data[] = [
     `The newly elected president delivered an inspiring speech at their inaugural address.`, 
     `The museum displayed historical artifacts from the inaugural space mission.`,
     `The inaugural event attracted a large audience and received extensive media coverage.`,
-    `__`,
      ],
   },
   {
     word: 'inaugurate',
     description: [
-    `__`, 
-    `__`
+    `to put someone into an official position with a ceremony`, 
+    `to put something such as a service, system, etc. into action officially`
     ],
      sentences: [
     `The mayor will inaugurate the new library by cutting the ribbon during the opening ceremony.`, 
@@ -3596,8 +3433,7 @@ export const vocabularies: Data[] = [
   {
     word: 'incentive',
     description: [
-    `__`, 
-    `__`
+    `something that encourages a person to do something`, 
     ],
      sentences: [
     `The company offered a performance-based bonus as an incentive for employees to achieve their targets.`, 
@@ -3610,8 +3446,8 @@ export const vocabularies: Data[] = [
   {
     word: 'inclement',
     description: [
-    `__`, 
-    `__`
+    `____ weather is unpleasant, especially with cold wind and rain`, 
+    `(of weather) unpleasant, esp. cold or stormy`
     ],
      sentences: [
     `The inclement weather forced the cancellation of outdoor activities.`, 
@@ -3624,8 +3460,7 @@ export const vocabularies: Data[] = [
   {
     word: 'incomes',
     description: [
-    `__`, 
-    `__`
+    `money that is earned from doing work or received from investments`, 
     ],
      sentences: [
     `The survey analyzed the distribution of incomes across different socio-economic groups.`, 
@@ -3638,8 +3473,8 @@ export const vocabularies: Data[] = [
   {
     word: 'inconsiderate',
     description: [
-    `__`, 
-    `__`
+    `not thinking or worrying about other people or their feelings`, 
+    `not caring about other people or their feelings; selfish`
     ],
      sentences: [
     `The neighbor's loud music late at night was inconsiderate to others trying to sleep.`, 
@@ -3651,8 +3486,8 @@ export const vocabularies: Data[] = [
   {
     word: 'incorporate',
     description: [
-    `__`, 
-    `__`
+    `to include something as part of something larger`, 
+    `to include something within something else`
     ],
      sentences: [
     `The company decided to incorporate customer feedback into their product development process.`, 
@@ -3665,8 +3500,8 @@ export const vocabularies: Data[] = [
   {
     word: 'increasingly',
     description: [
-    `__`, 
-    `__`
+    `more and more`, 
+    `more often or to a greater degree`
     ],
      sentences: [
     `With the advancement of technology, remote work has become increasingly popular.`, 
@@ -3679,22 +3514,22 @@ export const vocabularies: Data[] = [
   {
     word: 'incredibly',
     description: [
-    `__`, 
-    `__`
+    `used for saying that something is very difficult to believe`, 
+    `in a way that is hard to believe`
     ],
      sentences: [
     `The magician performed an incredibly impressive trick that left the audience in awe.`, 
     `The sunset over the ocean was incredibly beautiful, with vibrant hues of orange and pink.`, 
     `The team's hard work and dedication led to an incredibly successful product launch.`,
     `The athlete's performance was incredibly fast, setting a new world record.`,
-    `__`,
+    `Incredibly, no one was hurt in the accident.`,
      ],
   },
   {
     word: 'incur',
     description: [
-    `__`, 
-    `__`
+    `to experience something, usually something unpleasant, as a result of actions you have taken`, 
+    `to experience something bad as a result of actions you have taken:`
     ],
      sentences: [
     `Failure to comply with the regulations may incur penalties or fines.`, 
@@ -3707,8 +3542,8 @@ export const vocabularies: Data[] = [
   {
     word: 'indication',
     description: [
-    `__`, 
-    `__`
+    `a sign that something exists, is true, or is likely to happen:`, 
+    `a sign that something exists, is true, or is likely to happen`
     ],
      sentences: [
     `The dark clouds in the sky were an indication of an approaching storm.`, 
@@ -3721,8 +3556,8 @@ export const vocabularies: Data[] = [
   {
     word: 'indispensable',
     description: [
-    `__`, 
-    `__`
+    `Something or someone that is indispensable is so good or important that you could not manage without it, him, or her`, 
+    `too important not to have; necessary:`
     ],
      sentences: [
     `A good communication system is indispensable for effective teamwork.`, 
@@ -3735,8 +3570,8 @@ export const vocabularies: Data[] = [
   {
     word: 'inevitable',
     description: [
-    `__`, 
-    `__`
+    `certain to happen and unable to be avoided or prevented`, 
+    `certain to happen`
     ],
      sentences: [
     `Change is inevitable; we must adapt and embrace it.`, 
@@ -3749,8 +3584,8 @@ export const vocabularies: Data[] = [
   {
     word: 'infant',
     description: [
-    `__`, 
-    `__`
+    `a baby or a very young child`, 
+    `a student at an ____ school`
     ],
      sentences: [
     `The newborn infant was carefully cradled in their mother's arms.`, 
@@ -3763,8 +3598,8 @@ export const vocabularies: Data[] = [
   {
     word: 'infer',
     description: [
-    `__`, 
-    `__`
+    `to form an opinion or guess that something is true because of the information that you have`, 
+    `to reach an opinion from available information or facts`
     ],
      sentences: [
     `From the evidence presented, we can infer that the suspect was at the scene of the crime.`, 
@@ -3777,22 +3612,21 @@ export const vocabularies: Data[] = [
   {
     word: 'influence',
     description: [
-    `__`, 
-    `__`
+    `(n) the power to have an effect on people or things, or a person or thing that is able to do this`, 
+    `(v) to affect or change how someone or something develops, behaves, or thinks`
     ],
      sentences: [
     `Parents have a significant influence on their children's values and behavior.`, 
     `The mentor's guidance and advice had a positive influence on the aspiring artist.`, 
     `Social media platforms have a profound influence on shaping public opinion.`,
     `The historical event had a lasting influence on the country's cultural development.`,
-    `__`,
+    `She's very good at making friends and influencing people`,
      ],
   },
   {
     word: 'influx',
     description: [
-    `__`, 
-    `__`
+    `the fact of a large number of people or things arriving at the same time`, 
     ],
      sentences: [
     `The opening of a new shopping mall led to an influx of shoppers in the area.`, 
@@ -3805,8 +3639,8 @@ export const vocabularies: Data[] = [
   {
     word: 'ingredient',
     description: [
-    `__`, 
-    `__`
+    `a food that is used with other foods in the preparation of a particular dish:`, 
+    `one of the parts in a mixture`
     ],
      sentences: [
     `The recipe requires several ingredients, including flour, sugar, and eggs.`, 
@@ -3819,8 +3653,6 @@ export const vocabularies: Data[] = [
   {
     word: 'inhabit',
     description: [
-    `__`, 
-    `__`
     ],
      sentences: [
     `Many different species of birds inhabit the forest.`, 
@@ -3833,8 +3665,7 @@ export const vocabularies: Data[] = [
   {
     word: 'initially',
     description: [
-    `__`, 
-    `__`
+    `at the beginning`, 
     ],
      sentences: [
     `Initially, I was skeptical about the idea, but after further consideration, I changed my mind.`, 
@@ -3847,7 +3678,7 @@ export const vocabularies: Data[] = [
   {
     word: 'initiative',
     description: [
-    `__`, 
+    `a new plan or process to achieve something or solve a problem`, 
     `__`
     ],
      sentences: [
@@ -3861,8 +3692,8 @@ export const vocabularies: Data[] = [
   {
     word: 'injury',
     description: [
-    `__`, 
-    `__`
+    `physical harm or damage to someone's body caused by an accident or an attack`, 
+    `physical harm or damage done to a living thing`
     ],
      sentences: [
     `The athlete suffered a severe injury during the game and had to be taken off the field.`, 
@@ -3875,8 +3706,8 @@ export const vocabularies: Data[] = [
   {
     word: 'inquiry',
     description: [
-    `__`, 
-    `__`
+    `(the process of asking) a question`, 
+    `an official process to discover the facts about something bad that has happened`
     ],
      sentences: [
     `The customer made an inquiry about the availability of a specific product.`, 
@@ -3889,8 +3720,8 @@ export const vocabularies: Data[] = [
   {
     word: 'inspiration',
     description: [
-    `__`, 
-    `__`
+    `someone or something that gives you ideas for doing something`, 
+    `a sudden good idea`
     ],
      sentences: [
     `The breathtaking sunset served as inspiration for the artist's painting.`, 
@@ -3903,8 +3734,7 @@ export const vocabularies: Data[] = [
   {
     word: 'inspiring',
     description: [
-    `__`, 
-    `__`
+    `(adj) encouraging, or making you feel you want to do something`, 
     ],
      sentences: [
     `The documentary showcased the inspiring journey of a young entrepreneur.`, 
@@ -3917,8 +3747,8 @@ export const vocabularies: Data[] = [
   {
     word: 'instinct',
     description: [
-    `__`, 
-    `__`
+    `the way people or animals naturally react or behave, without having to think or learn about it`, 
+    `a natural ability that helps you decide what to do or how to act without thinking`
     ],
      sentences: [
     `The mother's instinct kicked in when she sensed her child was in danger.`, 
@@ -3931,22 +3761,24 @@ export const vocabularies: Data[] = [
   {
     word: 'institute',
     description: [
-    `__`, 
-    `__`
+    `an organization where people do a particular type of scientific, educational, or social work, or the buildings that it uses`, 
+    `(v) to start or cause a system, rule, legal action, etc. to exist`,
+    `(v) to put into effect; cause to be used`
     ],
      sentences: [
     `The university recently established an institute dedicated to environmental research.`, 
     `The institute offers various courses and programs in business administration.`, 
     `The government instituted new policies to address economic inequality.`,
     `The research institute collaborated with international partners on a groundbreaking study.`,
-    `__`,
+    `She is threatening to institute legal proceedings against the hospital.`,
+    `These are some of the safety guidelines we’ve instituted in our hotels.`,
      ],
   },
   {
     word: 'institution',
     description: [
-    `__`, 
-    `__`
+    `a large and important organization, such as a university or bank`, 
+    `an organization that exists to serve a public purpose such as education or support for people who need help`
     ],
      sentences: [
     `Marriage is considered a fundamental institution in many cultures.`, 
@@ -3959,22 +3791,22 @@ export const vocabularies: Data[] = [
   {
     word: 'integral',
     description: [
-    `__`, 
-    `__`
+    `necessary and important as a part of a whole`, 
+    `(n) a number or function that gives the area under a curve on a graph between two points`
     ],
      sentences: [
     `Effective communication is integral to building strong relationships.`, 
     `Teamwork is an integral part of achieving success in group projects.`, 
     `Technology has become an integral aspect of our daily lives.`,
     `The company values diversity as an integral component of its organizational culture.`,
-    `__`,
+    `He's an integral part of the team and we can't do without him.`,
      ],
   },
   {
     word: 'intensity',
     description: [
-    `__`, 
-    `__`
+    `the quality of being felt strongly or having a very strong effect`, 
+    `the quality of being extreme in strength or force`
     ],
      sentences: [
     `The intensity of the storm caused widespread damage to buildings and infrastructure.`, 
@@ -3987,8 +3819,7 @@ export const vocabularies: Data[] = [
   {
     word: 'interchangeable',
     description: [
-    `__`, 
-    `__`
+    `able to be exchanged with each other without making any difference or without being noticed`, 
     ],
      sentences: [
     `The two models of smartphones are almost identical and are often considered interchangeable.`, 
@@ -4001,8 +3832,8 @@ export const vocabularies: Data[] = [
   {
     word: 'interest',
     description: [
-    `__`, 
-    `__`
+    `the feeling of wanting to give your attention to something or of wanting to be involved with and to discover more about something`, 
+    `the quality that makes you think that something is interesting`
     ],
      sentences: [
     `She developed a keen interest in photography after taking a photography class.`, 
@@ -4015,8 +3846,8 @@ export const vocabularies: Data[] = [
   {
     word: 'intermission',
     description: [
-    `__`, 
-    `__`
+    `a short period between the parts of a play, film, concert, etc`, 
+    `a brief period between the parts of a performance`
     ],
      sentences: [
     `During the intermission, attendees took a break and visited the concession stand.`, 
@@ -4029,8 +3860,8 @@ export const vocabularies: Data[] = [
   {
     word: 'intersection',
     description: [
-    `__`, 
-    `__`
+    `an occasion when two lines cross, or the place where this happens`, 
+    `the point where two things come together and have an effect on each other`
     ],
      sentences: [
     `The traffic accident occurred at the intersection of Main Street and Elm Avenue.`, 
@@ -4043,8 +3874,8 @@ export const vocabularies: Data[] = [
   {
     word: 'intrude',
     description: [
-    `__`, 
-    `__`
+    `to go into a place or situation in which you are not wanted or not expected to be:`, 
+    `to go into a place or be involved in a situation where you are not wanted or do not belong:`
     ],
      sentences: [
     `Please respect my privacy and do not intrude into my personal matters.`, 
@@ -4056,8 +3887,7 @@ export const vocabularies: Data[] = [
   {
     word: 'intuition',
     description: [
-    `__`, 
-    `__`
+    `(knowledge from) an ability to understand or know something immediately based on your feelings rather than facts`, 
     ],
      sentences: [
     `She followed her intuition and made a decision based on her gut feeling.`, 
@@ -4070,8 +3900,8 @@ export const vocabularies: Data[] = [
   {
     word: 'invent',
     description: [
-    `__`, 
-    `__`
+    `to design and/or create something that has never been made before`, 
+    `to create a reason, excuse, story, etc. that is not true, usually to deceive someone:`
     ],
      sentences: [
     `Thomas Edison is known for inventing the phonograph and the electric light bulb.`, 
@@ -4084,8 +3914,8 @@ export const vocabularies: Data[] = [
   {
     word: 'irrational',
     description: [
-    `__`, 
-    `__`
+    `not using reason or clear thinking`, 
+    `not based on reason or clear thinking; not reasonable`
     ],
      sentences: [
     `His fear of flying was irrational, as statistics showed that air travel is one of the safest modes of transportation.`, 
@@ -4098,8 +3928,8 @@ export const vocabularies: Data[] = [
   {
     word: 'irritate',
     description: [
-    `__`, 
-    `__`
+    `to make someone angry or annoyed:`, 
+    `to annoy or make angry`
     ],
      sentences: [
     `The constant buzzing of the mosquito was beginning to irritate me.`, 
@@ -4112,8 +3942,8 @@ export const vocabularies: Data[] = [
   {
     word: 'itinerary',
     description: [
-    `__`, 
-    `__`
+    `a detailed plan or route of a journey`, 
+    `a detailed plan or route of a trip`
     ],
      sentences: [
     `The travel agency provided us with a detailed itinerary for our upcoming trip.`, 
@@ -4126,8 +3956,8 @@ export const vocabularies: Data[] = [
   {
     word: 'lapse',
     description: [
-    `__`, 
-    `__`
+    `a period of time passing between two things happening`, 
+    `a temporary failure`
     ],
      sentences: [
     `He forgot about his appointment due to a lapse in memory.`, 
@@ -4140,8 +3970,8 @@ export const vocabularies: Data[] = [
   {
     word: 'lay sth out',
     description: [
-    `__`, 
-    `__`
+    `to arrange something on a flat surface`, 
+    `to spend money, especially a large amount:`
     ],
      sentences: [
     `The architect laid out the plans for the new building in great detail.`, 
@@ -4154,8 +3984,7 @@ export const vocabularies: Data[] = [
   {
     word: 'layoff',
     description: [
-    `__`, 
-    `__`
+    `an occasion when a company stops employing someone, sometimes temporarily, because the company does not have enough money or enough work`, 
     ],
      sentences: [
     `The economic downturn led to a series of layoffs in the company.`, 
@@ -4168,8 +3997,8 @@ export const vocabularies: Data[] = [
   {
     word: 'lead time',
     description: [
-    `__`, 
-    `__`
+    `the time between the design of a product and its production, or between ordering a product and receiving it`, 
+    `the time it takes after receiving an order to deliver the goods or services to a customer`
     ],
      sentences: [
     `The lead time for this product is approximately two weeks.`, 
@@ -4182,7 +4011,7 @@ export const vocabularies: Data[] = [
   {
     word: 'leaned_over',
     description: [
-    `__`, 
+    `to (cause to) slope in one direction, or to move the top part of the body in a particular direction`, 
     `__`
     ],
      sentences: [
@@ -4196,8 +4025,8 @@ export const vocabularies: Data[] = [
   {
     word: 'liability',
     description: [
-    `__`, 
-    `__`
+    `the fact that someone is legally responsible for something`, 
+    `the responsibility of a person, business, or organization to pay or give up something of value`
     ],
      sentences: [
     `The company faced a significant financial liability due to a breach of contract.`, 
@@ -4210,8 +4039,7 @@ export const vocabularies: Data[] = [
   {
     word: 'lifelong',
     description: [
-    `__`, 
-    `__`
+    `lasting for the whole of a person's life`, 
     ],
      sentences: [
     `She had a lifelong passion for music and pursued a career as a professional musician.`, 
@@ -4223,8 +4051,8 @@ export const vocabularies: Data[] = [
   {
     word: 'likewise',
     description: [
-    `__`, 
-    `__`
+    `in the same way`, 
+    `in the same way or manner; similarly`
     ],
      sentences: [
     `She greeted her friend with a warm smile, and he responded likewise.`, 
@@ -4237,8 +4065,7 @@ export const vocabularies: Data[] = [
   {
     word: 'long-held',
     description: [
-    `__`, 
-    `__`
+    `refers to something that has been firmly or strongly held for an extended period of time. It implies that a belief, tradition, opinion, or idea has been deeply rooted and maintained over a significant duration`
     ],
      sentences: [
     `The scientist's research challenged long-held beliefs in the field of physics.`, 
@@ -4251,8 +4078,8 @@ export const vocabularies: Data[] = [
   {
     word: 'lucrative',
     description: [
-    `__`, 
-    `__`
+    `(especially of a business, job, or activity) producing a lot of money`, 
+    `producing much money or making a large profit`
     ],
      sentences: [
     `The entrepreneur started a successful business and enjoyed lucrative returns on her investment.`, 
@@ -4265,8 +4092,8 @@ export const vocabularies: Data[] = [
   {
     word: 'malfunction',
     description: [
-    `__`, 
-    `__`
+    `to fail to work or operate correctly`, 
+    `(n) a failure to work or operate correctly`
     ],
      sentences: [
     `The computer experienced a malfunction and crashed, causing the loss of unsaved work.`, 
@@ -4279,8 +4106,7 @@ export const vocabularies: Data[] = [
   {
     word: 'manners',
     description: [
-    `__`, 
-    `__`
+    `polite ways of treating other people and behaving in public`, 
     ],
      sentences: [
     `It's important to teach children good manners and respect for others.`, 
@@ -4292,8 +4118,7 @@ export const vocabularies: Data[] = [
   {
     word: 'masterpiece',
     description: [
-    `__`, 
-    `__`
+    `a work of art such as a painting, film, or book that is made with great skill`, 
     ],
      sentences: [
     `The artist's latest painting was hailed as a masterpiece and quickly sold at a high price.`, 
@@ -4306,8 +4131,8 @@ export const vocabularies: Data[] = [
   {
     word: 'maternity_leave',
     description: [
-    `__`, 
-    `__`
+    `a period in which a woman is legally allowed to be absent from work in the weeks before and after she gives birth`, 
+    `the period when a woman can legally be absent from work in the weeks before and after she has a baby:`
     ],
      sentences: [
     `The company offers maternity leave to its employees to support work-life balance and the well-being of new parents.`, 
@@ -4320,8 +4145,8 @@ export const vocabularies: Data[] = [
   {
     word: 'merit',
     description: [
-    `__`, 
-    `__`
+    `the quality of being good and deserving praise`, 
+    `(v) If something ____s a particular treatment, it deserves or is considered important enough to be treated in that way`
     ],
      sentences: [
     `The student's essay received a high grade due to its well-researched content and strong arguments.`, 
@@ -4334,8 +4159,7 @@ export const vocabularies: Data[] = [
   {
     word: 'mileage',
     description: [
-    `__`, 
-    `__`
+    `the distance that a vehicle has travelled or the distance that it can travel using a particular amount of fuel`, 
     ],
      sentences: [
     `The car had low mileage and was in excellent condition, making it an attractive option for buyers.`, 
@@ -4348,8 +4172,8 @@ export const vocabularies: Data[] = [
   {
     word: 'minister',
     description: [
-    `__`, 
-    `__`
+    `a member of the government in Britain and many other countries who is in charge of a particular department or has an important position in it`, 
+    `a religious leader in certain Christian churches`
     ],
      sentences: [
     `The minister delivered a powerful sermon that resonated with the congregation.`, 
@@ -4362,8 +4186,8 @@ export const vocabularies: Data[] = [
   {
     word: 'morale',
     description: [
-    `__`, 
-    `__`
+    `the amount of confidence felt by a person or group of people, especially when in a dangerous or difficult situation`, 
+    `the amount of confidence felt by a person or group of people, esp. when in a dangerous or difficult situation`
     ],
      sentences: [
     `The team's morale was high after winning the championship game.`, 
@@ -4376,8 +4200,8 @@ export const vocabularies: Data[] = [
   {
     word: 'motivate',
     description: [
-    `__`, 
-    `__`
+    `to cause someone to behave in a particular way`, 
+    `to make someone want to do something well:`
     ],
      sentences: [
     `The coach delivered an inspiring speech to motivate the team before the important game.`, 
@@ -4390,8 +4214,8 @@ export const vocabularies: Data[] = [
   {
     word: 'motto',
     description: [
-    `__`, 
-    `__`
+    `a short sentence or phrase that expresses a belief or purpose:`, 
+    `a word, phrase, or sentence that expresses the principles or belief of a person, group, country, or organization`
     ],
      sentences: [
     `"Work hard, play hard" was their motto, emphasizing the importance of balancing work and leisure.`, 
@@ -4404,8 +4228,7 @@ export const vocabularies: Data[] = [
   {
     word: 'mow',
     description: [
-    `__`, 
-    `__`
+    `to cut plants, such as grass or wheat, that have long, thin stems and grow close together`, 
     ],
      sentences: [
     `He spent the afternoon mowing the lawn, ensuring it was neat and well-maintained.`, 
@@ -4418,8 +4241,8 @@ export const vocabularies: Data[] = [
   {
     word: 'neglect',
     description: [
-    `__`, 
-    `__`
+    `to not give enough care or attention to people or things that are your responsibility`, 
+    `to fail to give needed care or attention to someone or something`
     ],
      sentences: [
     `The landlord was accused of neglecting the maintenance of the rental property, leading to deteriorating conditions.`, 
@@ -4432,8 +4255,8 @@ export const vocabularies: Data[] = [
   {
     word: 'newcomer',
     description: [
-    `__`, 
-    `__`
+    `someone who has recently arrived in a place or recently become involved in an activity`, 
+    `someone who has recently arrived in a place, or a person or organization that has recently become involved in an activity`
     ],
      sentences: [
     `The office welcomed the newcomer with a friendly introduction and a warm smile.`, 
@@ -4446,8 +4269,8 @@ export const vocabularies: Data[] = [
   {
     word: 'nomination',
     description: [
-    `__`, 
-    `__`
+    `the act of officially suggesting someone or something for a job, position, or prize`, 
+    `the act of officially choosing someone for a job or position`
     ],
      sentences: [
     `Her outstanding achievements led to her nomination for the prestigious award.`, 
@@ -4460,8 +4283,8 @@ export const vocabularies: Data[] = [
   {
     word: 'objection',
     description: [
-    `__`, 
-    `__`
+    `the act of expressing or feeling opposition to or dislike of something or someone`, 
+    `a feeling or expression of opposition, dislike, or disapproval:`
     ],
      sentences: [
     `The lawyer raised an objection to the witness's testimony, citing lack of relevance to the case.`, 
@@ -4474,36 +4297,35 @@ export const vocabularies: Data[] = [
   {
     word: 'occasionally',
     description: [
-    `__`, 
-    `__`
+    `sometimes but not often`, 
+    `not often or regularly`
     ],
      sentences: [
     `They occasionally met for coffee to catch up on each other's lives.`, 
     `The company organized occasional team-building activities to foster camaraderie among employees.`, 
     `She enjoyed indulging in her favorite dessert occasionally as a special treat.`,
     `Occasionally, she would take a break from work and go for a leisurely walk to clear her mind.`,
-    `__`,
+    `I see him occasionally in town.`,
      ],
   },
   {
     word: 'oddly',
     description: [
-    `__`, 
-    `__`
+    `in a strange or surprising way`, 
+    `strangely and unusually`
     ],
      sentences: [
     `The keys went missing, and oddly enough, they were found in the refrigerator.`, 
     `He always wore mismatched socks, as he found comfort in embracing the oddly quirky side of life.`, 
     `The cat's behavior was oddly affectionate towards the new houseplant.`,
     `The car made an oddly loud noise whenever it started, prompting a trip to the mechanic.`,
-    `__`,
      ],
   },
   {
     word: 'ominous',
     description: [
-    `__`, 
-    `__`
+    `suggesting that something unpleasant is likely to happen`, 
+    `suggesting something unpleasant will happen:`
     ],
      sentences: [
     `Dark clouds gathered in the sky, creating an ominous atmosphere before the storm.`, 
@@ -4516,7 +4338,7 @@ export const vocabularies: Data[] = [
   {
     word: 'openly',
     description: [
-    `__`, 
+    `without hiding any of your thoughts or feelings`, 
     `__`
     ],
      sentences: [
@@ -4530,8 +4352,8 @@ export const vocabularies: Data[] = [
   {
     word: 'oust',
     description: [
-    `__`, 
-    `__`
+    `to force someone to leave a position of power, job, place, or competition`, 
+    `to force someone to leave a job, position of power, place, etc`
     ],
      sentences: [
     `The shareholders voted to oust the CEO due to allegations of misconduct.`, 
@@ -4544,36 +4366,37 @@ export const vocabularies: Data[] = [
   {
     word: 'outfit',
     description: [
-    `__`, 
-    `__`
+    `a set of clothes worn for a particular occasion or activity`, 
+    `(v) to provide someone or something with equipment or clothes`
     ],
      sentences: [
     `She wore a stylish outfit to the party, receiving compliments from everyone.`, 
     `The explorers packed their backpacks with essential items to outfit themselves for the challenging expedition.`, 
     `The fashion brand offered a wide range of outfits to cater to different styles and preferences.`,
     `The team received sponsorship from a sports apparel company to provide them with matching outfits for competitions.`,
-    `__`,
+    `The ambulances have all been outfitted with new radios.`,
      ],
   },
   {
     word: 'outgoing',
     description: [
-    `__`, 
-    `__`
+    `(of a person) friendly and energetic and finding it easy and enjoyable to be with others`, 
+    `leaving a place, or leaving a job`,
+    `friendly and willing to meet new people`
     ],
      sentences: [
     `He had an outgoing personality and easily made friends wherever he went.`, 
     `The outgoing president delivered a farewell speech, expressing gratitude for the support received during their term.`, 
     `She took on the role of an outgoing ambassador, promoting cultural exchange and diplomatic relations.`,
     `The outgoing tide revealed a hidden pathway along the shore, opening up new exploration opportunities.`,
-    `__`,
+    `Sherry is a very outgoing person.`,
      ],
   },
   {
     word: 'outlet',
     description: [
-    `__`, 
-    `__`
+    `a way, especially a pipe or hole, for liquid or gas to go out:`, 
+    `a shop that is one of many owned by a particular company and that sells the goods that the company has produced:`
     ],
      sentences: [
     `The new shopping mall became a popular outlet for fashion enthusiasts.`, 
@@ -4586,8 +4409,8 @@ export const vocabularies: Data[] = [
   {
     word: 'outright',
     description: [
-    `__`, 
-    `__`
+    `completely or immediately`, 
+    `directly and plainly, or immediately instead of in stages:`
     ],
      sentences: [
     `She rejected the offer outright, as it did not align with her career goals.`, 
@@ -4600,8 +4423,7 @@ export const vocabularies: Data[] = [
   {
     word: 'overall',
     description: [
-    `__`, 
-    `__`
+    `in general rather than in particular, or including all the people or things in a particular group or situation`, 
     ],
      sentences: [
     `The overall performance of the team was exceptional, resulting in a championship win.`, 
@@ -4614,8 +4436,8 @@ export const vocabularies: Data[] = [
   {
     word: 'overcast',
     description: [
-    `__`, 
-    `__`
+    `with clouds in the sky and therefore not bright and sunny:`, 
+    `(of clouds) to cover the sky so it is not bright and sunny`
     ],
      sentences: [
     `The sky was overcast with dark clouds, indicating the approach of a storm.`, 
@@ -4628,8 +4450,7 @@ export const vocabularies: Data[] = [
   {
     word: 'overly',
     description: [
-    `__`, 
-    `__`
+    `too; very:`, 
     ],
      sentences: [
     `He was overly cautious and double-checked everything to avoid making mistakes.`, 
@@ -4642,8 +4463,7 @@ export const vocabularies: Data[] = [
   {
     word: 'pastime',
     description: [
-    `__`, 
-    `__`
+    `an activity that is done for enjoyment`, 
     ],
      sentences: [
     `Reading books is her favorite pastime, allowing her to escape into different worlds.`, 
@@ -4655,8 +4475,7 @@ export const vocabularies: Data[] = [
   {
     word: 'paternity_leave',
     description: [
-    `__`, 
-    `__`
+    `a period of time that a father is legally allowed to be away from his job so that he can spend time with his new baby`, 
     ],
      sentences: [
     `The company introduced a new policy to offer paternity leave, recognizing the importance of fathers' involvement in childcare.`, 
@@ -4669,8 +4488,8 @@ export const vocabularies: Data[] = [
   {
     word: 'payee',
     description: [
-    `__`, 
-    `__`
+    `a person who money is paid to or should be paid to`, 
+    `a person to whom money is given or owed`
     ],
      sentences: [
     `The payee received the payment for their services promptly and expressed their satisfaction.`, 
@@ -4683,8 +4502,8 @@ export const vocabularies: Data[] = [
   {
     word: 'perception',
     description: [
-    `__`, 
-    `__`
+    `a belief or opinion, often held by many people and based on how things seem:`, 
+    `the way that someone thinks and feels about a company, product, service, etc.`
     ],
      sentences: [
     `Her perception of the situation was influenced by her past experiences.`, 
@@ -4697,8 +4516,8 @@ export const vocabularies: Data[] = [
   {
     word: 'perceptive',
     description: [
-    `__`, 
-    `__`
+    `very good at noticing and understanding things that many people do not notice`, 
+    `able to notice and understand things that many other people do not notice:`
     ],
      sentences: [
     `She had a perceptive mind and quickly noticed subtle changes in people's behavior.`, 
@@ -4711,8 +4530,8 @@ export const vocabularies: Data[] = [
   {
     word: 'periodically',
     description: [
-    `__`, 
-    `__`
+    `in a way that is repeated after a particular period of time:`, 
+    `repeatedly at regular times`
     ],
      sentences: [
     `The car needs to be serviced periodically to ensure optimal performance.`, 
@@ -4725,8 +4544,8 @@ export const vocabularies: Data[] = [
   {
     word: 'persecute',
     description: [
-    `__`, 
-    `__`
+    `to treat someone unfairly or cruelly over a long period of time because of their race, religion, or political beliefs, or to annoy someone by refusing to leave them alone:`, 
+    `to treat people unfairly or cruelly over a period of time because of their race, religion, etc.:`
     ],
      sentences: [
     `The religious minority faced persecution in the oppressive regime.`, 
@@ -4739,7 +4558,7 @@ export const vocabularies: Data[] = [
   {
     word: 'personality',
     description: [
-    `__`, 
+    `the type of person you are, shown by the way you behave, feel, and think`, 
     `__`
     ],
      sentences: [
@@ -4747,14 +4566,13 @@ export const vocabularies: Data[] = [
     `He has a charismatic personality that attracts people wherever he goes.`, 
     `The psychologist studied the correlation between personality traits and behavior patterns.`,
     `Each person has a unique personality shaped by their experiences and upbringing.`,
-    `__`,
      ],
   },
   {
     word: 'perspective',
     description: [
-    `__`, 
-    `__`
+    `a particular way of viewing things that depends on one’s experience and personality:`, 
+    `to think about a situation or problem in a wise and reasonable way:`
     ],
      sentences: [
     `She offered a different perspective on the issue, shedding light on alternative solutions.`, 
@@ -4767,8 +4585,8 @@ export const vocabularies: Data[] = [
   {
     word: 'pertinent',
     description: [
-    `__`, 
-    `__`
+    `relating directly to the subject being considered:`, 
+    `relating directly to the subject being considered; relevant:`
     ],
      sentences: [
     `The information shared in the meeting was pertinent to the ongoing project.`, 
@@ -4781,8 +4599,7 @@ export const vocabularies: Data[] = [
   {
     word: 'pessimistic',
     description: [
-    `__`, 
-    `__`
+    `thinking that bad things are more likely to happen or emphasizing the bad part of a situation`, 
     ],
      sentences: [
     `Despite the positive outcome, he remained pessimistic about the future.`, 
@@ -4795,22 +4612,21 @@ export const vocabularies: Data[] = [
   {
     word: 'petition',
     description: [
-    `__`, 
-    `__`
+    `(n) a document signed by a large number of people demanding or asking for some action from the government or another authority`, 
+    `(v) to make a formal request for something, especially in a law court:` 
     ],
      sentences: [
     `The citizens started a petition to protest against the construction of a new landfill.`, 
     `The online petition garnered thousands of signatures within a few days.`, 
     `The student council presented a petition to the school administration, advocating for better facilities.`,
     `The organization launched a petition to raise awareness about endangered species.`,
-    `__`,
+    `They're petitioning for/about better facilities for disabled people.`,
      ],
   },
   {
     word: 'petitioner',
     description: [
-    `__`, 
-    `__`
+    `a person who organizes or signs a petition`, 
     ],
      sentences: [
     `The petitioner addressed the court with their grievances and demanded justice.`, 
@@ -4823,8 +4639,8 @@ export const vocabularies: Data[] = [
   {
     word: 'philanthropist',
     description: [
-    `__`, 
-    `__`
+    `a person who helps the poor, especially by giving them money:`, 
+    `someone who gives money to help people who are poor or sick, or to pay for things such as museums or schools that are good for society:`
     ],
      sentences: [
     `The wealthy businessman became a philanthropist and donated a significant amount to various charities.`, 
@@ -4837,8 +4653,8 @@ export const vocabularies: Data[] = [
   {
     word: 'pioneer',
     description: [
-    `__`, 
-    `__`
+    `a person who is one of the first people to do something:`, 
+    `(v) to be one of the first people to do something:`
     ],
      sentences: [
     `She was a pioneer in the field of biotechnology, revolutionizing medical research.`, 
@@ -4851,8 +4667,7 @@ export const vocabularies: Data[] = [
   {
     word: 'plays_the_part_of',
     description: [
-    `__`, 
-    `__`
+    `It is often used to describe someone who is acting in a play, movie, or theatrical production, where they portray a specific character by speaking lines, displaying emotions, and engaging in the actions of that character.`, 
     ],
      sentences: [
     `He plays the part of the villain in the upcoming theater production.`, 
@@ -4865,8 +4680,8 @@ export const vocabularies: Data[] = [
   {
     word: 'pleasant',
     description: [
-    `__`, 
-    `__`
+    `enjoyable, attractive, friendly, or easy to like`, 
+    `enjoyable or attractive, or (of a person) friendly and easy to like:`
     ],
      sentences: [
     `The park provides a pleasant environment for people to relax and enjoy nature.`, 
@@ -4879,21 +4694,23 @@ export const vocabularies: Data[] = [
   {
     word: 'pledge',
     description: [
-    `__`, 
-    `__`
+    `a serious or formal promise, especially one to give money or to be a friend, or something that you give as a sign that you will keep a promise`, 
+    `(v) to make a serious or formal promise to give or do something`
     ],
      sentences: [
     `The students took a pledge to maintain cleanliness in their school.`, 
     `He made a pledge to himself to work harder and achieve his goals.`,
     `The political candidate made a pledge to prioritize healthcare reform if elected.`,
     `The organization received a significant financial pledge from a generous donor.`,
+     `We are asking people to pledge their support for our campaign.`,
+     `Both sides have pledged to end the fighting.`
      ],
   },
   {
     word: 'plummet',
     description: [
-    `__`, 
-    `__`
+    `to fall very quickly and suddenly`, 
+    `(n) a sudden and large reduction in value or amount`
     ],
      sentences: [
     `The stock prices plummeted after the company announced disappointing earnings.`, 
@@ -4906,8 +4723,7 @@ export const vocabularies: Data[] = [
   {
     word: 'podium',
     description: [
-    `__`, 
-    `__`
+    `a raised area on which a person stands to speak to a large number of people, to conduct music, or to receive a prize in a sports competition`, 
     ],
      sentences: [
     `The athlete proudly stood on the podium, receiving the gold medal.`, 
@@ -4920,8 +4736,7 @@ export const vocabularies: Data[] = [
   {
     word: 'political',
     description: [
-    `__`, 
-    `__`
+    `relating to politics:`, 
     ],
      sentences: [
     `The country experienced a period of political unrest following the disputed election.`, 
@@ -4934,8 +4749,8 @@ export const vocabularies: Data[] = [
   {
     word: 'pollute',
     description: [
-    `__`, 
-    `__`
+    `to make an area or substance, usually air, water, or soil, dirty or harmful to people, animals, and plants, especially by adding harmful chemicals`, 
+    `to make water, the air, or land dirty and not safe for people, animals, and plants, especially with waste or chemicals`
     ],
      sentences: [
     `Factory emissions are known to pollute the air and contribute to environmental degradation.`, 
@@ -4948,8 +4763,7 @@ export const vocabularies: Data[] = [
   {
     word: 'porter',
     description: [
-    `__`, 
-    `__`
+    `a person whose job is to carry things, especially travellers' bags at railway stations, airports, hotels etc`, 
     ],
      sentences: [
     `The porter helped carry the heavy luggage up to the hotel room.`, 
@@ -4962,8 +4776,8 @@ export const vocabularies: Data[] = [
   {
     word: 'portion',
     description: [
-    `__`, 
-    `__`
+    `a part or share of something larger`, 
+    `a part or share of something larger`
     ],
      sentences: [
     `She only ate a small portion of the meal, saving the rest for later.`, 
@@ -4990,8 +4804,8 @@ export const vocabularies: Data[] = [
   {
     word: 'poverty-stricken',
     description: [
-    `__`, 
-    `__`
+    `the fact that you have or own something`, 
+    `something that you own, or the condition of owning something:`
     ],
      sentences: [
     `The charity organization provided assistance to the poverty-stricken community.`, 
@@ -5004,8 +4818,8 @@ export const vocabularies: Data[] = [
   {
     word: 'practical',
     description: [
-    `__`, 
-    `__`
+    `relating to experience, real situations, or actions rather than ideas or imagination`, 
+    `able to provide effective solutions to problems`
     ],
      sentences: [
     `She chose a practical car that was fuel-efficient and had low maintenance costs.`, 
@@ -5018,22 +4832,22 @@ export const vocabularies: Data[] = [
   {
     word: 'praise',
     description: [
-    `__`, 
-    `__`
+    `to express admiration or approval of the achievements or characteristics of a person or thing`, 
+    `(n) things that you say that express your admiration and approval of someone or something`
     ],
      sentences: [
     `The teacher praised the student for their exceptional academic performance.`, 
     `The author's latest novel received high praise from literary critics.`, 
     `The team's hard work and dedication earned them praise from the coach.`,
     `The musician's performance was met with enthusiastic praise from the audience.`,
-    `__`,
+    `They deserve praise for all their hard work.`,
      ],
   },
   {
     word: 'precedent',
     description: [
-    `__`, 
-    `__`
+    `an action, situation, or decision that has already happened and can be used as a reason why a similar action or decision should be performed or made`, 
+    `a previous action or decision that can be used as a reason for allowing something else`
     ],
      sentences: [
     `The court's decision set a precedent for future similar cases.`, 
@@ -5046,8 +4860,8 @@ export const vocabularies: Data[] = [
   {
     word: 'precise',
     description: [
-    `__`, 
-    `__`
+    `exact and accurate`, 
+    `exact and accurate in form, time, detail, or description`
     ],
      sentences: [
     `The surgeon performed the delicate procedure with precise precision.`, 
@@ -5059,8 +4873,7 @@ export const vocabularies: Data[] = [
   {
     word: 'preclude',
     description: [
-    `__`, 
-    `__`
+    `to prevent something or make it impossible, or prevent someone from doing something:`, 
     ],
      sentences: [
     `The rainy weather precluded us from having a picnic in the park.`, 
@@ -5073,8 +4886,8 @@ export const vocabularies: Data[] = [
   {
     word: 'premises',
     description: [
-    `__`, 
-    `__`
+    `the land and buildings owned by someone, especially by a company or organization`, 
+    `a house or other building and the land on which it is built:`
     ],
      sentences: [
     `Visitors are required to sign in when entering the company premises.`, 
@@ -5087,8 +4900,7 @@ export const vocabularies: Data[] = [
   {
     word: 'prerequisite',
     description: [
-    `__`, 
-    `__`
+    `something that must exist or happen before something else can exist or happen`, 
     ],
      sentences: [
     `Completion of the introductory course is a prerequisite for enrolling in the advanced level.`, 
@@ -5101,8 +4913,7 @@ export const vocabularies: Data[] = [
   {
     word: 'presentable',
     description: [
-    `__`, 
-    `__`
+    `looking suitable or good enough, especially in the way you are dressed`, 
     ],
      sentences: [
     `She made sure to dress in a presentable manner for the job interview.`, 
@@ -5115,7 +4926,7 @@ export const vocabularies: Data[] = [
   {
     word: 'primarily',
     description: [
-    `__`, 
+    `mainly:`, 
     `__`
     ],
      sentences: [
@@ -5129,8 +4940,8 @@ export const vocabularies: Data[] = [
   {
     word: 'principal',
     description: [
-    `__`, 
-    `__`
+    `first in order of importance`, 
+    `(n) the person in charge of a college or university`
     ],
      sentences: [
     `The principal of the school addressed the students during the morning assembly.`, 
@@ -5143,7 +4954,7 @@ export const vocabularies: Data[] = [
   {
     word: 'proceeds',
     description: [
-    `__`, 
+    `the amount of money received from a particular event or activity or when something is sold`, 
     `__`
     ],
      sentences: [
@@ -5157,8 +4968,8 @@ export const vocabularies: Data[] = [
   {
     word: 'procrastinate',
     description: [
-    `__`, 
-    `__`
+    `to keep delaying something that must be done, often because it is unpleasant or boring`, 
+    `to delay doing something`
     ],
      sentences: [
     `He tends to procrastinate and leaves tasks until the last minute.`, 
@@ -5171,8 +4982,8 @@ export const vocabularies: Data[] = [
   {
     word: 'productive',
     description: [
-    `__`, 
-    `__`
+    `producing a large number of goods, crops, profit, etc. or doing a lot of work:`, 
+    `having positive results`
     ],
      sentences: [
     `The team had a highly productive meeting, reaching several important decisions.`, 
@@ -5185,8 +4996,8 @@ export const vocabularies: Data[] = [
   {
     word: 'profitably',
     description: [
-    `__`, 
-    `__`
+    `in a way that makes or is likely to make a profit:`, 
+    `in a way that produces or is likely to produce an advantage:`
     ],
      sentences: [
     `The company successfully expanded its operations and grew profitably.`, 
@@ -5199,8 +5010,8 @@ export const vocabularies: Data[] = [
   {
     word: 'progressive',
     description: [
-    `__`, 
-    `__`
+    `(adj) developing or happening gradually:`, 
+    `(adj) Progressive ideas or systems are new and modern, encouraging change in society or in the way that things are done:`
     ],
      sentences: [
     `The organization aims to create a progressive work environment that promotes diversity and inclusion.`, 
@@ -5213,7 +5024,7 @@ export const vocabularies: Data[] = [
   {
     word: 'promptly',
     description: [
-    `__`, 
+    `quickly, without delay, or at the arranged time:`, 
     `__`
     ],
      sentences: [
@@ -5227,8 +5038,8 @@ export const vocabularies: Data[] = [
   {
     word: 'proportion',
     description: [
-    `__`, 
-    `__`
+    `the number or amount of a group or part of something when compared to the whole`, 
+    `a part or share of the whole, or the relationship between one thing and another in size, amount, or degree`
     ],
      sentences: [
     `The recipe calls for equal proportions of flour and sugar.`, 
@@ -5241,8 +5052,8 @@ export const vocabularies: Data[] = [
   {
     word: 'proposal',
     description: [
-    `__`, 
-    `__`
+    `a suggestion, sometimes a written one:`, 
+    `a suggestion for a possible plan or action:`
     ],
      sentences: [
     `The business owner presented a proposal for a new marketing strategy.`, 
@@ -5255,8 +5066,8 @@ export const vocabularies: Data[] = [
   {
     word: 'prosecute',
     description: [
-    `__`, 
-    `__`
+    `to officially accuse someone of committing a crime in a law court, or (of a lawyer) to try to prove that a person accused of committing a crime is guilty of that crime`, 
+    `to continue to take part in a planned group of activities, especially a war:`
     ],
      sentences: [
     `The district attorney decided to prosecute the suspect for the alleged crime.`, 
@@ -5269,8 +5080,8 @@ export const vocabularies: Data[] = [
   {
     word: 'prospect',
     description: [
-    `__`, 
-    `__`
+    `the possibility that something good might happen in the future`, 
+    `(v) to search for gold, oil, or other valuable substances on or under the surface of the earth:`
     ],
      sentences: [
     `She is excited about the prospect of starting her own business.`, 
@@ -5283,22 +5094,23 @@ export const vocabularies: Data[] = [
   {
     word: 'prospective',
     description: [
-    `__`, 
-    `__`
+    `___ buyers, employers, parents, etc.`, 
+    `people who are expected to buy something, employ someone, become parents, etc.:`
+    `possible:`
     ],
      sentences: [
     `The university hosted an event for prospective students to learn more about the programs offered.`, 
     `The company conducted interviews with prospective employees for the open positions.`, 
     `The real estate agent provided a tour of the property to prospective buyers.`,
     `The business owner prepared a presentation to pitch the company's services to prospective clients.`,
-    `__`,
+    `There were offers from several prospective buyers.`,
      ],
   },
   {
     word: 'protest',
     description: [
-    `__`, 
-    `__`
+    `(n) a strong complaint expressing disagreement, disapproval, or opposition:`, 
+    `(v) to show that you disagree with something by standing somewhere, shouting, carrying signs, etc.:`
     ],
      sentences: [
     `The citizens gathered in the streets to protest against government policies.`, 
@@ -5311,21 +5123,22 @@ export const vocabularies: Data[] = [
   {
     word: 'provision',
     description: [
-    `__`, 
-    `__`
+    `the act of providing something:`, 
+    `(v) to supply someone or something with food and other necessary things`,
+    `(v to keep an amount of money available to be used in case of a possible future loss or debt` 
     ],
      sentences: [
     `The contract includes a provision for early termination.`, 
     `The hotel provides complimentary breakfast as part of their service provision.`, 
     `The law requires employers to make provisions for employee safety.`,
-    `The emergency management team made provisions for shelter and supplies during the hurricane.`,
-    `__`,
+    `Of course there's provision in the plan for population increase.`,
+    `The company has revealed that it has provisioned £235m for asbestos-related claims.`,
      ],
   },
   {
     word: 'proximity',
     description: [
-    `__`, 
+    `the state of being near in space or time:`, 
     `__`
     ],
      sentences: [
@@ -5339,8 +5152,8 @@ export const vocabularies: Data[] = [
   {
     word: 'purely',
     description: [
-    `__`, 
-    `__`
+    `for only one reason or purpose`, 
+    `only; just:`
     ],
      sentences: [
     `Her decision to pursue art was purely based on her passion for creativity.`, 
@@ -5353,8 +5166,9 @@ export const vocabularies: Data[] = [
   {
     word: 'pursue',
     description: [
-    `__`, 
-    `__`
+    `to follow someone or something, usually to try to catch him, her, or it:`, 
+    `If you ___ a plan, activity, or situation, you try to do it or achieve it, usually over a long period of time:`,
+    `to try to achieve something:`
     ],
      sentences: [
     `She decided to pursue a career in medicine to help others.`, 
@@ -5367,8 +5181,8 @@ export const vocabularies: Data[] = [
   {
     word: 'reconcile',
     description: [
-    `__`, 
-    `__`
+    `to find a way in which two situations or beliefs that are opposed to each other can agree and exist together:`, 
+    `to compare different financial accounts, amounts, etc. in order to check that they add up to the same total or to explain any differences between them:`
     ],
      sentences: [
     `They had a disagreement, but they were able to reconcile their differences and maintain their friendship.`, 
@@ -5381,7 +5195,7 @@ export const vocabularies: Data[] = [
   {
     word: 'reconvene',
     description: [
-    `__`, 
+    `to come together again or to bring a group of people together again for a meeting:`, 
     `__`
     ],
      sentences: [
@@ -5395,7 +5209,7 @@ export const vocabularies: Data[] = [
   {
     word: 'rectify',
     description: [
-    `__`, 
+    `to correct something or make something right`, 
     `__`
     ],
      sentences: [
@@ -5403,12 +5217,13 @@ export const vocabularies: Data[] = [
     `The supervisor took immediate action to rectify the safety issue in the workplace.`,
     `The government implemented new policies to rectify the economic downturn.`,
     `The teacher provided feedback to help the student rectify mistakes in their essay.`,
+    `I am determined to take whatever action is necessary to rectify the situation.`
      ],
   },
   {
     word: 'refrigerate',
     description: [
-    `__`, 
+    `to make or keep something, especially food or drink, cold so that it stays fresh, usually in a fridge:`, 
     `__`
     ],
      sentences: [
@@ -5422,8 +5237,8 @@ export const vocabularies: Data[] = [
   {
     word: 'refuse',
     description: [
-    `__`, 
-    `__`
+    `to say that you will not do or accept something:`, 
+    `to say or show that you are not willing to do, accept, or allow something:`
     ],
      sentences: [
     `He refused to accept the job offer because the salary was too low.`, 
@@ -5436,8 +5251,8 @@ export const vocabularies: Data[] = [
   {
     word: 'regard',
     description: [
-    `__`, 
-    `__`
+    `to consider or have an opinion about something or someone:`, 
+    `(n) respect or admiration for someone or something:`
     ],
      sentences: [
     `She is highly regarded in her field for her expertise and contributions.`, 
@@ -5450,8 +5265,8 @@ export const vocabularies: Data[] = [
   {
     word: 'regardless',
     description: [
-    `__`, 
-    `__`
+    `(adv) despite; not being affected by something:`, 
+    `despite what has been said or done:`
     ],
      sentences: [
     `He continued to pursue his goals regardless of the challenges he faced.`, 
@@ -5464,8 +5279,8 @@ export const vocabularies: Data[] = [
   {
     word: 'reimburse',
     description: [
-    `__`, 
-    `__`
+    `to pay back money to someone who has spent it for you or lost it because of you:`, 
+    `to give back the amount of money that someone has spent:`
     ],
      sentences: [
     `The company agreed to reimburse me for the travel expenses I incurred during the business trip.`, 
@@ -5478,7 +5293,7 @@ export const vocabularies: Data[] = [
   {
     word: 'relieved',
     description: [
-    `__`, 
+    `happy that something unpleasant has not happened or has ended`, 
     `__`
     ],
      sentences: [
@@ -5492,7 +5307,7 @@ export const vocabularies: Data[] = [
   {
     word: 'relinquish',
     description: [
-    `__`, 
+    `to give up something such as a responsibility or claim`, 
     `__`
     ],
      sentences: [
@@ -5500,13 +5315,13 @@ export const vocabularies: Data[] = [
     `The artist was reluctant to relinquish ownership of his artwork.`, 
     `The landlord asked the tenant to relinquish the keys to the property.`,
     `The company was forced to relinquish its control over the project.`,
-    `__`,
+    `She relinquished control of the family investments to her son.`,
      ],
   },
   {
     word: 'reluctant',
     description: [
-    `__`, 
+    `not willing to do something and therefore slow to do it:`, 
     `__`
     ],
      sentences: [
@@ -5520,7 +5335,7 @@ export const vocabularies: Data[] = [
   {
     word: 'remarkable',
     description: [
-    `__`, 
+    `unusual or special and therefore surprising and worth mentioning:`, 
     `__`
     ],
      sentences: [
@@ -5534,8 +5349,8 @@ export const vocabularies: Data[] = [
   {
     word: 'remittance',
     description: [
-    `__`, 
-    `__`
+    `an amount of money that you send to someone:`, 
+    `an amount of money that is sent somewhere as payment for something:`
     ],
      sentences: [
     `He sent a remittance to his family back home to support them financially.`, 
@@ -5548,7 +5363,7 @@ export const vocabularies: Data[] = [
   {
     word: 'reportedly',
     description: [
-    `__`, 
+    `according to what many people say:`, 
     `__`
     ],
      sentences: [
@@ -5562,7 +5377,7 @@ export const vocabularies: Data[] = [
   {
     word: 'reporter',
     description: [
-    `__`, 
+    `a person whose job is to discover information about news events and describe them for a newspaper or magazine or for radio or television`, 
     `__`
     ],
      sentences: [
@@ -5576,36 +5391,37 @@ export const vocabularies: Data[] = [
   {
     word: 'reprimand',
     description: [
-    `__`, 
-    `__`
+    `to express to someone your strong official disapproval of them:`, 
+    `(n) strong official criticism of a person or their behaviour :`
     ],
      sentences: [
     `The teacher gave the student a reprimand for not completing their homework.`, 
     `The manager delivered a stern reprimand to the employee for their unprofessional behavior.`, 
     `He received a reprimand from his parents for coming home late.`,
     `The boss issued a written reprimand to address the employee's repeated tardiness.`,
-    `__`,
+    `She was reprimanded by her teacher for biting another girl.`,
      ],
   },
   {
     word: 'reserve',
     description: [
-    `__`, 
-    `__`
+    `to keep something for a particular purpose or time:`, 
+    `If you ___ something such as a seat on an aircraft or a table at a restaurant, you arrange for it to be kept for your use:`,
+    `(n) the habit of not showing your feelings or thoughts`
     ],
      sentences: [
     `They reserved a table at the restaurant for their anniversary dinner.`, 
     `She had to reserve her energy for the upcoming marathon.`, 
     `The hotel requires guests to reserve a room in advance.`,
     `The company has a reserve fund for unexpected expenses.`,
-    `__`,
+    `I took her out for a drink and tried to break through her reserve.`,
      ],
   },
   {
     word: 'reserved',
     description: [
-    `__`, 
-    `__`
+    `Reserved people do not often talk about or show their feelings or thoughts:`, 
+    `tending to keep your feelings or thoughts private rather than showing them:`
     ],
      sentences: [
     `She is known for being reserved and keeping her thoughts to herself.`, 
@@ -5618,8 +5434,8 @@ export const vocabularies: Data[] = [
   {
     word: 'resist',
     description: [
-    `__`, 
-    `__`
+    `to fight against something or someone that is attacking you`, 
+    `to stop yourself from doing something that you want to do:`
     ],
      sentences: [
     `She tried to resist the temptation to eat the chocolate cake.`, 
@@ -5632,8 +5448,9 @@ export const vocabularies: Data[] = [
   {
     word: 'resolution',
     description: [
-    `__`, 
-    `__`
+    `an official decision that is made after a group or organization has voted`, 
+    `a promise to yourself to do or to not do something:`,
+    `the act of solving or ending a problem or difficulty:`
     ],
      sentences: [
     `She made a New Year's resolution to exercise more regularly.`, 
@@ -5646,8 +5463,8 @@ export const vocabularies: Data[] = [
   {
     word: 'restriction',
     description: [
-    `__`, 
-    `__`
+    `an official limit on something:`, 
+    `something that limits someone's actions or movement, or limits the amount, size, etc., of something:`
     ],
      sentences: [
     `The park has imposed restrictions on bringing pets inside.`, 
@@ -5660,8 +5477,8 @@ export const vocabularies: Data[] = [
   {
     word: 'retrace',
     description: [
-    `__`, 
-    `__`
+    `to go back over something, for example a path or a series of past actions`, 
+    `to go back over a path or a series of past actions:`
     ],
      sentences: [
     `He tried to retrace his steps to find his lost keys.`, 
@@ -5674,8 +5491,8 @@ export const vocabularies: Data[] = [
   {
     word: 'ride',
     description: [
-    `__`, 
-    `__`
+    `to sit on something such as a bicycle, motorbike, or horse and travel along on it controlling its movements`, 
+    `to travel in a vehicle, such as a car, bus, or train:`
     ],
      sentences: [
     `They went for a relaxing bike ride along the scenic trail.`, 
@@ -5687,8 +5504,8 @@ export const vocabularies: Data[] = [
   {
     word: 'ridiculous',
     description: [
-    `__`, 
-    `__`
+    `stupid or unreasonable and deserving to be laughed at:`, 
+    `foolish or unreasonable and deserving to be laughed at:`
     ],
      sentences: [
     `His excuses for being late were absolutely ridiculous.`, 
@@ -5701,8 +5518,8 @@ export const vocabularies: Data[] = [
   {
     word: 'rude',
     description: [
-    `__`, 
-    `__`
+    `not polite; offensive or embarrassing:`, 
+    `behaving in a way that hurts other people’s feelings; not polite:`
     ],
      sentences: [
     `He was reprimanded for his rude behavior towards the restaurant staff.`, 
@@ -5715,8 +5532,8 @@ export const vocabularies: Data[] = [
   {
     word: 'run_into',
     description: [
-    `__`, 
-    `__`
+    `Encounter by chance`, 
+    `Collide or crash into, Experience a problem or difficulty`
     ],
      sentences: [
     `I ran into an old friend from high school at the grocery store yesterday.`, 
@@ -5729,7 +5546,7 @@ export const vocabularies: Data[] = [
   {
     word: 'run_out',
     description: [
-    `__`, 
+    `Exhaust the supply, Reach the end of availability, Time or duration expires`, 
     `__`
     ],
      sentences: [
@@ -5743,7 +5560,7 @@ export const vocabularies: Data[] = [
   {
     word: 'runway',
     description: [
-    `__`, 
+    `a long, level piece of ground with a specially prepared smooth, hard surface on which aircraft take off and land`, 
     `__`
     ],
      sentences: [
@@ -5757,7 +5574,7 @@ export const vocabularies: Data[] = [
   {
     word: 'satisfactory',
     description: [
-    `__`, 
+    `good or good enough for a particular need or purpose:`, 
     `__`
     ],
      sentences: [
@@ -5771,7 +5588,7 @@ export const vocabularies: Data[] = [
   {
     word: 'savings_account',
     description: [
-    `__`, 
+    `an account in a bank or similar financial organization that earns interest`, 
     `__`
     ],
      sentences: [
@@ -5785,8 +5602,8 @@ export const vocabularies: Data[] = [
   {
     word: 'savor',
     description: [
-    `__`, 
-    `__`
+    `to enjoy food or an experience slowly, in order to enjoy it as much as possible:`, 
+    `(n) a smell or taste, especially a pleasant one:`
     ],
      sentences: [
     `She took a moment to savor the delicious flavor of the homemade pie.`, 
@@ -5799,8 +5616,8 @@ export const vocabularies: Data[] = [
   {
     word: 'scheduled',
     description: [
-    `__`, 
-    `__`
+    `planned to happen at a particular time:`, 
+    `arranged to happen at a particular time:`
     ],
      sentences: [
     `The meeting is scheduled for tomorrow afternoon at 2 p.m.`, 
@@ -5813,8 +5630,8 @@ export const vocabularies: Data[] = [
   {
     word: 'scold',
     description: [
-    `__`, 
-    `__`
+    `to speak to someone angrily because you disapprove of their behaviour:`, 
+    `to criticize angrily someone who has done something wrong:`
     ],
      sentences: [
     `The teacher scolded the student for not completing the homework assignment.`, 
@@ -5827,8 +5644,9 @@ export const vocabularies: Data[] = [
   {
     word: 'scratch',
     description: [
-    `__`, 
-    `__`
+    `to cut or damage a surface or your skin slightly with or on something sharp or rough:`, 
+    `If an animal ___s, it rubs something with its claws (= sharp nails):`,
+    `a mark made by ___ing, a cut or mark that is made in a surface with something sharp or rough`
     ],
      sentences: [
     `The cat loves it when you scratch behind its ears.`, 
@@ -5841,8 +5659,9 @@ export const vocabularies: Data[] = [
   {
     word: 'screen',
     description: [
-    `__`, 
-    `__`
+    `a flat surface in a cinema, on a television, or as part of a computer, on which pictures or words are shown:`, 
+    `to test or examine someone or something to discover if there is anything wrong with the person or thing:`,
+    `(HR) to check that someone is suitable and able to do a job by getting information about their previous jobs, personal activities, etc.:`
     ],
      sentences: [
     `They watched a movie on the big screen at the cinema.`, 
@@ -5855,8 +5674,7 @@ export const vocabularies: Data[] = [
   {
     word: 'screening',
     description: [
-    `__`, 
-    `__`
+    `a showing of a film:`
     ],
      sentences: [
     `The film festival featured a special screening of the highly anticipated movie.`, 
@@ -5869,8 +5687,8 @@ export const vocabularies: Data[] = [
   {
     word: 'scrutinize',
     description: [
-    `__`, 
-    `__`
+    `to examine something very carefully in order to discover information:`, 
+    `to examine someone or something very carefully:`
     ],
      sentences: [
     `The detective scrutinized the evidence carefully to solve the crime.`, 
@@ -5883,7 +5701,7 @@ export const vocabularies: Data[] = [
   {
     word: 'scrutiny',
     description: [
-    `__`, 
+    `the careful and detailed examination of something in order to get information about it:`, 
     `__`
     ],
      sentences: [
@@ -5897,8 +5715,7 @@ export const vocabularies: Data[] = [
   {
     word: 'seasonal_work',
     description: [
-    `__`, 
-    `__`
+    ` refers to employment opportunities that are temporary and tied to specific seasons or periods of the year. These jobs are typically available during certain times when there is a higher demand for particular goods or services due to seasonal factors.`, 
     ],
      sentences: [
     `Many people take up seasonal work during the holiday season to earn extra income.`, 
@@ -5911,7 +5728,7 @@ export const vocabularies: Data[] = [
   {
     word: 'separately',
     description: [
-    `__`, 
+    `not together:`, 
     `__`
     ],
      sentences: [
@@ -5925,8 +5742,8 @@ export const vocabularies: Data[] = [
   {
     word: 'sequester',
     description: [
-    `__`, 
-    `__`
+    `to keep the people on a jury (= group deciding a legal case) separate from everyone else, even from their families, while deciding a case:`, 
+    `to separate and store a harmful substance such as carbon dioxide in a way that keeps it safe:`
     ],
      sentences: [
     `The jury was sequestered during the high-profile trial to ensure impartiality.`, 
@@ -5939,22 +5756,22 @@ export const vocabularies: Data[] = [
   {
     word: 'settle',
     description: [
-    `__`, 
-    `__`
+    `to reach a decision or an agreement about something, or to end a disagreement:`, 
+    `to arrange something:`,
+    `to go and live somewhere, especially permanently:`,
     ],
      sentences: [
     `After a long negotiation, they were able to settle on a fair price for the house.`, 
     `He decided to settle the dispute with his neighbor through mediation.`, 
     `She hopes to settle down and start a family in her hometown.`,
     `The company reached a settlement with the disgruntled employees to avoid a legal battle.`,
-    `__`,
+    `After they got married, they settled in Brooklyn.`,
      ],
   },
   {
     word: 'severe',
     description: [
-    `__`, 
-    `__`
+    `causing very great pain, difficulty, worry, damage, etc.; very serious:`, 
     ],
      sentences: [
     `The region experienced severe weather conditions, including heavy storms and strong winds.`, 
@@ -5967,8 +5784,8 @@ export const vocabularies: Data[] = [
   {
     word: 'severity',
     description: [
-    `__`, 
-    `__`
+    `seriousness:`, 
+    `the quality of being extremely painful, difficult, etc.:`
     ],
      sentences: [
     `The severity of the crime led to a lengthy prison sentence.`, 
@@ -5981,8 +5798,7 @@ export const vocabularies: Data[] = [
   {
     word: 'sewage',
     description: [
-    `__`, 
-    `__`
+    `waste matter such as water or human urine or solid waste`, 
     ],
      sentences: [
     `The city's sewage system underwent major repairs to prevent contamination.`, 
@@ -5995,8 +5811,8 @@ export const vocabularies: Data[] = [
   {
     word: 'shares',
     description: [
-    `__`, 
-    `__`
+    `a part of something that has been divided between several people`, 
+    `one of the equal parts that the ownership of a company is divided into, and that can be bought by members of the public:`
     ],
      sentences: [
     `He decided to invest in shares of a promising technology company.`, 
@@ -6009,8 +5825,8 @@ export const vocabularies: Data[] = [
   {
     word: 'shattered',
     description: [
-    `__`, 
-    `__`
+    `broken into very small pieces:`, 
+    `(adj) extremely upset, extremely tired:`
     ],
      sentences: [
     `The glass vase slipped from her hands and shattered into pieces on the floor.`, 
@@ -6023,22 +5839,24 @@ export const vocabularies: Data[] = [
   {
     word: 'shed',
     description: [
-    `__`, 
-    `__`
+    `a small building, usually made of wood, used for storing things:`, 
+    `(often used in newspapers) to get rid of something you do not need or want:`,
+    `to lose a covering, such as leaves, hair, or skin, because it falls off naturally, or to drop something in a natural way or by accident:`
     ],
      sentences: [
     `The dog sheds its fur heavily during the summer months.`, 
     `He decided to shed some unnecessary belongings during the move.`, 
     `The snake shed its skin as part of its natural growth process.`,
     `The tree shed its leaves in the autumn.`,
-    `__`,
+    `900 jobs will be shed over the next few months.`,
+    `The trees shed their leaves in autumn.`,
      ],
   },
   {
     word: 'shortage',
     description: [
-    `__`, 
-    `__`
+    `a situation in which there is not enough of something:`, 
+    `a lack of something needed:`
     ],
      sentences: [
     `There is a shortage of skilled workers in the construction industry.`, 
@@ -6051,8 +5869,8 @@ export const vocabularies: Data[] = [
   {
     word: 'shovel',
     description: [
-    `__`, 
-    `__`
+    `a tool consisting of a wide, square metal or plastic blade, usually with slightly raised sides, attached to a handle,`, 
+    `(v) to move with a shovel:`
     ],
      sentences: [
     `He used a shovel to clear the snow from the driveway after the winter storm.`, 
@@ -6065,7 +5883,7 @@ export const vocabularies: Data[] = [
   {
     word: 'shuttle',
     description: [
-    `__`, 
+    `a vehicle or aircraft that travels regularly between two places:`, 
     `__`
     ],
      sentences: [
@@ -6079,8 +5897,8 @@ export const vocabularies: Data[] = [
   {
     word: 'sightseeing',
     description: [
-    `__`, 
-    `__`
+    `the activity of visiting interesting places, especially by people on holiday:`, 
+    `the act of visiting interesting places, esp. while on vacation:`
     ],
      sentences: [
     `They spent the day sightseeing, visiting famous landmarks and museums.`, 
@@ -6093,8 +5911,8 @@ export const vocabularies: Data[] = [
   {
     word: 'silly',
     description: [
-    `__`, 
-    `__`
+    `showing little thought or judgment:`, 
+    `showing a lack of thought or judgment; not serious and not showing much intelligence:`
     ],
      sentences: [
     `The children laughed at the silly jokes told by the clown at the circus.`, 
@@ -6107,7 +5925,7 @@ export const vocabularies: Data[] = [
   {
     word: 'situated',
     description: [
-    `__`, 
+    `in a particular position`, 
     `__`
     ],
      sentences: [
@@ -6121,7 +5939,7 @@ export const vocabularies: Data[] = [
   {
     word: 'skewed_distorted',
     description: [
-    `__`, 
+    `not accurate or exact:`, 
     `__`
     ],
      sentences: [
@@ -6135,8 +5953,7 @@ export const vocabularies: Data[] = [
   {
     word: 'ski',
     description: [
-    `__`, 
-    `__`
+    `to move over snow on skis:`, 
     ],
      sentences: [
     `They went to the mountains to ski during the winter vacation.`, 
@@ -6149,7 +5966,7 @@ export const vocabularies: Data[] = [
   {
     word: 'slightly',
     description: [
-    `__`, 
+    `in a small amount or degree:`, 
     `__`
     ],
      sentences: [
@@ -6163,8 +5980,8 @@ export const vocabularies: Data[] = [
   {
     word: 'sluggish',
     description: [
-    `__`, 
-    `__`
+    `moving or operating more slowly than usual and with less energy or power:`, 
+    `moving, acting, or working with less than usual speed or energy:`
     ],
      sentences: [
     `After a long day at work, he felt sluggish and lacked energy.`, 
@@ -6176,8 +5993,8 @@ export const vocabularies: Data[] = [
   {
     word: 'soar',
     description: [
-    `__`, 
-    `__`
+    `to rise very quickly to a high level`, 
+    `to reach a great height:`
     ],
      sentences: [
     `The bird spread its wings and soared gracefully in the sky.`, 
@@ -6190,8 +6007,8 @@ export const vocabularies: Data[] = [
   {
     word: 'sole',
     description: [
-    `__`, 
-    `__`
+    `being one only; single`, 
+    `(v) `
     ],
      sentences: [
     `She was the sole survivor of the plane crash.`, 
@@ -6204,7 +6021,7 @@ export const vocabularies: Data[] = [
   {
     word: 'sore throat',
     description: [
-    `__`, 
+    `a condition in which your throat is red and feels painful, especially when you swallow`, 
     `__`
     ],
      sentences: [
@@ -6218,8 +6035,7 @@ export const vocabularies: Data[] = [
   {
     word: 'sorts_of',
     description: [
-    `__`, 
-    `__`
+    ` is an informal expression that is used to indicate various types or kinds of something. It is often used to imply a range or variety of things within a specific category.`, 
     ],
      sentences: [
     `The store offers all sorts of products, from clothing to electronics.`, 
@@ -6232,8 +6048,8 @@ export const vocabularies: Data[] = [
   {
     word: 'specialized',
     description: [
-    `__`, 
-    `__`
+    `working in and knowing a lot about one particular subject, skill, service, etc. :`, 
+    `relating to one particular area or designed for a particular purpose:`
     ],
      sentences: [
     `He is a specialized surgeon who focuses on cardiovascular diseases.`, 
@@ -6246,8 +6062,7 @@ export const vocabularies: Data[] = [
   {
     word: 'species',
     description: [
-    `__`, 
-    `__`
+    `a set of animals or plants in which the members have similar characteristics to each other and can breed with each other`, 
     ],
      sentences: [
     `The rainforest is home to a wide variety of plant and animal species.`, 
@@ -6260,20 +6075,21 @@ export const vocabularies: Data[] = [
   {
     word: 'specimen',
     description: [
-    `__`, 
-    `__`
+    `something shown or examined as an example; a typical example`, 
+    `(adj) used to refer to something that is an example of a particular thing `
     ],
      sentences: [
     `The scientist collected a specimen of the rare flower for further analysis.`, 
     `The museum displayed a specimen of the dinosaur fossil found in the excavation.`,
     `The doctor requested a urine specimen for diagnostic purposes.`,
     `The butterfly specimen was carefully mounted and displayed in the glass case.`,
+    `Specimen papers of the new examinations were released to schools.`
      ],
   },
   {
     word: 'spectacular',
     description: [
-    `__`, 
+    `very exciting to look at, especially great:`, 
     `__`
     ],
      sentences: [
@@ -6286,8 +6102,8 @@ export const vocabularies: Data[] = [
   {
     word: 'spontaneous',
     description: [
-    `__`, 
-    `__`
+    `happening or done in a natural, often sudden way, without any planning or without being forced`, 
+    `happening naturally, without planning or encouragement:`
     ],
      sentences: [
     `They decided to take a spontaneous road trip, packing their bags and hitting the road without a plan.`, 
@@ -6300,7 +6116,7 @@ export const vocabularies: Data[] = [
   {
     word: 'staple',
     description: [
-    `__`, 
+  `to fasten something (papers) using staples, to fasten pieces of paper together using staples:`, 
     `__`
     ],
      sentences: [
@@ -6314,8 +6130,8 @@ export const vocabularies: Data[] = [
   {
     word: 'stare',
     description: [
-    `__`, 
-    `__`
+    `to look for a long time with the eyes wide open, especially when surprised, frightened, or thinking`, 
+    `to look directly at someone or something for a long time:`
     ],
      sentences: [
     `The child stared in amazement at the fireworks display, captivated by the colorful bursts in the sky.`, 
@@ -6328,7 +6144,7 @@ export const vocabularies: Data[] = [
   {
     word: 'starvation',
     description: [
-    `__`, 
+    `the state of having no food for a long period, often causing death:`, 
     `__`
     ],
      sentences: [
@@ -6342,7 +6158,7 @@ export const vocabularies: Data[] = [
   {
     word: 'statistics',
     description: [
-    `__`, 
+    `a collection of numerical facts or measurements, as about people, business conditions, or weather`, 
     `__`
     ],
      sentences: [
@@ -6356,7 +6172,7 @@ export const vocabularies: Data[] = [
   {
     word: 'stockbroker',
     description: [
-    `__`, 
+    `a person or company that buys and sells stocks and shares for other people`, 
     `__`
     ],
      sentences: [
@@ -6370,8 +6186,8 @@ export const vocabularies: Data[] = [
   {
     word: 'stockholder',
     description: [
-    `__`, 
-    `__`
+    `a person who owns shares in a company and therefore gets part of the company's profits and the right to vote on how the company is controlled:`, 
+    `a person or group that owns part of a company in the form of shares`
     ],
      sentences: [
     `As a stockholder of the company, she received regular dividends from her investment.`, 
@@ -6384,8 +6200,8 @@ export const vocabularies: Data[] = [
   {
     word: 'storm',
     description: [
-    `__`, 
-    `__`
+    `an extreme weather condition with very strong wind, heavy rain, and often thunder and lightning`, 
+    `(v) to attack a place or building by entering suddenly in great numbers, to attack a place or building suddenly:`
     ],
      sentences: [
     `The storm unleashed powerful winds and heavy rainfall, causing widespread damage.`, 
@@ -6398,7 +6214,7 @@ export const vocabularies: Data[] = [
   {
     word: 'streamline',
     description: [
-    `__`, 
+    `to shape something so that it can move as effectively and quickly as possible through a liquid or gas`, 
     `__`
     ],
      sentences: [
@@ -6412,7 +6228,7 @@ export const vocabularies: Data[] = [
   {
     word: 'strike',
     description: [
-    `__`, 
+    `to refuse to continue working because of an argument with an employer about working conditions, pay levels, or job losses`, 
     `__`
     ],
      sentences: [
@@ -6426,7 +6242,7 @@ export const vocabularies: Data[] = [
   {
     word: 'struggling',
     description: [
-    `__`, 
+    `unsuccessful but trying hard to succeed:`, 
     `__`
     ],
      sentences: [
@@ -6440,7 +6256,7 @@ export const vocabularies: Data[] = [
   {
     word: 'subsequent',
     description: [
-    `__`, 
+    `happening after something else:`, 
     `__`
     ],
      sentences: [
@@ -6454,8 +6270,8 @@ export const vocabularies: Data[] = [
   {
     word: 'substantial',
     description: [
-    `__`, 
-    `__`
+    `large in size, value, or importance:`, 
+    `relating to the main or most important things being considered:`
     ],
      sentences: [
     `They made a substantial investment in real estate, expecting high returns in the future.`, 
@@ -6468,8 +6284,8 @@ export const vocabularies: Data[] = [
   {
     word: 'substitutes',
     description: [
-    `__`, 
-    `__`
+    `to use something or someone instead of another thing or person`, 
+    `(n) a thing or person that is used instead of another thing or person:`
     ],
      sentences: [
     `Due to a shortage of eggs, they used applesauce as a substitute in the cake recipe.`, 
@@ -6482,8 +6298,8 @@ export const vocabularies: Data[] = [
   {
     word: 'substitution',
     description: [
-    `__`, 
-    `__`
+    `the use of one person or thing instead of another`, 
+    `the act of using someone or something instead of another person or thing, or the person or thing used:`
     ],
      sentences: [
     `The injured player was forced to leave the game, and a substitution was made.`, 
@@ -6496,8 +6312,8 @@ export const vocabularies: Data[] = [
   {
     word: 'succession',
     description: [
-    `__`, 
-    `__`
+    `a number of similar events or people that happen, exist, etc. after each other:`, 
+    `a series of things coming one after another:`
     ],
      sentences: [
     `The king's eldest son was next in line for succession to the throne.`, 
@@ -7219,8 +7035,8 @@ export const vocabularies: Data[] = [
   {
     word: 'versed',
     description: [
-    `__`, 
-    `__`
+    `to know a lot about a particular subject or be experienced in a particular skill:`, 
+    `prepared by having knowledge or experience of something:`
     ],
      sentences: [
     `The lawyer was well versed in corporate law and provided valuable advice to her clients.`, 
@@ -7233,8 +7049,7 @@ export const vocabularies: Data[] = [
   {
     word: 'vigilant',
     description: [
-    `__`, 
-    `__`
+    `always being careful to notice things, especially possible danger:`, 
     ],
      sentences: [
     `The security guard remained vigilant throughout the night, monitoring the premises for any signs of intrusion.`, 
@@ -7247,8 +7062,8 @@ export const vocabularies: Data[] = [
   {
     word: 'virtually',
     description: [
-    `__`, 
-    `__`
+    `using computer technology over the internet, and not involving people physically going somewhere:`, 
+    `almost:`
     ],
      sentences: [
     `The online conference allowed participants to virtually connect from different parts of the world.`, 
@@ -7261,7 +7076,7 @@ export const vocabularies: Data[] = [
   {
     word: 'vital',
     description: [
-    `__`, 
+    `necessary for the success or continued existence of something; extremely important:`, 
     `__`
     ],
      sentences: [
@@ -7275,8 +7090,8 @@ export const vocabularies: Data[] = [
   {
     word: 'waive',
     description: [
-    `__`, 
-    `__`
+    `to not demand something you have a right to, or not cause a rule to be obeyed`, 
+    `to decide that you will not ask for something, although you have a right to do so, or that a rule will be ignored`
     ],
      sentences: [
     `__`, 
@@ -7289,8 +7104,8 @@ export const vocabularies: Data[] = [
   {
     word: 'wander',
     description: [
-    `__`, 
-    `__`
+    `to walk around slowly in a relaxed way or without any clear purpose or direction`, 
+    `(n) a walk done in a slow relaxed way or without any clear purpose or direction`
     ],
      sentences: [
     `They decided to take a leisurely stroll and wander through the picturesque streets of the old town.`, 
@@ -7303,8 +7118,7 @@ export const vocabularies: Data[] = [
   {
     word: 'weed',
     description: [
-    `__`, 
-    `__`
+    `any wild plant that grows in an unwanted place, especially in a garden or field where it prevents the cultivated plants from growing freely`, 
     ],
      sentences: [
     `The gardener spent the afternoon pulling out the weeds that had grown among the flowers.`, 
@@ -7317,7 +7131,7 @@ export const vocabularies: Data[] = [
   {
     word: 'weird',
     description: [
-    `__`, 
+    `very strange and unusual, unexpected, or not natural`, 
     `__`
     ],
      sentences: [
@@ -7325,14 +7139,14 @@ export const vocabularies: Data[] = [
     `The strange and weird creature in the science fiction movie fascinated and frightened the audience.`, 
     `His taste in fashion was considered weird by some, but he embraced his unique style.`,
     `The weird coincidence of running into each other in a foreign country left them amazed and puzzled.`,
-    `__`,
+    `Her boyfriend's a bit weird but she's nice.`,
      ],
   },
   {
     word: 'well educated',
     description: [
-    `__`, 
-    `__`
+    `having had a good education`, 
+    `having had a good or a high level of education`
     ],
      sentences: [
     `She pursued higher education and became well educated in her field of study.`, 
@@ -7345,8 +7159,8 @@ export const vocabularies: Data[] = [
   {
     word: 'well versed',
     description: [
-    `__`, 
-    `__`
+    `knowing a lot about something`,
+    `having a lot of knowledge about something`
     ],
      sentences: [
     `As a seasoned traveler, she was well versed in navigating unfamiliar cities and countries.`, 
@@ -7359,8 +7173,7 @@ export const vocabularies: Data[] = [
   {
     word: 'what_a_burden',
     description: [
-    `__`, 
-    `__`
+    `is an expression that conveys a sense of heaviness or difficulty associated with a particular situation, task, or responsibility.`, 
     ],
      sentences: [
     `The car broke down on the side of the road, and he sighed, thinking, "What a burden this is."`,
@@ -7371,7 +7184,7 @@ export const vocabularies: Data[] = [
   {
     word: 'while',
     description: [
-    `__`, 
+    `during the time that, or at the same time as`, 
     `__`
     ],
      sentences: [
@@ -7379,14 +7192,12 @@ export const vocabularies: Data[] = [
     `While she enjoyed baking, her sister preferred cooking savory dishes.`, 
     `The children played games and laughed while waiting for their parents to pick them up.`,
     `While some people find solitude in silence, others prefer listening to music.`,
-    `__`,
+    `a length of time`,
      ],
   },
   {
     word: 'wires',
     description: [
-    `__`, 
-    `__`
     ],
      sentences: [
     `The electrician carefully connected the wires to ensure a safe and functional electrical system.`, 
@@ -7398,8 +7209,7 @@ export const vocabularies: Data[] = [
   {
     word: 'wordy',
     description: [
-    `__`, 
-    `__`
+    `containing too many word`, 
     ],
      sentences: [
     `The professor's lecture was filled with complex and wordy explanations that confused the students.`, 
@@ -7412,8 +7222,8 @@ export const vocabularies: Data[] = [
   {
     word: 'work_out',
     description: [
-    `__`, 
-    `__`
+    `to do a calculation to get an answer to a mathematical question`, 
+    `to exercise in order to improve the strength or appearance of your body`
     ],
      sentences: [
     `They planned to work out at the gym every morning to improve their fitness and overall health.`, 
@@ -7426,8 +7236,8 @@ export const vocabularies: Data[] = [
   {
     word: 'workforce',
     description: [
-    `__`, 
-    `__`
+    `the group of people who work in a company, industry, country, etc.`, 
+    `all the people who work for a company or organization`
     ],
      sentences: [
     `The company hired additional employees to meet the growing demand and expand its workforce.`, 
@@ -7440,8 +7250,7 @@ export const vocabularies: Data[] = [
   {
     word: 'worsen',
     description: [
-    `__`, 
-    `__`
+    `to become worse or to make something become worse`, 
     ],
      sentences: [
     `The heavy rain caused the flood situation to worsen, displacing several families from their homes.`, 
