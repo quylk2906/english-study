@@ -1,4 +1,4 @@
-type Data = {
+export type Data = {
   word: string;
   description: string[];
   sentences: string[];
