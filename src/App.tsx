@@ -61,7 +61,7 @@ function App() {
   }, [isOpen, activeCard]);
 
   const handlePlaySound = () => {
-    const audio = new Audio(`/resources/${word}.mp3`);
+    const audio = new Audio(`src/assets/resources/${word}.mp3`);
     audio.play();
   };
 
@@ -202,7 +202,7 @@ function App() {
                             height={200}
                             width={500}
                             objectFit="cover"
-                            src={`/resources/${realWord}.jpg`}
+                            src={`src/assets/resources/${realWord}.jpg`}
                             fallbackSrc="https://via.placeholder.com/150"
                           />
                         </Box>
