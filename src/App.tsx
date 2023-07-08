@@ -25,7 +25,7 @@ import {
 } from '@chakra-ui/react';
 import { Data, vocabularies } from './data';
 import { ArrowForwardIcon, SunIcon, ViewIcon } from '@chakra-ui/icons';
-import { getImageUrl } from './helpers';
+import { getAudioUrl, getImageUrl } from './helpers';
 
 const PAGE_SIZE = 40;
 
@@ -62,7 +62,7 @@ function App() {
   }, [isOpen, activeCard]);
 
   const handlePlaySound = () => {
-    const audio = new Audio(`src/assets/resources/${word}.mp3`);
+    const audio = new Audio(getAudioUrl(word));
     audio.play();
   };
 
