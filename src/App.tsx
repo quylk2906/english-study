@@ -1,4 +1,11 @@
-import { KeyboardEvent, useEffect, useMemo, useRef, useState } from 'react';
+import {
+  KeyboardEvent,
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from 'react';
 import viteLogo from '/vite.svg';
 import {
   Box,
@@ -22,15 +29,19 @@ import {
   SimpleGrid,
   Text,
   useDisclosure,
+  useToast,
 } from '@chakra-ui/react';
 import { vocabularies } from './data';
 import { ArrowForwardIcon, SunIcon, ViewIcon } from '@chakra-ui/icons';
 import { getAudioUrl, getImageUrl, shuffleArray } from './helpers';
+import { CopyText } from './components/CopyText';
+import { Fragment } from 'react';
 
 const PAGE_SIZE = 40;
 
 function App() {
   const [page, setPage] = useState(0);
+  const toast = useToast();
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [currentVocabularies, setCurrentVocabularies] = useState<Data[]>(
     vocabularies.slice(0, 2)
@@ -40,7 +51,7 @@ function App() {
 
   useEffect(() => {
     setCurrentVocabularies(
-      vocabularies.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE)
+      shuffleArray(vocabularies.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE))
     );
   }, [page]);
 
@@ -49,11 +60,13 @@ function App() {
       top: 0,
       behavior: 'smooth',
     });
-  }, [currentVocabularies]);
+  }, [page]);
 
   const word = useMemo(() => {
     return currentVocabularies[activeCard].word.split(' ')[0];
   }, [activeCard, currentVocabularies]);
+
+  console.log({ '🚀': word });
 
   useEffect(() => {
     if (!isOpen) {
@@ -66,43 +79,75 @@ function App() {
     audio.play();
   };
 
-  const handleKeyDown = (event: KeyboardEvent<HTMLInputElement>) => {
-    if (event.ctrlKey && event.code === 'Space') {
-      onOpen();
-      return;
-    }
-    if (event.shiftKey && event.code === 'Space') {
-      event.preventDefault();
-      handlePlaySound();
-      return;
-    }
+  const showWord = useCallback(() => {
+    toast({
+      description: word,
+      position: 'top',
+      isClosable: true,
+      variant: 'subtle',
+      status: 'info',
+      duration: 2000,
+    });
+  }, [word]);
 
-    const value = (event.target as any).value.trim();
-    if (event.key === 'Enter' && value) {
-      if (value === currentVocabularies[activeCard].word) {
-        setCurrentVocabularies((prevVal) => {
-          const newVal = [...prevVal];
-          newVal[activeCard] = {
-            ...newVal[activeCard],
-            checked: true,
-            error: false,
-          };
-          return newVal;
-        });
-        firstFieldRef.current[activeCard + 1]?.focus();
-      } else {
-        setCurrentVocabularies((prevVal) => {
-          const newVal = [...prevVal];
-          newVal[activeCard] = {
-            ...newVal[activeCard],
-            checked: false,
-            error: true,
-          };
-          return newVal;
-        });
+  const handleKeyDown = useCallback(
+    (event: KeyboardEvent<HTMLInputElement>) => {
+      if (event.ctrlKey && event.code === 'Space') {
+        onOpen();
+        event.preventDefault();
+        return;
       }
-    }
-  };
+      if (event.shiftKey && event.code === 'Space') {
+        handlePlaySound();
+        event.preventDefault();
+        return;
+      }
+
+      if (event.altKey && event.code === 'Backspace') {
+        showWord();
+        event.preventDefault();
+        return;
+      }
+
+      const value = (event.target as any).value.trim();
+      if (event.key === 'Enter' && value) {
+        if (value === word) {
+          setCurrentVocabularies((prevVal) => {
+            const newVal = [...prevVal];
+            newVal[activeCard] = {
+              ...newVal[activeCard],
+              checked: true,
+              error: false,
+            };
+            return newVal;
+          });
+          firstFieldRef.current[activeCard + 1]?.focus();
+        } else {
+          setCurrentVocabularies((prevVal) => {
+            const newVal = [...prevVal];
+            newVal[activeCard] = {
+              ...newVal[activeCard],
+              checked: false,
+              error: true,
+            };
+            return newVal;
+          });
+        }
+      }
+    },
+    [activeCard, showWord]
+  );
+
+  const handleCopy = useCallback(() => {
+    toast({
+      description: 'Copied',
+      position: 'top',
+      isClosable: true,
+      variant: 'subtle',
+      status: 'success',
+      duration: 1000,
+    });
+  }, []);
 
   return (
     <Box
@@ -123,10 +168,8 @@ function App() {
         spacingX={{ xl: 4, '2xl': 6 }}
         spacingY="40px"
       >
-        {shuffleArray(currentVocabularies).map((el, idx) => {
+        {currentVocabularies.map((el, idx) => {
           const [realWord] = el.word.split(' ');
-          console.log(getImageUrl(realWord));
-
           return (
             <Card
               key={idx}
@@ -221,9 +264,14 @@ function App() {
                   />
                 </Flex>
 
-                <Box ml={5} mt={2}>
+                <Box ml={5} mt={2} onClick={showWord}>
                   {el.description.map((desc, idxDes) => (
-                    <Text key={idxDes} fontSize={'sm'} color={'gray.500'}>
+                    <Text
+                      key={idxDes}
+                      fontSize={'sm'}
+                      color={'gray.500'}
+                      title={word}
+                    >
                       - {desc}
                     </Text>
                   ))}
@@ -236,7 +284,7 @@ function App() {
                       `(\\b${currentWord.slice(0, -2)}\\w*\\b)`,
                       'gi'
                     );
-                    const words = sentence.split(reg);
+                    const apartSentence = sentence.split(reg);
                     return (
                       <ListItem key={idx2}>
                         <ListIcon
@@ -245,29 +293,32 @@ function App() {
                           fontSize={12}
                           verticalAlign={'baseline'}
                         />
-                        {words.map((word, idx3) =>
-                          idx3 === 1 ? (
-                            el.checked ? (
-                              <Text
-                                fontWeight={500}
-                                as="span"
-                                color={'#2c82c9'}
-                              >
-                                {word}
-                              </Text>
+                        <CopyText onClick={handleCopy}>
+                          {apartSentence.map((part, idx3) =>
+                            idx3 === 1 ? (
+                              el.checked ? (
+                                <Text
+                                  fontWeight={500}
+                                  as="span"
+                                  color={'#2c82c9'}
+                                >
+                                  {part}
+                                </Text>
+                              ) : (
+                                <Text
+                                  key={idx3}
+                                  as="span"
+                                  color={'gray.500'}
+                                  letterSpacing={4}
+                                >
+                                  .....
+                                </Text>
+                              )
                             ) : (
-                              <Text
-                                as="span"
-                                color={'gray.500'}
-                                letterSpacing={4}
-                              >
-                                .....
-                              </Text>
+                              <Fragment key={idx3}>{part}</Fragment>
                             )
-                          ) : (
-                            word
-                          )
-                        )}
+                          )}
+                        </CopyText>
                       </ListItem>
                     );
                   })}
