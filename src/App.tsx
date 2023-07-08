@@ -32,15 +32,25 @@ import {
   useToast,
 } from '@chakra-ui/react';
 import { vocabularies } from './data';
-import { ArrowForwardIcon, SunIcon, ViewIcon } from '@chakra-ui/icons';
+import {
+  ArrowForwardIcon,
+  CheckIcon,
+  SunIcon,
+  ViewIcon,
+} from '@chakra-ui/icons';
 import { getAudioUrl, getImageUrl, shuffleArray } from './helpers';
 import { CopyText } from './components/CopyText';
 import { Fragment } from 'react';
+import { supabase } from './supabaseClient';
+import { WelcomeModal } from './components/welcome-modal/WelcomeModal';
+import { useWordsStore } from './stores/vocabulary-store';
+import { uniq } from 'lodash';
 
 const PAGE_SIZE = 40;
 
 function App() {
-  const [page, setPage] = useState(0);
+  const p = new URLSearchParams(window.location.search).get('p');
+  const [page, setPage] = useState(+(p ?? 1) - 1);
   const toast = useToast();
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [currentVocabularies, setCurrentVocabularies] = useState<Data[]>(
@@ -48,12 +58,27 @@ function App() {
   );
   const [activeCard, setActiveCard] = useState(0);
   const firstFieldRef = useRef<HTMLInputElement[]>([]);
+  const { userData } = useWordsStore();
+  const savedWordsLocal = useRef<string[]>(userData.savedWords ?? []);
 
   useEffect(() => {
     setCurrentVocabularies(
-      shuffleArray(vocabularies.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE))
+      shuffleArray(
+        vocabularies.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE)
+      ).map((el) => {
+        const hasSaved = userData.savedWords?.includes(el.word);
+        if (hasSaved) {
+          return {
+            ...el,
+            checked: true,
+            error: false,
+          };
+        }
+        return el;
+      })
     );
-  }, [page]);
+    savedWordsLocal.current = userData.savedWords;
+  }, [page, userData.savedWords]);
 
   useEffect(() => {
     window.scrollTo({
@@ -63,7 +88,7 @@ function App() {
   }, [page]);
 
   const word = useMemo(() => {
-    return currentVocabularies[activeCard].word.split(' ')[0];
+    return currentVocabularies[activeCard].word.split(' (')[0];
   }, [activeCard, currentVocabularies]);
 
   console.log({ '🚀': word });
@@ -74,8 +99,8 @@ function App() {
     }
   }, [isOpen, activeCard]);
 
-  const handlePlaySound = () => {
-    const audio = new Audio(getAudioUrl(word));
+  const handlePlaySound = (selectedWord) => {
+    const audio = new Audio(getAudioUrl(selectedWord));
     audio.play();
   };
 
@@ -98,7 +123,7 @@ function App() {
         return;
       }
       if (event.shiftKey && event.code === 'Space') {
-        handlePlaySound();
+        handlePlaySound(word);
         event.preventDefault();
         return;
       }
@@ -109,7 +134,7 @@ function App() {
         return;
       }
 
-      const value = (event.target as any).value.trim();
+      const value = String((event.target as any).value.trim()).toLowerCase();
       if (event.key === 'Enter' && value) {
         if (value === word) {
           setCurrentVocabularies((prevVal) => {
@@ -135,19 +160,38 @@ function App() {
         }
       }
     },
-    [activeCard, showWord]
+    [activeCard, onOpen, word]
   );
 
   const handleCopy = useCallback(() => {
     toast({
       description: 'Copied',
       position: 'top',
-      isClosable: true,
       variant: 'subtle',
       status: 'success',
-      duration: 1000,
+      duration: 2000,
     });
   }, []);
+
+  const handleSaveSingleWord = async (newWord: string) => {
+    savedWordsLocal.current = uniq([...savedWordsLocal.current, newWord]);
+    await supabase
+      .from('user_vocabulary')
+      .update({ data: savedWordsLocal.current })
+      .eq('name', userData.name);
+
+    toast({
+      description: (
+        <Text>
+          Saved <Text fontWeight={600}>{newWord}</Text>
+        </Text>
+      ),
+      position: 'top',
+      variant: 'subtle',
+      status: 'success',
+      duration: 2000,
+    });
+  };
 
   return (
     <Box
@@ -166,17 +210,16 @@ function App() {
       <SimpleGrid
         columns={{ md: 1, xl: 2 }}
         spacingX={{ xl: 4, '2xl': 6 }}
-        spacingY="40px"
+        spacingY="32px"
       >
         {currentVocabularies.map((el, idx) => {
-          const [realWord] = el.word.split(' ');
+          const [realWord] = el.word.split(' (');
+          const hasSaved = savedWordsLocal.current.includes(realWord);
           return (
             <Card
               key={idx}
-              border={el.checked ? '2px' : '1px'}
-              borderColor={
-                el.checked ? 'green.500' : el.error ? 'red.500' : 'gray.200'
-              }
+              border={'1px'}
+              borderColor={el.error ? 'red.500' : 'gray.200'}
             >
               <CardBody padding={[2, 4, 5, 5]}>
                 <Flex columnGap={2} alignItems={'center'}>
@@ -204,7 +247,7 @@ function App() {
                           ref={(elRef) =>
                             elRef && (firstFieldRef.current[idx] = elRef)
                           }
-                          placeholder="📝 📝"
+                          placeholder="📝"
                           variant="filled"
                           onKeyDown={handleKeyDown}
                           onFocus={() => {
@@ -230,6 +273,7 @@ function App() {
                         aria-label="SunIcon"
                         icon={<ViewIcon />}
                         onClick={onOpen}
+                        size={'sm'}
                       />
                     </PopoverTrigger>
                     <PopoverContent
@@ -247,7 +291,7 @@ function App() {
                           <Image
                             height={200}
                             width={500}
-                            objectFit="cover"
+                            objectFit="contain"
                             src={getImageUrl(realWord)}
                             fallbackSrc="https://via.placeholder.com/150"
                           />
@@ -260,8 +304,19 @@ function App() {
                     aria-label="SunIcon"
                     icon={<SunIcon />}
                     colorScheme="green"
-                    onClick={handlePlaySound}
+                    onClick={() => handlePlaySound(realWord)}
+                    size={'sm'}
                   />
+
+                  {!hasSaved && (
+                    <IconButton
+                      colorScheme="facebook"
+                      aria-label="CheckIcon"
+                      icon={<CheckIcon />}
+                      onClick={() => handleSaveSingleWord(el.word)}
+                      size={'sm'}
+                    />
+                  )}
                 </Flex>
 
                 <Box ml={5} mt={2} onClick={showWord}>
@@ -269,24 +324,24 @@ function App() {
                     <Text
                       key={idxDes}
                       fontSize={'sm'}
-                      color={'gray.500'}
-                      title={word}
+                      color={'gray.700'}
+                      title={realWord}
                     >
-                      - {desc}
+                      - {el.checked ? desc.replace('___', realWord) : desc}
                     </Text>
                   ))}
                 </Box>
 
-                <List mt={2}>
+                <List>
                   {el.sentences.map((sentence, idx2) => {
-                    const [currentWord] = el.word.split(' ');
+                    // Normalize v-ing, v-ed
                     const reg = new RegExp(
-                      `(\\b${currentWord.slice(0, -2)}\\w*\\b)`,
+                      `(\\b${realWord.slice(0, -2)}\\w*\\b)`,
                       'gi'
                     );
                     const apartSentence = sentence.split(reg);
                     return (
-                      <ListItem key={idx2}>
+                      <ListItem key={idx2} lineHeight={'20px'} mt={2}>
                         <ListIcon
                           as={ArrowForwardIcon}
                           color="gray.500"
@@ -351,6 +406,7 @@ function App() {
           )
         )}
       </Flex>
+      <WelcomeModal />
     </Box>
   );
 }

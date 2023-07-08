@@ -235,19 +235,19 @@ export const vocabularies: Data[] = [
       `She's an expert in her field, and is paid accordingly.`,
     ],
   },
-  {
-    word: 'accusation',
-    description: [
-      `a statement saying that someone has done something morally wrong, illegal, or unkind, or the fact of accusing someone`,
-    ],
-    sentences: [
-      `The politician vehemently denied the corruption accusations leveled against him.`,
-      `She was shocked and hurt by the false accusation made by her closest friend.`,
-      `The police investigated the murder accusation and gathered evidence to support their case.`,
-      `The company faced legal repercussions due to the accusation of trademark infringement.`,
-      `The athlete faced severe consequences after a doping accusation tarnished their reputation.`,
-    ],
-  },
+  // {
+  //   word: 'accusation',
+  //   description: [
+  //     `a statement saying that someone has done something morally wrong, illegal, or unkind, or the fact of accusing someone`,
+  //   ],
+  //   sentences: [
+  //     `The politician vehemently denied the corruption accusations leveled against him.`,
+  //     `She was shocked and hurt by the false accusation made by her closest friend.`,
+  //     `The police investigated the murder accusation and gathered evidence to support their case.`,
+  //     `The company faced legal repercussions due to the accusation of trademark infringement.`,
+  //     `The athlete faced severe consequences after a doping accusation tarnished their reputation.`,
+  //   ],
+  // },
   {
     word: 'ache',
     description: [
@@ -319,6 +319,16 @@ export const vocabularies: Data[] = [
       `to live or stay somewhere`,
       `If you can't ___ someone or something, you dislike them very much`,
     ],
+    sentences: [
+      `I will abide by the rules and regulations set forth by the organization.`,
+      `Despite the challenges, she remained steadfast and determined, showing her ability to abide in difficult situations.`,
+      `The peaceful town has a strong sense of community, where residents abide by a code of mutual respect and cooperation.`,
+      `It is essential for everyone to abide by the laws of the land to maintain a harmonious and orderly society.`,
+    ],
+  },
+  {
+    word: 'abide by',
+    description: [`to accept or obey an agreement, decision, or rule`],
     sentences: [
       `As a responsible citizen, it is important to abide by the laws of the land.`,
       `The team made a pact to abide by the coach's instructions and play as a unified unit.`,
@@ -398,7 +408,11 @@ export const vocabularies: Data[] = [
   },
   {
     word: 'afford',
-    description: [`to allow someone to have something pleasant or necessary`],
+    description: [
+      `to be able to buy or do something because you have enough money or time`,
+      `to have enough money or time to buy, keep, or do something`,
+      `to allow someone to have something pleasant or necessary`,
+    ],
     sentences: [
       `They couldn't afford to buy a new car, so they opted for a used one instead.`,
       `She worked multiple jobs to afford her tuition fees and cover living expenses.`,
@@ -406,39 +420,38 @@ export const vocabularies: Data[] = [
       `With their recent pay raise, they could now afford to upgrade their living arrangements.`,
     ],
   },
+  // {
+  //   word: 'allege',
+  //   description: [
+  //     `(c2) to say that someone has done something illegal or wrong without giving proof`,
+  //     `to accuse someone of something`,
+  //   ],
+  //   sentences: [
+  //     `The witness alleged that they saw the defendant leaving the scene of the crime.`,
+  //     `The news article alleged corruption within the government, sparking a public outcry.`,
+  //     `The employee alleged workplace discrimination and filed a formal complaint.`,
+  //     `The prosecution alleged that the suspect had planned the crime meticulously.`,
+  //   ],
+  // },
+  // {
+  //   word: 'alleged',
+  //   description: [
+  //     `(adj) said or thought by some people to be the stated bad or illegal thing, although you have no proof`,
+  //   ],
+  //   sentences: [
+  //     `The alleged thief was apprehended by the police based on eyewitness accounts.`,
+  //     `The alleged scandal rocked the political landscape, leading to widespread public scrutiny.`,
+  //     `The alleged cheating incident in the exam prompted an investigation by the school authorities.`,
+  //     `The alleged abuse claims against the celebrity were vehemently denied by their legal team.`,
+  //   ],
+  // },
   {
-    word: 'allege',
-    description: [
-      `(c2) to say that someone has done something illegal or wrong without giving proof`,
-      `to accuse someone of something`,
-    ],
-    sentences: [
-      `The witness alleged that they saw the defendant leaving the scene of the crime.`,
-      `The news article alleged corruption within the government, sparking a public outcry.`,
-      `The employee alleged workplace discrimination and filed a formal complaint.`,
-      `The prosecution alleged that the suspect had planned the crime meticulously.`,
-    ],
-  },
-  {
-    word: 'alleged',
-    description: [
-      `(adj) said or thought by some people to be the stated bad or illegal thing, although you have no proof`,
-    ],
-    sentences: [
-      `The alleged thief was apprehended by the police based on eyewitness accounts.`,
-      `The alleged scandal rocked the political landscape, leading to widespread public scrutiny.`,
-      `The alleged cheating incident in the exam prompted an investigation by the school authorities.`,
-      `The alleged abuse claims against the celebrity were vehemently denied by their legal team.`,
-    ],
-  },
-  {
-    word: 'allude_to_someone-something',
+    word: 'allude',
     description: [
       `to mention someone or something without talking about him, her, or it directly`,
     ],
     sentences: [
       `During the conversation, she cleverly alluded to her upcoming surprise party without giving away the details.`,
-      `The professor's lecture briefly alluded to the historical context of the novel.`,
       `In his speech, the politician skillfully alluded to the challenges the country was facing without directly addressing them.`,
       `The painting's symbolism subtly alluded to the artist's personal struggles.`,
     ],
@@ -480,7 +493,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'an_arrival_date_of_no_later_than',
+    word: 'arrival',
     description: [`the fact of arriving somewhere`],
     sentences: [
       `The shipping company guaranteed an arrival date of no later than July 10th for the package.`,
@@ -515,7 +528,6 @@ export const vocabularies: Data[] = [
   {
     word: 'anticipate',
     description: [
-      `to imagine or expect that something will happen`,
       `to imagine or expect that something will happen, sometimes taking action in preparation for it`,
     ],
     sentences: [
@@ -651,7 +663,7 @@ export const vocabularies: Data[] = [
       `The florist created a stunning floral arrangement for the wedding reception.`,
       `The musician composed a new arrangement of a classic song.`,
       `The team worked together to make the seating arrangement for the conference.`,
-      `The couple made an arrangement with their neighbors to water their plants while they were on vacatio`,
+      `The couple made an arrangement with their neighbors to water their plants while they were on vacation`,
     ],
   },
   {
@@ -704,7 +716,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'assemble_manufacture',
+    word: 'assemble (manufacture)',
     description: [
       `to come together in a single place or bring parts together in a single group`,
       `to make something by joining separate parts`,
@@ -755,8 +767,8 @@ export const vocabularies: Data[] = [
   {
     word: 'avert',
     description: [
-      `to prevent something bad from happening`,
       `to turn away your eyes or thoughts`,
+      `to prevent something bad from happening`,
     ],
     sentences: [
       `The quick actions of the lifeguard helped avert a potential drowning incident at the beach.`,
@@ -792,7 +804,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'be tempted',
+    word: 'tempted',
     description: [
       `to make someone want to have or do something, especially something that is unnecessary or wrong`,
       `to encourage someone to want to have or do something, esp. something wrong`,
@@ -800,7 +812,7 @@ export const vocabularies: Data[] = [
     sentences: [
       `She tried to resist, but the mouthwatering aroma of freshly baked cookies tempted her.`,
       `He was tempted to skip the gym and stay home to watch TV instead.`,
-      `The enticing sale tempted her to buy more clothes than she needed.`,
+      `The big sale tempted her to buy more clothes than she needed.`,
       `The delicious cake on the dessert menu was too tempting to resist.`,
     ],
   },
@@ -834,7 +846,7 @@ export const vocabularies: Data[] = [
     word: 'berth',
     description: [
       `a bed in a boat, train, etc., or a place for a ship or boat to stay in a port`,
-      `(v) If a ship or boat berths or if you berth it somewhere, it is tied up and stays in that place`,
+      `(v) If a ship or boat ___s or if you berth it somewhere, it is tied up and stays in that place`,
     ],
     sentences: [
       `The captain skillfully maneuvered the ship into its designated berth at the port.`,
@@ -860,7 +872,7 @@ export const vocabularies: Data[] = [
     word: 'bizarre',
     description: [`very strange and unusual`],
     sentences: [
-      `The fashion show featured models wearing bizarre and avant-garde outfits.`,
+      // `The fashion show featured models wearing bizarre and avant-garde outfits.`,
       `The story in the book took a bizarre twist, leaving readers perplexed.`,
       `The artist's paintings were known for their bizarre and surreal elements.`,
       `The movie's plot was filled with bizarre occurrences and unexpected events.`,
@@ -1007,24 +1019,25 @@ export const vocabularies: Data[] = [
       `The royal wedding procession included a beautifully adorned carriage carrying the bride and groom`,
     ],
   },
-  {
-    word: 'cartridge',
-    description: [
-      `a container that is used in a larger piece of equipment, and which can be replaced with another similar part`,
-      `a small tube containing an explosive substance and a bullet for use in a gun`,
-    ],
-    sentences: [
-      `The video game console required inserting a game cartridge to play.`,
-      `The hunter loaded a fresh cartridge into their rifle before heading into the woods.`,
-      `The printer ran out of ink cartridges, causing a pause in the office's printing tasks.`,
-      `The archaeologists discovered ancient cartridge cases used for storing valuable documents.`,
-    ],
-  },
+  // {
+  //   word: 'cartridge',
+  //   description: [
+  //     `a container that is used in a larger piece of equipment, and which can be replaced with another similar part`,
+  //     `a small tube containing an explosive substance and a bullet for use in a gun`,
+  //   ],
+  //   sentences: [
+  //     `The video game console required inserting a game cartridge to play.`,
+  //     `The hunter loaded a fresh cartridge into their rifle before heading into the woods.`,
+  //     `The printer ran out of ink cartridges, causing a pause in the office's printing tasks.`,
+  //     `The archaeologists discovered ancient cartridge cases used for storing valuable documents.`,
+  //   ],
+  // },
   {
     word: 'casually',
     description: [
       `in a way that is not formal or not suitable for a special or official occasion`,
       `in a way that is not regular or fixed`,
+      `in a way that is not serious or considered, or that happens by chance`,
     ],
     sentences: [
       `He casually strolled down the street, hands in his pockets, without a care in the world.`,
@@ -1060,18 +1073,18 @@ export const vocabularies: Data[] = [
       `She's very choosy about what she eats and drinks.`,
     ],
   },
-  {
-    word: 'cigarette butt',
-    description: [
-      `the part of a cigarette that is left after it has been smoked`,
-    ],
-    sentences: [
-      `The littering person carelessly dropped their cigarette butt on the ground instead of disposing of it properly.`,
-      `The environmental activist organized a campaign to raise awareness about the harmful effects of cigarette butt pollution.`,
-      `The park had designated smoking areas with designated bins for cigarette butt disposal.`,
-      `She found a discarded cigarette butt and disposed of it in the appropriate container.`,
-    ],
-  },
+  // {
+  //   word: 'cigarette butt',
+  //   description: [
+  //     `the part of a cigarette that is left after it has been smoked`,
+  //   ],
+  //   sentences: [
+  //     `The littering person carelessly dropped their cigarette butt on the ground instead of disposing of it properly.`,
+  //     `The environmental activist organized a campaign to raise awareness about the harmful effects of cigarette butt pollution.`,
+  //     `The park had designated smoking areas with designated bins for cigarette butt disposal.`,
+  //     `She found a discarded cigarette butt and disposed of it in the appropriate container.`,
+  //   ],
+  // },
   {
     word: 'civic center',
     description: [`The building was transformed into a museum and ___`],
@@ -1111,7 +1124,7 @@ export const vocabularies: Data[] = [
   {
     word: 'clumsy',
     description: [
-      `A clumsy person often has accidents because they do not behave in a careful, controlled way`,
+      `A ___ person often has accidents because they do not behave in a careful, controlled way`,
       `not skilful in the way you deal with or express something`,
     ],
     sentences: [
@@ -1319,7 +1332,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'concede',
+    word: 'concede (c2)',
     description: [
       `to admit, often unwillingly, that something is true`,
       `to allow someone to have something, even if you do not want to`,
@@ -1403,7 +1416,7 @@ export const vocabularies: Data[] = [
   {
     word: 'congested',
     description: [
-      `____ roads and towns have too much traffic and movement is made difficult`,
+      `___ roads and towns have too much traffic and movement is made difficult`,
       `If you are or your nose is  ___ed, you cannot breathe through your nose because it is blocked, usually during an infection.`,
     ],
     sentences: [
@@ -1414,7 +1427,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'conscious',
+    word: 'conscious (c1)',
     description: [
       `to notice that a particular thing or person exists or is present`,
       `awake, thinking, and knowing what is happening around you`,
@@ -1429,7 +1442,7 @@ export const vocabularies: Data[] = [
   {
     word: 'consecutive',
     description: [
-      `____ events, numbers, etc. follow one after another without an interruption`,
+      `___ events, numbers, etc. follow one after another without an interruption`,
       `following one after another without an interruption`,
     ],
     sentences: [
@@ -1467,10 +1480,10 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'conservative',
+    word: 'conservative (c2) (n,v)',
     description: [
       `not usually liking or trusting change, especially sudden change`,
-      `If you are ____ in your appearance, you wear clothes in traditional colors and styles`,
+      `If you are ___ in your appearance, you wear clothes in traditional colors and styles`,
       `not involving or taking unnecessary risks`,
     ],
     sentences: [
@@ -1611,7 +1624,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'courteous',
+    word: 'courteous (c2)',
     description: [`polite and showing respect`],
     sentences: [
       `The receptionist greeted guests with a warm and courteous smile.`,
@@ -1647,7 +1660,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'crucial',
+    word: 'crucial (b2)',
     description: [
       `extremely important or necessary`,
       `(of a decision or event) extremely important because many other things depend on it`,
@@ -1659,19 +1672,19 @@ export const vocabularies: Data[] = [
       `The crucial step in the experiment was the accurate measurement of the ingredients.`,
     ],
   },
-  {
-    word: 'cruel',
-    description: [
-      `(adj) extremely unkind and unpleasant and causing pain to people or animals intentionally`,
-      `extremely unkind and intentionally causing pain`,
-    ],
-    sentences: [
-      `Animal cruelty is a serious offense that should be punished.`,
-      `The dictator ruled with a cruel and iron fist, suppressing dissent.`,
-      `Bullying is a cruel behavior that can have long-lasting effects on its victims.`,
-      `The harsh and cruel conditions in the factory led to protests from workers.`,
-    ],
-  },
+  // {
+  //   word: 'cruel',
+  //   description: [
+  //     `(adj) extremely unkind and unpleasant and causing pain to people or animals intentionally`,
+  //     `extremely unkind and intentionally causing pain`,
+  //   ],
+  //   sentences: [
+  //     `Animal cruelty is a serious offense that should be punished.`,
+  //     `The dictator ruled with a cruel and iron fist, suppressing dissent.`,
+  //     `Bullying is a cruel behavior that can have long-lasting effects on its victims.`,
+  //     `The harsh and cruel conditions in the factory led to protests from workers.`,
+  //   ],
+  // },
   {
     word: 'cruise',
     description: [
@@ -1780,7 +1793,7 @@ export const vocabularies: Data[] = [
     word: 'defy',
     description: [`to refuse to obey a person, decision, law, situation, etc`],
     sentences: [
-      `The acrobat's performance seemed to defy gravity with daring stunts.`,
+      `I defy you to prove your accusations.`,
       `She decided to defy her parents' expectations and pursue her own dreams.`,
       `The revolutionary technology defied all previous limitations, opening new possibilities.`,
       `The athlete's perseverance and determination allowed him to defy the odds and achieve greatness.`,
@@ -1800,7 +1813,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'delighted',
+    word: 'delighted (b1)',
     description: [`very pleased`],
     sentences: [
       `She was delighted to receive an unexpected gift from her best friend.`,
@@ -1851,7 +1864,7 @@ export const vocabularies: Data[] = [
   {
     word: 'derail',
     description: [
-      `If a train ____s or is ____ed, it comes off the railway tracks`,
+      `If a train ___s or is ___ed, it comes off the railway tracks`,
       `to stop something from succeeding`,
     ],
     sentences: [
@@ -1863,7 +1876,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'deserved',
+    word: 'deserved (adj)',
     description: [
       `used to refer to something that you earn or are given because of your behaviour or qualities`,
     ],
@@ -2268,7 +2281,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'early_evening',
+    word: 'early evening',
     description: [
       ` typically refers to the time period shortly after the afternoon and before the night. It is characterized by diminishing daylight and the transition from the day to the evening. `,
     ],
@@ -2446,7 +2459,7 @@ export const vocabularies: Data[] = [
     word: 'enforceable',
     description: [
       `(of a law or rule) possible to make people obey, or possible to make happen or be accepted`,
-      `an ____ law, rule, contract, etc. is one that people can be made to obey`,
+      `an ___ law, rule, contract, etc. is one that people can be made to obey`,
     ],
     sentences: [
       `The contract contained enforceable clauses to protect the rights and obligations of both parties.`,
@@ -2883,7 +2896,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'fountain_pen',
+    word: 'fountain pen',
     description: [],
     sentences: [
       `The writer preferred using a fountain pen for its smooth and elegant writing experience.`,
@@ -2903,7 +2916,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'fraudulently_unlawfully',
+    word: 'fraudulently (unlawfully)',
     description: [
       `in a way that intends to deceive by doing something dishonest and illegal`,
     ],
@@ -3002,7 +3015,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'go_straight_to',
+    word: 'go straight to',
     description: [],
     sentences: [
       `If you want to reach the bookstore, go straight to the end of the street and turn right.`,
@@ -3297,7 +3310,7 @@ export const vocabularies: Data[] = [
   {
     word: 'inclement',
     description: [
-      `____ weather is unpleasant, especially with cold wind and rain`,
+      `___ weather is unpleasant, especially with cold wind and rain`,
       `(of weather) unpleasant, esp. cold or stormy`,
     ],
     sentences: [
@@ -3423,10 +3436,7 @@ export const vocabularies: Data[] = [
   },
   {
     word: 'infant',
-    description: [
-      `a baby or a very young child`,
-      `a student at an ____ school`,
-    ],
+    description: [`a baby or a very young child`, `a student at an ___ school`],
     sentences: [
       `The newborn infant was carefully cradled in their mother's arms.`,
       `The pediatrician provided guidance on caring for the infant's health and well-being.`,
@@ -3488,7 +3498,7 @@ export const vocabularies: Data[] = [
   },
   {
     word: 'inhabit',
-    description: [],
+    description: ['to live in a place'],
     sentences: [
       `Many different species of birds inhabit the forest.`,
       `The island is uninhabited, making it an ideal destination for a secluded getaway.`,
@@ -3815,7 +3825,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'leaned_over',
+    word: 'leaned over',
     description: [
       `to (cause to) slope in one direction, or to move the top part of the body in a particular direction`,
     ],
@@ -3922,7 +3932,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'maternity_leave',
+    word: 'maternity leave',
     description: [
       `a period in which a woman is legally allowed to be absent from work in the weeks before and after she gives birth`,
       `the period when a woman can legally be absent from work in the weeks before and after she has a baby`,
@@ -3938,7 +3948,7 @@ export const vocabularies: Data[] = [
     word: 'merit',
     description: [
       `the quality of being good and deserving praise`,
-      `(v) If something ____s a particular treatment, it deserves or is considered important enough to be treated in that way`,
+      `(v) If something ___s a particular treatment, it deserves or is considered important enough to be treated in that way`,
     ],
     sentences: [
       `The student's essay received a high grade due to its well-researched content and strong arguments.`,
@@ -4233,7 +4243,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'paternity_leave',
+    word: 'paternity leave',
     description: [
       `a period of time that a father is legally allowed to be away from his job so that he can spend time with his new baby`,
     ],
@@ -4410,7 +4420,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'plays_the_part_of',
+    word: 'plays the part of',
     description: [
       `It is often used to describe someone who is acting in a play, movie, or theatrical production, where they portray a specific character by speaking lines, displaying emotions, and engaging in the actions of that character.`,
     ],
@@ -5191,7 +5201,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'run_into',
+    word: 'run into',
     description: [
       `Encounter by chance`,
       `Collide or crash into, Experience a problem or difficulty`,
@@ -5204,7 +5214,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'run_out',
+    word: 'run out',
     description: [
       `Exhaust the supply, Reach the end of availability, Time or duration expires`,
     ],
@@ -5238,7 +5248,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'savings_account',
+    word: 'savings account',
     description: [
       `an account in a bank or similar financial organization that earns interest`,
     ],
@@ -5352,7 +5362,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'seasonal_work',
+    word: 'seasonal work',
     description: [
       ` refers to employment opportunities that are temporary and tied to specific seasons or periods of the year. These jobs are typically available during certain times when there is a higher demand for particular goods or services due to seasonal factors.`,
     ],
@@ -5553,7 +5563,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'skewed_distorted',
+    word: 'skewed (distorted)',
     description: [`not accurate or exact`],
     sentences: [
       `The study found that the data had been skewed by a small sample size.`,
@@ -6079,7 +6089,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'the_charity',
+    word: 'the charity',
     description: [
       `an organization whose purpose is to give money, food, or help to those who need it, or to carry out activities such as medical research that will help people in need, and not to make a profit`,
       `the giving of money, food, or help to those who need it, or an organization that does this`,
@@ -6092,7 +6102,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'the_summit',
+    word: 'the summit',
     description: [
       `an important formal meeting between leaders of governments from two or more countries`,
       `the highest point of a mountain`,
@@ -6105,7 +6115,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'the_trail_markers',
+    word: 'the trail markers',
     description: [
       `efers to physical signs or symbols that are placed along a trail or path to guide and assist hikers, walkers, or outdoor enthusiasts.`,
     ],
@@ -6196,7 +6206,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'to_staff',
+    word: 'to staff',
     description: [
       `to be or provide the people who work for an organization`,
       `(n) the group of people who work for an organization`,
@@ -6209,7 +6219,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'tone_pace',
+    word: 'tone (pace)',
     description: [`can refer to the quality or character of sound or music`],
     sentences: [
       `The speaker adjusted their tone and pace to captivate the audience's attention.`,
@@ -6340,7 +6350,7 @@ export const vocabularies: Data[] = [
   {
     word: 'underway',
     description: [
-      `If something is ____, it is happening now`,
+      `If something is ___, it is happening now`,
       `beginning to exist or is happening now`,
     ],
     sentences: [
@@ -6419,9 +6429,9 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'until_further_notice',
+    word: 'until further notice',
     description: [
-      `"Until further notice" is a phrase commonly used to indicate that a particular situation or condition will continue or remain in effect until new information or instructions are provided.`,
+      `Until further notice is a phrase commonly used to indicate that a particular situation or condition will continue or remain in effect until new information or instructions are provided.`,
     ],
     sentences: [
       `The event has been postponed until further notice due to unforeseen circumstances.`,
@@ -6644,7 +6654,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'what_a_burden',
+    word: 'what a burden',
     description: [
       `is an expression that conveys a sense of heaviness or difficulty associated with a particular situation, task, or responsibility.`,
     ],
@@ -6686,7 +6696,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'work_out',
+    word: 'work out',
     description: [
       `to do a calculation to get an answer to a mathematical question`,
       `to exercise in order to improve the strength or appearance of your body`,
