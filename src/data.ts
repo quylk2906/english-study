@@ -4,6 +4,7 @@ export type Data = {
   sentences: string[];
   checked?: boolean;
   error?: boolean;
+  //test build
 };
 
 export const vocabularies: Data[] = [

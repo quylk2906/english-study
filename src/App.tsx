@@ -297,7 +297,6 @@ function App() {
           )
         )}
       </Flex>
-      {/* <WelcomeModal /> */}
     </Box>
   );
 }
