@@ -1,12 +1,3 @@
-export type Data = {
-  word: string;
-  description: string[];
-  sentences: string[];
-  checked?: boolean;
-  error?: boolean;
-  //test build
-};
-
 export const vocabularies: Data[] = [
   {
     word: 'comprise',

@@ -23,9 +23,9 @@ import {
   Text,
   useDisclosure,
 } from '@chakra-ui/react';
-import { Data, vocabularies } from './data';
+import { vocabularies } from './data';
 import { ArrowForwardIcon, SunIcon, ViewIcon } from '@chakra-ui/icons';
-import { getAudioUrl, getImageUrl } from './helpers';
+import { getAudioUrl, getImageUrl, shuffleArray } from './helpers';
 
 const PAGE_SIZE = 40;
 
@@ -123,7 +123,7 @@ function App() {
         spacingX={{ xl: 4, '2xl': 6 }}
         spacingY="40px"
       >
-        {currentVocabularies.map((el, idx) => {
+        {shuffleArray(currentVocabularies).map((el, idx) => {
           const [realWord] = el.word.split(' ');
           console.log(getImageUrl(realWord));
 
