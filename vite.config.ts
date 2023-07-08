@@ -6,4 +6,20 @@ import { optimizeLodashImports } from '@optimize-lodash/rollup-plugin';
 export default defineConfig({
   base: 'https://quylk2906.github.io/english-study',
   plugins: [react(), optimizeLodashImports()],
+
+  build: {
+    rollupOptions: {
+      output: {
+        assetFileNames: (assetInfo) => {
+          let extType = assetInfo.name.split('.')[1];
+          if (/png|jpe?g|svg|gif|tiff|bmp|ico/i.test(extType)) {
+            extType = 'img';
+          }
+          return `assets/${extType}/[name]-[hash][extname]`;
+        },
+        chunkFileNames: 'assets/js/[name]-[hash].js',
+        entryFileNames: 'assets/js/[name]-[hash].js',
+      },
+    },
+  },
 });

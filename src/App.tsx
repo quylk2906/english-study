@@ -25,6 +25,7 @@ import {
 } from '@chakra-ui/react';
 import { Data, vocabularies } from './data';
 import { ArrowForwardIcon, SunIcon, ViewIcon } from '@chakra-ui/icons';
+import { getImageUrl } from './helpers';
 
 const PAGE_SIZE = 40;
 
@@ -124,6 +125,8 @@ function App() {
       >
         {currentVocabularies.map((el, idx) => {
           const [realWord] = el.word.split(' ');
+          console.log(getImageUrl(realWord));
+
           return (
             <Card
               key={idx}
@@ -202,7 +205,7 @@ function App() {
                             height={200}
                             width={500}
                             objectFit="cover"
-                            src={`src/assets/resources/${realWord}.jpg`}
+                            src={getImageUrl(realWord)}
                             fallbackSrc="https://via.placeholder.com/150"
                           />
                         </Box>
