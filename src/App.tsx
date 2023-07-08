@@ -26,7 +26,7 @@ import {
 import { Data, vocabularies } from './data';
 import { ArrowForwardIcon, SunIcon, ViewIcon } from '@chakra-ui/icons';
 
-const PAGE_SIZE = 10;
+const PAGE_SIZE = 40;
 
 function App() {
   const [page, setPage] = useState(0);
