@@ -1791,7 +1791,10 @@ export const vocabularies: Data[] = [
   },
   {
     word: 'defy',
-    description: [`to refuse to obey a person, decision, law, situation, etc`],
+    description: [
+      `to refuse to obey a person, decision, law, situation, etc`,
+      `to tell someone to do something that you think will be impossible`,
+    ],
     sentences: [
       `I defy you to prove your accusations.`,
       `She decided to defy her parents' expectations and pursue her own dreams.`,
@@ -2083,7 +2086,6 @@ export const vocabularies: Data[] = [
       `The sight of the rotting garbage filled her with disgust.`,
       `The thought of eating insects disgusted some people, while others found it intriguing.`,
       `His offensive remarks filled her with disgust and anger.`,
-      `The conditions in the prison were deplorable, leaving the inmates feeling a deep sense of disgust.`,
       `Doesn't all this violence on TV disgust you?`,
     ],
   },
@@ -2169,7 +2171,6 @@ export const vocabularies: Data[] = [
     sentences: [
       `The unexpected power outage caused a disruption in the office, halting work for several hours.`,
       `The introduction of new technology brought disruption to traditional industries.`,
-      `The protest march created a disruption in the city, affecting traffic and daily activities.`,
       `The sudden change in management strategy caused disruption among the employees.`,
     ],
   },
@@ -2219,6 +2220,7 @@ export const vocabularies: Data[] = [
     description: [
       `to interrupt what someone is doing`,
       `to cause someone to stop what the person is doing, or to interrupt an activity`,
+      `___ing (adj): making you feel worried or upset`,
     ],
     sentences: [
       `The loud music coming from the party next door disturbed their peaceful evening.`,
@@ -2366,19 +2368,19 @@ export const vocabularies: Data[] = [
       `The pest control measures were successful in eliminating the infestation.`,
     ],
   },
-  {
-    word: 'eloquent',
-    description: [
-      `giving a clear, strong message`,
-      `using language to express ideas or opinions clearly and well, so that they have a strong effect on others`,
-    ],
-    sentences: [
-      `The speaker delivered an eloquent speech that moved the audience to tears.`,
-      `She expressed her thoughts in an eloquent manner, captivating her listeners.`,
-      `The writer's eloquent prose painted vivid images in the reader's mind.`,
-      `The lawyer's eloquent arguments convinced the jury of his client's innocence.`,
-    ],
-  },
+  // {
+  //   word: 'eloquent',
+  //   description: [
+  //     `giving a clear, strong message`,
+  //     `using language to express ideas or opinions clearly and well, so that they have a strong effect on others`,
+  //   ],
+  //   sentences: [
+  //     `The speaker delivered an eloquent speech that moved the audience to tears.`,
+  //     `She expressed her thoughts in an eloquent manner, captivating her listeners.`,
+  //     `The writer's eloquent prose painted vivid images in the reader's mind.`,
+  //     `The lawyer's eloquent arguments convinced the jury of his client's innocence.`,
+  //   ],
+  // },
   {
     word: 'embark',
     description: [`to go onto a ship`, `to go onto a ship, aircraft, or train`],
@@ -2464,7 +2466,6 @@ export const vocabularies: Data[] = [
     sentences: [
       `The contract contained enforceable clauses to protect the rights and obligations of both parties.`,
       `The new law introduced enforceable penalties for tax evasion.`,
-      `The court ruled that the non-compete agreement was not enforceable due to certain legal loopholes.`,
       `It's important to have clear and enforceable rules in place to maintain order in a community.`,
     ],
   },
@@ -2491,7 +2492,7 @@ export const vocabularies: Data[] = [
   },
   {
     word: 'enthusiastic',
-    description: [],
+    description: [`having or showing intense and eager enjoyment, interest`],
     sentences: [
       `The students were enthusiastic about the upcoming field trip and eagerly prepared for it.`,
       `She gave an enthusiastic presentation, showcasing her passion for the topic.`,
@@ -2542,6 +2543,7 @@ export const vocabularies: Data[] = [
       `to rub or be rubbed away gradually`,
       `to slowly reduce or destroy something`,
       `to weaken or damage something by taking away parts of it gradually, or to become weaker in this way`,
+      `(n) the fact of soil, stone, etc. being gradually damaged and removed by the waves, rain, or wind`,
     ],
     sentences: [
       `The constant exposure to water caused the rocks to erode over time.`,

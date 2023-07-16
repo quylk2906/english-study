@@ -212,176 +212,190 @@ function App() {
         spacingX={{ xl: 4, '2xl': 6 }}
         spacingY="32px"
       >
-        {currentVocabularies.map((el, idx) => {
-          const [realWord] = el.word.split(' (');
-          const hasSaved = savedWordsLocal.current.includes(realWord);
-          return (
-            <Card
-              key={idx}
-              border={'1px'}
-              borderColor={el.error ? 'red.500' : 'gray.200'}
-            >
-              <CardBody padding={[2, 4, 5, 5]}>
-                <Flex columnGap={2} alignItems={'center'}>
-                  <Box
-                    flexGrow={1}
-                    onClick={() => {
-                      onClose();
-                      if (activeCard !== idx) {
-                        setActiveCard(idx);
-                      }
-                    }}
-                  >
-                    {el.checked ? (
-                      <Heading
-                        size="xs"
-                        textTransform="uppercase"
-                        ml={3}
-                        color={'#2c82c9'}
-                      >
-                        {el.word}
-                      </Heading>
-                    ) : (
-                      <InputGroup borderRadius={4} overflow="hidden">
-                        <Input
-                          ref={(elRef) =>
-                            elRef && (firstFieldRef.current[idx] = elRef)
-                          }
-                          placeholder="📝"
-                          variant="filled"
-                          onKeyDown={handleKeyDown}
-                          onFocus={() => {
-                            if (activeCard !== idx) {
-                              setActiveCard(idx);
-                            }
-                          }}
-                        />
-                      </InputGroup>
-                    )}
-                  </Box>
-                  <Popover
-                    placement="bottom-end"
-                    isOpen={isOpen && activeCard === idx}
-                    onOpen={onOpen}
-                    onClose={onClose}
-                    closeOnBlur={false}
-                    returnFocusOnClose={false}
-                    offset={[-180, 4]}
-                  >
-                    <PopoverTrigger>
-                      <IconButton
-                        aria-label="SunIcon"
-                        icon={<ViewIcon />}
-                        onClick={onOpen}
-                        size={'sm'}
-                      />
-                    </PopoverTrigger>
-                    <PopoverContent
-                      _focusVisible={{
-                        outline: '0',
-                        boxShadow: 'unset',
+        {currentVocabularies
+          // .filter((item) => item.word === 'fed up')
+          .map((el, idx) => {
+            const [realWord] = el.word.split(' (');
+            const hasSaved = savedWordsLocal.current.includes(realWord);
+            return (
+              <Card
+                key={idx}
+                border={'1px'}
+                borderColor={el.error ? 'red.500' : 'gray.200'}
+              >
+                <CardBody padding={[2, 4, 5, 5]}>
+                  <Flex columnGap={2} alignItems={'center'}>
+                    <Box
+                      flexGrow={1}
+                      onClick={() => {
+                        onClose();
+                        if (activeCard !== idx) {
+                          setActiveCard(idx);
+                        }
                       }}
                     >
-                      <PopoverBody
-                        bgColor={'#ecf0f1'}
-                        boxShadow={'md'}
-                        width={500}
-                      >
-                        <Box>
-                          <Image
-                            height={200}
-                            width={500}
-                            objectFit="contain"
-                            src={getImageUrl(realWord)}
-                            fallbackSrc="https://via.placeholder.com/150"
+                      {el.checked ? (
+                        <CopyText
+                          onClick={handleCopy}
+                          text={el.word.toLowerCase()}
+                        >
+                          <Heading
+                            size="xs"
+                            textTransform="uppercase"
+                            ml={3}
+                            color={'#2c82c9'}
+                          >
+                            {el.word}
+                          </Heading>
+                        </CopyText>
+                      ) : (
+                        <InputGroup borderRadius={4} overflow="hidden">
+                          <Input
+                            ref={(elRef) =>
+                              elRef && (firstFieldRef.current[idx] = elRef)
+                            }
+                            placeholder="📝"
+                            variant="filled"
+                            onKeyDown={handleKeyDown}
+                            onFocus={() => {
+                              if (activeCard !== idx) {
+                                setActiveCard(idx);
+                              }
+                            }}
                           />
-                        </Box>
-                      </PopoverBody>
-                    </PopoverContent>
-                  </Popover>
+                        </InputGroup>
+                      )}
+                    </Box>
+                    <Popover
+                      placement="bottom-end"
+                      isOpen={isOpen && activeCard === idx}
+                      onOpen={onOpen}
+                      onClose={onClose}
+                      closeOnBlur={false}
+                      returnFocusOnClose={false}
+                      offset={[-180, 4]}
+                    >
+                      <PopoverTrigger>
+                        <IconButton
+                          aria-label="SunIcon"
+                          icon={<ViewIcon />}
+                          onClick={onOpen}
+                          size={'sm'}
+                        />
+                      </PopoverTrigger>
+                      <PopoverContent
+                        _focusVisible={{
+                          outline: '0',
+                          boxShadow: 'unset',
+                        }}
+                      >
+                        <PopoverBody
+                          bgColor={'#ecf0f1'}
+                          boxShadow={'md'}
+                          width={500}
+                        >
+                          <Box>
+                            <Image
+                              height={200}
+                              width={500}
+                              objectFit="contain"
+                              src={getImageUrl(realWord)}
+                              fallbackSrc="https://via.placeholder.com/150"
+                            />
+                          </Box>
+                        </PopoverBody>
+                      </PopoverContent>
+                    </Popover>
 
-                  <IconButton
-                    aria-label="SunIcon"
-                    icon={<SunIcon />}
-                    colorScheme="green"
-                    onClick={() => handlePlaySound(realWord)}
-                    size={'sm'}
-                  />
-
-                  {!hasSaved && (
                     <IconButton
-                      colorScheme="facebook"
-                      aria-label="CheckIcon"
-                      icon={<CheckIcon />}
-                      onClick={() => handleSaveSingleWord(el.word)}
+                      aria-label="SunIcon"
+                      icon={<SunIcon />}
+                      colorScheme="green"
+                      onClick={() => handlePlaySound(realWord)}
                       size={'sm'}
                     />
-                  )}
-                </Flex>
 
-                <Box ml={5} mt={2} onClick={showWord}>
-                  {el.description.map((desc, idxDes) => (
-                    <Text
-                      key={idxDes}
-                      fontSize={'sm'}
-                      color={'gray.700'}
-                      title={realWord}
-                    >
-                      - {el.checked ? desc.replace('___', realWord) : desc}
-                    </Text>
-                  ))}
-                </Box>
+                    {!hasSaved && (
+                      <IconButton
+                        colorScheme="facebook"
+                        aria-label="CheckIcon"
+                        icon={<CheckIcon />}
+                        onClick={() => handleSaveSingleWord(el.word)}
+                        size={'sm'}
+                      />
+                    )}
+                  </Flex>
 
-                <List>
-                  {el.sentences.map((sentence, idx2) => {
-                    // Normalize v-ing, v-ed
-                    const reg = new RegExp(
-                      `(\\b${realWord.slice(0, -2)}\\w*\\b)`,
-                      'gi'
-                    );
-                    const apartSentence = sentence.split(reg);
-                    return (
-                      <ListItem key={idx2} lineHeight={'20px'} mt={2}>
-                        <ListIcon
-                          as={ArrowForwardIcon}
-                          color="gray.500"
-                          fontSize={12}
-                          verticalAlign={'baseline'}
-                        />
-                        <CopyText onClick={handleCopy}>
-                          {apartSentence.map((part, idx3) =>
-                            idx3 === 1 ? (
-                              el.checked ? (
-                                <Text
-                                  fontWeight={500}
-                                  as="span"
-                                  color={'#2c82c9'}
-                                >
-                                  {part}
-                                </Text>
+                  <Box ml={5} mt={2} onClick={showWord}>
+                    {el.description.map((desc, idxDes) => (
+                      <Text
+                        key={idxDes}
+                        fontSize={'sm'}
+                        color={'gray.700'}
+                        title={realWord}
+                      >
+                        - {el.checked ? desc.replace('___', realWord) : desc}
+                      </Text>
+                    ))}
+                  </Box>
+
+                  <List>
+                    {el.sentences.map((sentence, idx2) => {
+                      const isLongWord = realWord.split(' ').length > 1;
+                      // Normalize v-ing, v-ed
+                      const verbReg = /(ing|ed|s|es|tic|ce)\b/g;
+                      const reg = isLongWord
+                        ? new RegExp(`(\\b${realWord}\\w*\\b)`, 'gi')
+                        : new RegExp(
+                            `(\\b${realWord
+                              .replace(verbReg, '')
+                              .slice(0, -1)}\\w*\\b)`,
+                            'gi'
+                          );
+
+                      const apartSentence = sentence.split(reg);
+                      return (
+                        <ListItem key={idx2} lineHeight={'20px'} mt={2}>
+                          <ListIcon
+                            as={ArrowForwardIcon}
+                            color="gray.500"
+                            fontSize={12}
+                            verticalAlign={'baseline'}
+                          />
+                          <CopyText onClick={handleCopy}>
+                            {apartSentence.map((part, idx3) =>
+                              idx3 === 1 ? (
+                                el.checked ? (
+                                  <Text
+                                    fontWeight={500}
+                                    as="span"
+                                    color={'#2c82c9'}
+                                  >
+                                    {part}
+                                  </Text>
+                                ) : (
+                                  <Text
+                                    key={idx3}
+                                    as="span"
+                                    color={'gray.500'}
+                                    letterSpacing={4}
+                                  >
+                                    .....
+                                  </Text>
+                                )
                               ) : (
-                                <Text
-                                  key={idx3}
-                                  as="span"
-                                  color={'gray.500'}
-                                  letterSpacing={4}
-                                >
-                                  .....
-                                </Text>
+                                <Fragment key={idx3}>{part}</Fragment>
                               )
-                            ) : (
-                              <Fragment key={idx3}>{part}</Fragment>
-                            )
-                          )}
-                        </CopyText>
-                      </ListItem>
-                    );
-                  })}
-                </List>
-              </CardBody>
-            </Card>
-          );
-        })}
+                            )}
+                          </CopyText>
+                        </ListItem>
+                      );
+                    })}
+                  </List>
+                </CardBody>
+              </Card>
+            );
+          })}
       </SimpleGrid>
 
       <Flex
