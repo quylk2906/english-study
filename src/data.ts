@@ -2704,7 +2704,6 @@ export const vocabularies: Data[] = [
     sentences: [
       `The investigative journalist's report exposed corruption within the government.`,
       `The documentary film aimed to expose the harsh reality of child labor in developing countries.`,
-      `The whistleblower came forward to expose the illegal activities happening within the company.`,
       `The artist's paintings exposed the raw emotions and struggles of marginalized communities.`,
     ],
   },
@@ -2716,7 +2715,6 @@ export const vocabularies: Data[] = [
     ],
     sentences: [
       `The museum organized an exposition showcasing the works of renowned artists.`,
-      `The literature class analyzed the exposition of the novel to understand its setting and characters.`,
       `The trade fair featured an exposition of new technological advancements in various industries.`,
       `The professor delivered a lecture on the history of art during the Renaissance as part of the exposition.`,
     ],
@@ -2939,7 +2937,6 @@ export const vocabularies: Data[] = [
       `A sudden storm caused a freak accident that uprooted several trees.`,
       `He had a collection of oddities and curiosities, including a two-headed calf, in his freak museum.`,
       `The unusual creature spotted in the forest was considered a genetic freak of nature.`,
-      `The roller coaster ride offered an exhilarating experience for thrill-seekers and adrenaline junkies.`,
       `My parents freaked when I told them I was pregnant.`,
     ],
   },
@@ -3323,7 +3320,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'incomes',
+    word: 'income',
     description: [
       `money that is earned from doing work or received from investments`,
     ],
@@ -5643,7 +5640,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'sorts_of',
+    word: 'sorts of',
     description: [
       ` is an informal expression that is used to indicate various types or kinds of something. It is often used to imply a range or variety of things within a specific category.`,
     ],
@@ -6068,7 +6065,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'the merits',
+    word: 'merit',
     description: [`the advantages something has compared to something else`],
     sentences: [
       `The judge carefully considered the merits of the case before making a decision.`,
@@ -6630,15 +6627,15 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'well educated',
+    word: 'well-educated',
     description: [
       `having had a good education`,
       `having had a good or a high level of education`,
     ],
     sentences: [
-      `She pursued higher education and became well educated in her field of study.`,
+      `She pursued higher education and became well-educated in her field of study.`,
       `The university prides itself on producing well-educated graduates who are prepared for the workforce.`,
-      `His extensive reading and research made him well educated on a wide range of topics.`,
+      `His extensive reading and research made him well-educated on a wide range of topics.`,
       `Access to quality education is crucial in developing a well-educated and informed society.`,
     ],
   },
@@ -6733,4 +6730,22 @@ export const vocabularies: Data[] = [
       `They realized that their attempts to mediate the conflict only served to worsen the tensions between the parties.`,
     ],
   },
+  {
+    word: 'feature (v)',
+    description: [
+      `to show or advertise someone or something as the most important or most obvious part`,
+      `to include someone or something as an important part`,
+    ],
+    sentences: [
+      `The movie features James Dean as a disaffected teenager.`,
+      `This week's broadcast features a report on victims of domestic violence.`,
+      `It's an Australian company whose logo features a red kangaroo.`,
+      `Tonight’s program features some outstanding performers.`,
+    ],
+  },
+  // {
+  //   word: '__',
+  //   description: [`__`, `__`, `__`, `__`],
+  //   sentences: [`___`, `___`, `___`, `___`],
+  // },
 ];

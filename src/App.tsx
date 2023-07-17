@@ -367,6 +367,7 @@ function App() {
                               idx3 === 1 ? (
                                 el.checked ? (
                                   <Text
+                                    key={idx3}
                                     fontWeight={500}
                                     as="span"
                                     color={'#2c82c9'}
