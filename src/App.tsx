@@ -334,7 +334,7 @@ function App() {
                         color={'gray.700'}
                         title={realWord}
                       >
-                        - {el.checked ? desc.replace('___', realWord) : desc}
+                        - {el.checked ? desc.replaceAll('___', realWord) : desc}
                       </Text>
                     ))}
                   </Box>
@@ -342,12 +342,15 @@ function App() {
                   <List>
                     {el.sentences.map((sentence, idx2) => {
                       const isLongWord = realWord.split(' ').length > 1;
+                      const isShortWord = realWord.length <= 4;
                       // Normalize v-ing, v-ed
                       const verbReg = /(ing|ed|s|es|tic|ce)\b/g;
                       const reg = isLongWord
                         ? new RegExp(`(\\b${realWord}\\w*\\b)`, 'gi')
+                        : isShortWord
+                        ? new RegExp(`(\\b\\w*${realWord}\\w*\\b)`, 'gi')
                         : new RegExp(
-                            `(\\b${realWord
+                            `(\\b\\w*${realWord
                               .replace(verbReg, '')
                               .slice(0, -1)}\\w*\\b)`,
                             'gi'

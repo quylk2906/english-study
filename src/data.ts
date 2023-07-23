@@ -235,19 +235,6 @@ export const vocabularies: Data[] = [
       `She's an expert in her field, and is paid accordingly.`,
     ],
   },
-  // {
-  //   word: 'accusation',
-  //   description: [
-  //     `a statement saying that someone has done something morally wrong, illegal, or unkind, or the fact of accusing someone`,
-  //   ],
-  //   sentences: [
-  //     `The politician vehemently denied the corruption accusations leveled against him.`,
-  //     `She was shocked and hurt by the false accusation made by her closest friend.`,
-  //     `The police investigated the murder accusation and gathered evidence to support their case.`,
-  //     `The company faced legal repercussions due to the accusation of trademark infringement.`,
-  //     `The athlete faced severe consequences after a doping accusation tarnished their reputation.`,
-  //   ],
-  // },
   {
     word: 'ache',
     description: [
@@ -299,7 +286,6 @@ export const vocabularies: Data[] = [
       `The couple faced many challenges during the adoption process, but their perseverance paid off when they finally welcomed their child into their family.`,
     ],
   },
-  // No has image
   {
     word: 'abandon',
     description: [
@@ -420,31 +406,6 @@ export const vocabularies: Data[] = [
       `With their recent pay raise, they could now afford to upgrade their living arrangements.`,
     ],
   },
-  // {
-  //   word: 'allege',
-  //   description: [
-  //     `(c2) to say that someone has done something illegal or wrong without giving proof`,
-  //     `to accuse someone of something`,
-  //   ],
-  //   sentences: [
-  //     `The witness alleged that they saw the defendant leaving the scene of the crime.`,
-  //     `The news article alleged corruption within the government, sparking a public outcry.`,
-  //     `The employee alleged workplace discrimination and filed a formal complaint.`,
-  //     `The prosecution alleged that the suspect had planned the crime meticulously.`,
-  //   ],
-  // },
-  // {
-  //   word: 'alleged',
-  //   description: [
-  //     `(adj) said or thought by some people to be the stated bad or illegal thing, although you have no proof`,
-  //   ],
-  //   sentences: [
-  //     `The alleged thief was apprehended by the police based on eyewitness accounts.`,
-  //     `The alleged scandal rocked the political landscape, leading to widespread public scrutiny.`,
-  //     `The alleged cheating incident in the exam prompted an investigation by the school authorities.`,
-  //     `The alleged abuse claims against the celebrity were vehemently denied by their legal team.`,
-  //   ],
-  // },
   {
     word: 'allude',
     description: [
@@ -624,6 +585,33 @@ export const vocabularies: Data[] = [
       `The chef took on an apprentice to pass down their culinary expertise.`,
       `The young artist eagerly accepted an apprenticeship with a well-known painter.`,
       `The company implemented an apprentice program to provide opportunities for aspiring professionals.`,
+    ],
+  },
+  {
+    word: 'potential (adj)',
+    description: [
+      `possible when the necessary conditions exist`,
+      `possible but not yet achieved`,
+    ],
+    sentences: [
+      `A number of potential buyers have expressed interest in the company.`,
+      `Many potential customers are waiting for a fall in prices before buying.`,
+      `The accident is a grim reminder of the potential dangers involved in North Sea oil production.`,
+      `He was eager to talk with potential customers.`,
+    ],
+  },
+  {
+    word: 'potential (n)',
+    description: [
+      `someone's or something's ability to develop, achieve, or succeed`,
+      `the possibility of something developing or happening in a particular way`,
+    ],
+    sentences: [
+      `The region has enormous potential for economic development.`,
+      `I don't feel I'm achieving my full potential in my present job.`,
+      `These equity securities are believed to have the potential for high earnings growth.`,
+      `She keeps saying I should live up to my potential.`,
+      `The region has enormous potential for economic development.`,
     ],
   },
   {
@@ -1019,19 +1007,6 @@ export const vocabularies: Data[] = [
       `The royal wedding procession included a beautifully adorned carriage carrying the bride and groom`,
     ],
   },
-  // {
-  //   word: 'cartridge',
-  //   description: [
-  //     `a container that is used in a larger piece of equipment, and which can be replaced with another similar part`,
-  //     `a small tube containing an explosive substance and a bullet for use in a gun`,
-  //   ],
-  //   sentences: [
-  //     `The video game console required inserting a game cartridge to play.`,
-  //     `The hunter loaded a fresh cartridge into their rifle before heading into the woods.`,
-  //     `The printer ran out of ink cartridges, causing a pause in the office's printing tasks.`,
-  //     `The archaeologists discovered ancient cartridge cases used for storing valuable documents.`,
-  //   ],
-  // },
   {
     word: 'casually',
     description: [
@@ -1073,18 +1048,6 @@ export const vocabularies: Data[] = [
       `She's very choosy about what she eats and drinks.`,
     ],
   },
-  // {
-  //   word: 'cigarette butt',
-  //   description: [
-  //     `the part of a cigarette that is left after it has been smoked`,
-  //   ],
-  //   sentences: [
-  //     `The littering person carelessly dropped their cigarette butt on the ground instead of disposing of it properly.`,
-  //     `The environmental activist organized a campaign to raise awareness about the harmful effects of cigarette butt pollution.`,
-  //     `The park had designated smoking areas with designated bins for cigarette butt disposal.`,
-  //     `She found a discarded cigarette butt and disposed of it in the appropriate container.`,
-  //   ],
-  // },
   {
     word: 'civic center',
     description: [`The building was transformed into a museum and ___`],
@@ -1672,19 +1635,6 @@ export const vocabularies: Data[] = [
       `The crucial step in the experiment was the accurate measurement of the ingredients.`,
     ],
   },
-  // {
-  //   word: 'cruel',
-  //   description: [
-  //     `(adj) extremely unkind and unpleasant and causing pain to people or animals intentionally`,
-  //     `extremely unkind and intentionally causing pain`,
-  //   ],
-  //   sentences: [
-  //     `Animal cruelty is a serious offense that should be punished.`,
-  //     `The dictator ruled with a cruel and iron fist, suppressing dissent.`,
-  //     `Bullying is a cruel behavior that can have long-lasting effects on its victims.`,
-  //     `The harsh and cruel conditions in the factory led to protests from workers.`,
-  //   ],
-  // },
   {
     word: 'cruise',
     description: [
@@ -1983,6 +1933,17 @@ export const vocabularies: Data[] = [
       `The diligent employee always went the extra mile to meet deadlines and deliver high-quality work.`,
       `The success of the project was largely due to the diligent efforts of the team members.`,
       `The diligent research paid off when they discovered a breakthrough in their field.`,
+    ],
+  },
+  {
+    word: 'diligently',
+    description: [`in a way that is careful and uses a lot of effort`],
+    sentences: [
+      `She worked diligently on her thesis, conducting thorough research and analysis.`,
+      `The team of engineers diligently fine-tuned the product to meet quality standards.`,
+      `The chef prepared the gourmet meal diligently, paying attention to every detail.`,
+      `The students diligently practiced their musical instruments to perfect their performance.`,
+      `The project manager oversaw the project diligently to ensure it was completed on time.`,
     ],
   },
   {
@@ -2368,19 +2329,6 @@ export const vocabularies: Data[] = [
       `The pest control measures were successful in eliminating the infestation.`,
     ],
   },
-  // {
-  //   word: 'eloquent',
-  //   description: [
-  //     `giving a clear, strong message`,
-  //     `using language to express ideas or opinions clearly and well, so that they have a strong effect on others`,
-  //   ],
-  //   sentences: [
-  //     `The speaker delivered an eloquent speech that moved the audience to tears.`,
-  //     `She expressed her thoughts in an eloquent manner, captivating her listeners.`,
-  //     `The writer's eloquent prose painted vivid images in the reader's mind.`,
-  //     `The lawyer's eloquent arguments convinced the jury of his client's innocence.`,
-  //   ],
-  // },
   {
     word: 'embark',
     description: [`to go onto a ship`, `to go onto a ship, aircraft, or train`],
@@ -3221,6 +3169,8 @@ export const vocabularies: Data[] = [
       `The journalist asked impertinent questions during the press conference, irritating the speaker.`,
       `It's impertinent to comment on someone's personal life without their consent.`,
       `The lawyer objected to the impertinent line of questioning from the opposing counsel.`,
+      `He's a very rude man.`,
+      `It's rude not to say "Thank you" when you are given something.`,
     ],
   },
   {
@@ -3297,7 +3247,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'incentive',
+    word: ' (n)',
     description: [`something that encourages a person to do something`],
     sentences: [
       `The company offered a performance-based bonus as an incentive for employees to achieve their targets.`,
@@ -3320,7 +3270,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'income',
+    word: 'income (n)',
     description: [
       `money that is earned from doing work or received from investments`,
     ],
@@ -3332,7 +3282,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'inconsiderate',
+    word: 'inconsiderate (adj)',
     description: [
       `not thinking or worrying about other people or their feelings`,
       `not caring about other people or their feelings; selfish`,
@@ -3386,18 +3336,20 @@ export const vocabularies: Data[] = [
     description: [
       `to experience something, usually something unpleasant, as a result of actions you have taken`,
       `to experience something bad as a result of actions you have taken`,
+      `to be made to lose money or have to pay a charge`,
     ],
     sentences: [
       `Failure to comply with the regulations may incur penalties or fines.`,
       `The construction project incurred unexpected delays due to bad weather conditions.`,
       `Reckless spending can lead to debt and incur financial difficulties.`,
-      `The decision to expand the business incurred additional costs but brought long-term benefits.`,
+      `The decision to expand the business incurred additional costs but brought long-term benefits`,
+      `Companies incur additional costs in dealing with non-paying customers.`,
+      `The client will remain liable for any loss incurred by the contractor.`,
     ],
   },
   {
     word: 'indication',
     description: [
-      `a sign that something exists, is true, or is likely to happen`,
       `a sign that something exists, is true, or is likely to happen`,
     ],
     sentences: [
@@ -3410,7 +3362,7 @@ export const vocabularies: Data[] = [
   {
     word: 'indispensable',
     description: [
-      `Something or someone that is indispensable is so good or important that you could not manage without it, him, or her`,
+      `Something or someone that is ___ is so good or important that you could not manage without it, him, or her`,
       `too important not to have; necessary`,
     ],
     sentences: [
@@ -3745,7 +3697,6 @@ export const vocabularies: Data[] = [
     sentences: [
       `His fear of flying was irrational, as statistics showed that air travel is one of the safest modes of transportation.`,
       `The decision to purchase the expensive luxury item seemed irrational given her financial situation.`,
-      `The child's tantrum was fueled by irrational fears of imaginary monsters.`,
       `The politician's statements were criticized for being based on irrational beliefs rather than facts.`,
     ],
   },
@@ -3833,19 +3784,6 @@ export const vocabularies: Data[] = [
       `He leaned over the table to whisper a secret into his friend's ear.`,
       `The child leaned over the edge of the pool to dip their hand in the water.`,
       `The student leaned over the textbook, absorbed in studying for the exam.`,
-    ],
-  },
-  {
-    word: 'liability',
-    description: [
-      `the fact that someone is legally responsible for something`,
-      `the responsibility of a person, business, or organization to pay or give up something of value`,
-    ],
-    sentences: [
-      `The company faced a significant financial liability due to a breach of contract.`,
-      `The driver was found to be at fault and held liable for the damages caused in the accident.`,
-      `The contract included a liability clause that protected both parties in case of unforeseen circumstances.`,
-      `It's important to have liability insurance when running a business to protect against potential lawsuits.`,
     ],
   },
   {
@@ -3944,44 +3882,6 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'merit',
-    description: [
-      `the quality of being good and deserving praise`,
-      `(v) If something ___s a particular treatment, it deserves or is considered important enough to be treated in that way`,
-    ],
-    sentences: [
-      `The student's essay received a high grade due to its well-researched content and strong arguments.`,
-      `The promotion was based on merit, considering the employee's performance and contributions to the company.`,
-      `The scholarship was awarded to the student who demonstrated outstanding academic merit and leadership qualities.`,
-      `The judge evaluated the case on its merits, considering the evidence presented and the relevant laws.`,
-    ],
-  },
-  {
-    word: 'mileage',
-    description: [
-      `the distance that a vehicle has travelled or the distance that it can travel using a particular amount of fuel`,
-    ],
-    sentences: [
-      `The car had low mileage and was in excellent condition, making it an attractive option for buyers.`,
-      `She tracked her running mileage to monitor her progress and set new fitness goals.`,
-      `The business traveler accumulated frequent flyer mileage and enjoyed various travel perks.`,
-      `The new hybrid car boasted impressive fuel efficiency, allowing drivers to save on mileage expenses.`,
-    ],
-  },
-  {
-    word: 'minister',
-    description: [
-      `a member of the government in Britain and many other countries who is in charge of a particular department or has an important position in it`,
-      `a religious leader in certain Christian churches`,
-    ],
-    sentences: [
-      `The minister delivered a powerful sermon that resonated with the congregation.`,
-      `The prime minister addressed the nation in a televised speech, outlining the government's plans for the future.`,
-      `The wedding ceremony was officiated by a minister who conducted a heartfelt and personalized service.`,
-      `The health minister announced new measures to improve public healthcare and access to medical services.`,
-    ],
-  },
-  {
     word: 'morale',
     description: [
       `the amount of confidence felt by a person or group of people, especially when in a dangerous or difficult situation`,
@@ -4018,18 +3918,6 @@ export const vocabularies: Data[] = [
       `The school's motto was "Learn, lead, and make a difference" to inspire students to strive for excellence.`,
       `The organization adopted the motto "Service with a smile" to highlight their commitment to customer satisfaction.`,
       `He lived by the motto "Never give up" and faced challenges with determination and resilience.`,
-    ],
-  },
-  {
-    word: 'mow',
-    description: [
-      `to cut plants, such as grass or wheat, that have long, thin stems and grow close together`,
-    ],
-    sentences: [
-      `He spent the afternoon mowing the lawn, ensuring it was neat and well-maintained.`,
-      `The landscaping company sent a team to mow the large field, making it ready for a sporting event.`,
-      `She used a push mower to mow the small backyard, enjoying the physical activity and fresh air.`,
-      `The farmer mowed the hayfield to harvest the crops for animal feed.`,
     ],
   },
   {
@@ -4099,10 +3987,11 @@ export const vocabularies: Data[] = [
     word: 'oddly',
     description: [`in a strange or surprising way`, `strangely and unusually`],
     sentences: [
-      `The keys went missing, and oddly enough, they were found in the refrigerator.`,
-      `He always wore mismatched socks, as he found comfort in embracing the oddly quirky side of life.`,
-      `The cat's behavior was oddly affectionate towards the new houseplant.`,
-      `The car made an oddly loud noise whenever it started, prompting a trip to the mechanic.`,
+      `The old bookshop, hidden in a corner of the city, oddly exuded an enchanting aroma of leather and ancient paper.`,
+      `As the sun set, the sky turned an oddly mesmerizing shade of lavender, painting the horizon in a dreamlike hue.`,
+      `The cat seemed oddly fascinated by the flickering flame of the candle, its eyes fixated on the dancing light.`,
+      `Despite its small size, the quaint village had an oddly welcoming atmosphere that made visitors feel right at home.`,
+      `In an oddly amusing turn of events, the parrot mimicked the baby's laughter, creating a delightful and unexpected harmony of sounds.`,
     ],
   },
   {
@@ -4126,19 +4015,6 @@ export const vocabularies: Data[] = [
       `The company encouraged employees to openly communicate their concerns and ideas for improvement.`,
       `He openly acknowledged his mistakes and took responsibility for the consequences.`,
       `The celebrity decided to openly share their personal struggles to raise awareness and inspire others.`,
-    ],
-  },
-  {
-    word: 'oust',
-    description: [
-      `to force someone to leave a position of power, job, place, or competition`,
-      `to force someone to leave a job, position of power, place, etc`,
-    ],
-    sentences: [
-      `The shareholders voted to oust the CEO due to allegations of misconduct.`,
-      `The political party launched a campaign to oust the incumbent government in the upcoming elections.`,
-      `The board of directors decided to oust the underperforming executive from the company.`,
-      `The team was determined to oust their rival from the top position in the league standings.`,
     ],
   },
   {
@@ -4178,7 +4054,7 @@ export const vocabularies: Data[] = [
     ],
     sentences: [
       `The new shopping mall became a popular outlet for fashion enthusiasts.`,
-      `He used painting as an outlet for his emotions, expressing himself through art.`,
+      // `He used painting as an outlet for his emotions, expressing himself through art.`,
       `The power outlet in the wall stopped working, requiring an electrician to fix it.`,
       `The outlet store offered discounted prices on designer goods, attracting bargain shoppers.`,
     ],
@@ -4306,19 +4182,6 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'persecute',
-    description: [
-      `to treat someone unfairly or cruelly over a long period of time because of their race, religion, or political beliefs, or to annoy someone by refusing to leave them alone`,
-      `to treat people unfairly or cruelly over a period of time because of their race, religion, etc.`,
-    ],
-    sentences: [
-      `The religious minority faced persecution in the oppressive regime.`,
-      `He was falsely accused of a crime and subjected to years of persecution.`,
-      `The author's controversial book led to her being persecuted by certain groups.`,
-      `The activist dedicated her life to fighting for the rights of persecuted individuals.`,
-    ],
-  },
-  {
     word: 'personality',
     description: [
       `the type of person you are, shown by the way you behave, feel, and think`,
@@ -4366,30 +4229,6 @@ export const vocabularies: Data[] = [
       `The pessimistic forecast predicted a decline in economic growth.`,
       `She had a pessimistic view of relationships due to past heartbreaks.`,
       `The coach tried to motivate the team and shift their pessimistic mindset.`,
-    ],
-  },
-  {
-    word: 'petition',
-    description: [
-      `(n) a document signed by a large number of people demanding or asking for some action from the government or another authority`,
-      `(v) to make a formal request for something, especially in a law court`,
-    ],
-    sentences: [
-      `The citizens started a petition to protest against the construction of a new landfill.`,
-      `The online petition garnered thousands of signatures within a few days.`,
-      `The student council presented a petition to the school administration, advocating for better facilities.`,
-      `The organization launched a petition to raise awareness about endangered species.`,
-      `They're petitioning for/about better facilities for disabled people.`,
-    ],
-  },
-  {
-    word: 'petitioner',
-    description: [`a person who organizes or signs a petition`],
-    sentences: [
-      `The petitioner addressed the court with their grievances and demanded justice.`,
-      `The petitioner's lawyer presented a strong case in support of their claims.`,
-      `The board listened to the concerns raised by the petitioner and promised to take action.`,
-      `The petitioner's emotional plea moved the audience and highlighted the urgency of the issue.`,
     ],
   },
   {
@@ -4520,10 +4359,7 @@ export const vocabularies: Data[] = [
   },
   {
     word: 'portion',
-    description: [
-      `a part or share of something larger`,
-      `a part or share of something larger`,
-    ],
+    description: [`a part or share of something larger`],
     sentences: [
       `She only ate a small portion of the meal, saving the rest for later.`,
       `The chef carefully plated each portion of the dish before serving it to the guests.`,
@@ -4535,7 +4371,7 @@ export const vocabularies: Data[] = [
     word: 'possession',
     description: [
       `the fact that you have or own something`,
-      `something that you own or that you are carrying with you at a particular time:`,
+      `something that you own or that you are carrying with you at a particular time`,
     ],
     sentences: [
       `He cherished the family heirloom as it held sentimental value and was a precious possession.`,
@@ -4547,8 +4383,8 @@ export const vocabularies: Data[] = [
   {
     word: 'poverty-stricken',
     description: [
-      `the fact that you have or own something`,
-      `something that you own, or the condition of owning something`,
+      `A ___ person or place is suffering from the effects of being extremely poor`,
+      `is an adjective used to imply that those individuals or communities are experiencing extreme financial hardship and lack the basic necessities for a decent standard of living, such as adequate food, shelter, and access to education and healthcare.`,
     ],
     sentences: [
       `The charity organization provided assistance to the poverty-stricken community.`,
@@ -4678,7 +4514,6 @@ export const vocabularies: Data[] = [
     sentences: [
       `The principal of the school addressed the students during the morning assembly.`,
       `She is the principal architect responsible for designing the new building.`,
-      `The principal amount of the loan must be repaid in monthly installments.`,
       `The principal investor in the project withdrew their support, causing delays.`,
     ],
   },
@@ -4737,7 +4572,7 @@ export const vocabularies: Data[] = [
     word: 'progressive',
     description: [
       `(adj) developing or happening gradually`,
-      `(adj) Progressive ideas or systems are new and modern, encouraging change in society or in the way that things are done`,
+      `(adj) ___ ideas or systems are new and modern, encouraging change in society or in the way that things are done`,
     ],
     sentences: [
       `The organization aims to create a progressive work environment that promotes diversity and inclusion.`,
@@ -4824,19 +4659,6 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'protest',
-    description: [
-      `(n) a strong complaint expressing disagreement, disapproval, or opposition`,
-      `(v) to show that you disagree with something by standing somewhere, shouting, carrying signs, etc.`,
-    ],
-    sentences: [
-      `The citizens gathered in the streets to protest against government policies.`,
-      `The workers organized a protest to demand fair wages and better working conditions.`,
-      `The environmental activists held a peaceful protest to raise awareness about climate change.`,
-      `The student-led movement staged a protest against the proposed tuition fee increase.`,
-    ],
-  },
-  {
     word: 'provision',
     description: [
       `the act of providing something`,
@@ -4863,7 +4685,7 @@ export const vocabularies: Data[] = [
   },
   {
     word: 'purely',
-    description: [`for only one reason or purpose`, `only; just`],
+    description: [`adv) for only one reason or purpose`, `only; just`],
     sentences: [
       `Her decision to pursue art was purely based on her passion for creativity.`,
       `The investment was purely a financial decision with no emotional attachment.`,
@@ -4947,16 +4769,32 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'regard',
+    word: 'regard (n)',
+    description: [
+      'respect or admiration for someone or something',
+      `used to send good wishes to someone at the end of a letter or an email, or to ask someone to give greetings to another person who is not present`,
+    ],
+    sentences: [
+      `The company holds her in high regard.`,
+      `He has no regard for other people's feelings.`,
+      `The team's success is held in high regard by the company's leadership.`,
+      `The manager made it a point to show regard for the opinions and ideas of all team members.`,
+      `I look forward to hearing from you. With kind regards, David Price.`,
+      `Please convey my regards to your boss.`,
+    ],
+  },
+  {
+    word: 'regard (v)',
     description: [
       `to consider or have an opinion about something or someone`,
-      `(n) respect or admiration for someone or something`,
+      `to consider or think about something in a particular way, or to look carefully at someone or something`,
     ],
     sentences: [
       `She is highly regarded in her field for her expertise and contributions.`,
-      `The team's success is held in high regard by the company's leadership.`,
-      `In many cultures, it is important to show respect and regard for elders.`,
-      `The manager made it a point to show regard for the opinions and ideas of all team members.`,
+      `Her parents always regarded her as the smartest of their children.`,
+      `He is generally/widely regarded as the father of international law.`,
+      `Laura is highly regarded by her colleagues.`,
+      `The dog regarded me with suspicion as I approached the door.`,
     ],
   },
   {
@@ -5069,7 +4907,7 @@ export const vocabularies: Data[] = [
     word: 'reprimand',
     description: [
       `to express to someone your strong official disapproval of them`,
-      `(n) strong official criticism of a person or their behaviour `,
+      `(n) strong official criticism of a person or their behaviours`,
     ],
     sentences: [
       `The teacher gave the student a reprimand for not completing their homework.`,
@@ -5097,7 +4935,7 @@ export const vocabularies: Data[] = [
   {
     word: 'reserved',
     description: [
-      `Reserved people do not often talk about or show their feelings or thoughts`,
+      `___ people do not often talk about or show their feelings or thoughts`,
       `tending to keep your feelings or thoughts private rather than showing them`,
     ],
     sentences: [
@@ -5206,7 +5044,7 @@ export const vocabularies: Data[] = [
       `Collide or crash into, Experience a problem or difficulty`,
     ],
     sentences: [
-      `I ran into an old friend from high school at the grocery store yesterday.`,
+      `I ___ an old friend from high school at the grocery store yesterday.`,
       `Be careful when you're driving, you don't want to run into any traffic.`,
       `As I was walking down the street, I accidentally ran into a lamppost.`,
       `He was in a hurry and didn't see the sign, causing him to run into the closed door.`,
@@ -5374,7 +5212,7 @@ export const vocabularies: Data[] = [
   },
   {
     word: 'separately',
-    description: [`not together`],
+    description: [`(adv) not together`],
     sentences: [
       `The items should be packed separately to prevent damage during transit.`,
       `The twins are so similar that it's difficult to tell them apart when they're not dressed separately.`,
@@ -5484,7 +5322,6 @@ export const vocabularies: Data[] = [
       `The snake shed its skin as part of its natural growth process.`,
       `The tree shed its leaves in the autumn.`,
       `900 jobs will be shed over the next few months.`,
-      `The trees shed their leaves in autumn.`,
     ],
   },
   {
@@ -5583,7 +5420,7 @@ export const vocabularies: Data[] = [
   },
   {
     word: 'slightly',
-    description: [`in a small amount or degree`],
+    description: [`(adv) in a small amount or degree`],
     sentences: [
       `The temperature dropped slightly, making the weather more comfortable.`,
       `She was slightly late for the meeting due to heavy traffic.`,
@@ -5619,7 +5456,11 @@ export const vocabularies: Data[] = [
   },
   {
     word: 'sole',
-    description: [`being one only; single`, `(v) `],
+    description: [
+      `being one only; single`,
+      `being the only one`,
+      `not shared with anyone else`,
+    ],
     sentences: [
       `She was the sole survivor of the plane crash.`,
       `He is the sole owner of the company.`,
@@ -5648,7 +5489,7 @@ export const vocabularies: Data[] = [
       `The store offers all sorts of products, from clothing to electronics.`,
       `They encountered all sorts of challenges during their adventure trip.`,
       `The festival attracts all sorts of people, from different backgrounds and interests.`,
-      `The library has books of all sorts, catering to various genres and topics.`,
+      `The library has all sorts of books, catering to various genres and topics.`,
     ],
   },
   {
@@ -5714,18 +5555,6 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'staple',
-    description: [
-      `to fasten something (papers) using staples, to fasten pieces of paper together using staples`,
-    ],
-    sentences: [
-      `Rice is a staple food in many Asian countries, forming the basis of their daily meals.`,
-      `The little black dress is considered a staple in every woman's wardrobe.`,
-      `The staple gun is a handy tool for fastening materials together.`,
-      `The grocery store offers a wide range of staple items, such as bread, milk, and eggs.`,
-    ],
-  },
-  {
     word: 'stare',
     description: [
       `to look for a long time with the eyes wide open, especially when surprised, frightened, or thinking`,
@@ -5756,10 +5585,11 @@ export const vocabularies: Data[] = [
       `a collection of numerical facts or measurements, as about people, business conditions, or weather`,
     ],
     sentences: [
-      `The humanitarian organization provided food aid to communities suffering from starvation.`,
-      `The drought caused widespread crop failure and led to a severe situation of starvation in the region.`,
-      `The book depicted the harsh reality of starvation during times of war.`,
-      `The organization aims to combat global hunger and alleviate starvation in vulnerable populations.`,
+      `The government uses statistics to track economic indicators such as unemployment rates and inflation levels.`,
+      `Researchers use descriptive statistics to summarize and present the main features of a dataset.`,
+      `Advanced statistical techniques like regression analysis help to identify relationships between variables in complex datasets.`,
+      `Bayesian statistics offer a probabilistic framework for incorporating prior knowledge into data analysis.`,
+      `Misinterpretation of statistics can lead to erroneous conclusions, underscoring the importance of statistical literacy in the general population.`,
     ],
   },
   {
@@ -5797,13 +5627,15 @@ export const vocabularies: Data[] = [
       `The storm unleashed powerful winds and heavy rainfall, causing widespread damage.`,
       `They took shelter in their basement during the storm, waiting for it to pass.`,
       `The storm disrupted electricity supply, leaving many homes without power.`,
-      `The meteorologist issued a storm warning, urging people to take precautions.`,
+      `The fortress was stormed by hundreds of soldiers.`,
+      `"Get out and never come back!" he stormed.`,
     ],
   },
   {
     word: 'streamline',
     description: [
       `to shape something so that it can move as effectively and quickly as possible through a liquid or gas`,
+      `to make a business, process, activity, etc. simpler and more effective by reducing costs, the number of people involved in it, etc`,
     ],
     sentences: [
       `The company implemented new processes to streamline its operations and increase efficiency.`,
@@ -5819,9 +5651,8 @@ export const vocabularies: Data[] = [
     ],
     sentences: [
       `The workers decided to go on strike to demand better working conditions and higher wages.`,
-      `The baseball player swung and hit the ball with a powerful strike.`,
-      `The lightning strike caused a temporary power outage in the neighborhood.`,
-      `The orchestra performed a strike of the drums, creating a dramatic effect in the music.`,
+      `We're striking for better pay and improved safety standards.`,
+      `The only option available to us is to strike.`,
     ],
   },
   {
@@ -5858,7 +5689,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'substitutes',
+    word: 'substitute',
     description: [
       `to use something or someone instead of another thing or person`,
       `(n) a thing or person that is used instead of another thing or person`,
@@ -5982,18 +5813,6 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'symmetry',
-    description: [
-      `the quality of having parts that match each other, especially in a way that is attractive, or similarity of shape or contents`,
-    ],
-    sentences: [
-      `The artwork showcased perfect symmetry in its composition and design.`,
-      `The architecture of the building displayed a sense of symmetry and balance.`,
-      `The butterfly's wings exhibited beautiful symmetry with vibrant patterns.`,
-      `The mathematician studied the symmetry of geometric shapes and their properties.`,
-    ],
-  },
-  {
     word: 'sympathetic',
     description: [
       `used to describe someone who shows, especially by what they say, that they understand and care about someone else's suffering`,
@@ -6010,7 +5829,6 @@ export const vocabularies: Data[] = [
     description: [`to consider or remember something when judging a situation`],
     sentences: [
       `When planning the budget, they took into account the fluctuating costs of materials.`,
-      `The teacher considered the students' different learning styles when designing the lesson plans.`,
       `The judge took the defendant's difficult childhood into account when sentencing.`,
       `The company took customer feedback into account to improve their product.`,
       `I think you have to take into account that he's a good deal younger than the rest of us.`,
@@ -6027,19 +5845,6 @@ export const vocabularies: Data[] = [
       `The emotional speech brought tears to the audience's eyes.`,
       `The fierce wind threatened to tear the roof off the house.`,
       `He couldn't hold back his tears when he received the heartfelt gift.`,
-    ],
-  },
-  {
-    word: 'temper',
-    description: [
-      `the tendency to become angry very quickly`,
-      `(v) to make something less strong, extreme, etc`,
-    ],
-    sentences: [
-      `He struggled to control his temper when faced with frustrating situations.`,
-      `She tempered her criticism with constructive feedback to help her colleagues improve.`,
-      `The blacksmith used water to temper the heated metal, giving it strength and durability.`,
-      `The coach's strict training regimen tempered the team's skills and discipline.`,
     ],
   },
   {
@@ -6062,16 +5867,6 @@ export const vocabularies: Data[] = [
       `The termination of the project was a difficult decision, but it was deemed necessary.`,
       `The termination clause in the agreement allows either party to end the partnership with proper notice.`,
       `The termination of the lease agreement required the tenant to vacate the premises.`,
-    ],
-  },
-  {
-    word: 'merit',
-    description: [`the advantages something has compared to something else`],
-    sentences: [
-      `The judge carefully considered the merits of the case before making a decision.`,
-      `The merits of the proposal were discussed during the board meeting.`,
-      `The scholarship committee evaluates applicants based on their academic merits.`,
-      `The promotion was awarded to the employee who demonstrated exceptional merits and achievements.`,
     ],
   },
   {
@@ -6116,7 +5911,7 @@ export const vocabularies: Data[] = [
   {
     word: 'the trail markers',
     description: [
-      `efers to physical signs or symbols that are placed along a trail or path to guide and assist hikers, walkers, or outdoor enthusiasts.`,
+      `typically refer to signs, symbols, or physical indicators that are placed along a trail or path to provide guidance and information to hikers, cyclists, or outdoor enthusiasts. These markers help people navigate through outdoor spaces, such as hiking trails, biking paths, and nature reserves`,
     ],
     sentences: [
       `The hikers followed the trail markers to stay on the designated path.`,
@@ -6205,7 +6000,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'to staff',
+    word: 'staff',
     description: [
       `to be or provide the people who work for an organization`,
       `(n) the group of people who work for an organization`,
@@ -6360,19 +6155,6 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'underwriter',
-    description: [
-      `a person who decides whether a bank should give an activity financial support and take responsibility for paying any costs if it fails`,
-      `an organization, or someone working for one, that underwrites insurance policies`,
-    ],
-    sentences: [
-      `The insurance underwriter assessed the risk and determined the appropriate coverage for the policyholder.`,
-      `The investment bank acted as the underwriter for the company's initial public offering (IPO).`,
-      `The underwriter evaluated the financial statements and creditworthiness of the borrower before approving the loan.`,
-      `The underwriter carefully reviewed the terms and conditions of the contract before providing their approval.`,
-    ],
-  },
-  {
     word: 'unforeseen',
     description: [`not expected`, `unexpected and often unwanted`],
     sentences: [
@@ -6380,19 +6162,6 @@ export const vocabularies: Data[] = [
       `The project faced delays due to unforeseen circumstances beyond their control.`,
       `The sudden snowstorm was an unforeseen event that disrupted travel plans.`,
       `The financial crisis had unforeseen consequences that affected the global economy.`,
-    ],
-  },
-  {
-    word: 'union',
-    description: [
-      `the act or the state of being joined together`,
-      `a group of two or more countries that work together or that have the same government`,
-    ],
-    sentences: [
-      `The workers formed a union to advocate for better working conditions and fair treatment.`,
-      `The company negotiated with the union to reach a collective bargaining agreement.`,
-      `The union members went on strike to protest against proposed pay cuts.`,
-      `The union held a meeting to discuss upcoming initiatives and address member concerns.`,
     ],
   },
   {
@@ -6430,7 +6199,7 @@ export const vocabularies: Data[] = [
   {
     word: 'until further notice',
     description: [
-      `Until further notice is a phrase commonly used to indicate that a particular situation or condition will continue or remain in effect until new information or instructions are provided.`,
+      `___ is a phrase commonly used to indicate that a particular situation or condition will continue or remain in effect until new information or instructions are provided.`,
     ],
     sentences: [
       `The event has been postponed until further notice due to unforeseen circumstances.`,
@@ -6462,19 +6231,6 @@ export const vocabularies: Data[] = [
       `The new employee was unversed in the company's processes and required additional training.`,
       `He felt unversed in the local customs and etiquette, often unintentionally causing misunderstandings.`,
       `The professor provided guidance and resources to help the unversed students catch up with the rest of the class.`,
-    ],
-  },
-  {
-    word: 'uproar',
-    description: [
-      `a situation in which a lot of people complain about something angrily or make a lot of noise`,
-      `loud complaints esp. by angry people, or a noisy state of confusion`,
-    ],
-    sentences: [
-      `The controversial decision by the government caused an uproar among the citizens, leading to protests.`,
-      `The comedian's jokes caused uproar in the audience, with some finding them offensive.`,
-      `The news of the company's bankruptcy created an uproar in the financial markets.`,
-      `The announcement of the winner of the competition caused an uproar of excitement and celebration.`,
     ],
   },
   {
@@ -6675,8 +6431,10 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'wires',
-    description: [],
+    word: 'wire',
+    description: [
+      `In the context of electrical or electronic systems, "___" refer to the conductive metal pathways that carry electric current from one point to another. Wires are essential components for transmitting electrical signals and power within various devices and systems`,
+    ],
     sentences: [
       `The electrician carefully connected the wires to ensure a safe and functional electrical system.`,
       `The room was filled with a tangled mess of wires from various electronic devices.`,
@@ -6743,9 +6501,1023 @@ export const vocabularies: Data[] = [
       `Tonight’s program features some outstanding performers.`,
     ],
   },
+  {
+    word: 'purchase',
+    description: [`to buy something`, `something that you buy`],
+    sentences: [
+      `Tickets must be purchased two weeks in advance.`,
+      `She purchased her first house with the money.`,
+      `How do you wish to pay for your purchases?`,
+      `New restrictions have been placed on the purchase of guns.`,
+    ],
+  },
+  {
+    word: 'possess',
+    description: [`to have or own something, or to have a particular quality`],
+    sentences: [
+      `In the past the root of this plant was thought to possess magical powers`,
+      `Ruth possessed great writing skills.`,
+      `He was charged with possessing a fake passport.`,
+      `She possesses the unusual talent of knowing when to say nothing.`,
+    ],
+  },
+  {
+    word: 'tiptoe',
+    description: [
+      `to walk on your toes with the heel of your foot lifted off the ground, especially in order not to make a noise`,
+      `to walk with your heels raised off the ground`,
+    ],
+    sentences: [
+      `She tiptoed into the room, hoping to surprise her friend without making a sound.`,
+      `The thief tiptoed through the dark alley, trying to avoid drawing attention.`,
+      `The cat tiptoed cautiously toward the bird perched on the fence.`,
+      `As the performance began, the audience tiptoed in and found their seats.`,
+      `He tiptoed around the subject, not wanting to reveal his true intentions.`,
+    ],
+  },
+  {
+    word: 'disrupt',
+    description: [
+      `to prevent something, especially a system, process, or event, from continuing as usual or as expected`,
+      `to change the traditional way that an industry operates, especially in a new and effective way`,
+    ],
+    sentences: [
+      `The unexpected power outage disrupted the entire event.`,
+      `The new technology has the potential to disrupt traditional business models.`,
+      `A loud noise from the construction site disrupted my concentration.`,
+      `The strike by the workers disrupted the company's production schedule.`,
+      `The sudden rainstorm disrupted the outdoor picnic plans.`,
+    ],
+  },
+  {
+    word: 'determined (adj)',
+    description: [
+      `wanting to do something very much and not allowing anyone or any difficulties to stop you`,
+      `showing the strong desire to follow a particular plan of action even if it is difficult`,
+    ],
+    sentences: [
+      `Despite the challenges, she remained determined to finish the marathon.`,
+      `His determined efforts to learn a new language paid off in the end.`,
+      `The team was determined to win the championship after years of hard work.`,
+      `With a determined expression, she tackled the difficult puzzle.`,
+      `His determined attitude inspired others to persevere through adversity.`,
+    ],
+  },
+  {
+    word: 'struggle',
+    description: [
+      `to experience difficulty and make a very great effort in order to do something`,
+      `to fight, especially with your hands`,
+      `to use a lot of effort to defeat someone, prevent something, or achieve something`,
+    ],
+    sentences: [
+      `She struggled to lift the heavy box onto the shelf.`,
+      `Despite her efforts, he struggled to understand the complex concept.`,
+      `The company struggled financially during the economic downturn.`,
+      `The young musician struggled with stage fright before her first performance.`,
+      `He struggled through the difficult math exam, determined to pass.`,
+    ],
+  },
+  {
+    word: 'depict',
+    description: [
+      `to represent or show something in a picture or story`,
+      `to represent or show something in a picture, story, movie, etc.; portray`,
+    ],
+    sentences: [
+      `The painting depicted a serene countryside scene with rolling hills and a river.`,
+      `The documentary film depicted the lives of indigenous people in remote areas.`,
+      `The novel's vivid descriptions depicted the bustling city life of the 1920s.`,
+      `The artist's brushstrokes skillfully depicted the emotion in the subject's eyes.`,
+      `The mural on the wall depicted scenes from the town's rich history.`,
+    ],
+  },
+  {
+    word: 'consisted',
+    description: [
+      `to be made of or formed from something`,
+      `to be something that is made or formed of various specific things`,
+    ],
+    sentences: [
+      `The team's strategy consisted of careful planning and coordinated teamwork.`,
+      `The recipe consisted of only a few simple ingredients, yet it was delicious.`,
+      `The novel's plot consisted of intricate twists and unexpected turns.`,
+      `The company's success consisted of a dedicated workforce and innovative ideas.`,
+      `The puzzle consisted of many small pieces that needed to be put together.`,
+    ],
+  },
+  {
+    word: 'captivating',
+    description: [
+      `holding your attention by being extremely interesting, exciting, pleasant, or attractive`,
+    ],
+    sentences: [
+      `The captivating story held the audience's attention until the very end.`,
+      `The wildlife documentary featured captivating footage of animals in their habitats.`,
+      `The artist's mesmerizing performance was truly captivating to watch.`,
+      `The novel's captivating prose transported readers to a different era.`,
+      `The captivating view from the mountaintop left everyone in awe.`,
+    ],
+  },
+  {
+    word: 'mediator',
+    description: [
+      `a person whose job is to mediate in a disagreement (= talk to the people or groups involved to help them find a solution)`,
+      `a person who tries to end a disagreement by helping the two sides to talk about and agree on a solution`,
+    ],
+    sentences: [
+      `The lawyer acted as a mediator to resolve the dispute between the two parties.`,
+      `The teacher served as a mediator to help the students find a compromise.`,
+      `The therapist acted as a mediator to facilitate communication between the couple.`,
+      `The United Nations sent a mediator to mediate the negotiations between the warring nations.`,
+      `The experienced diplomat was known for his skill as a mediator in international conflicts.`,
+    ],
+  },
+  {
+    word: 'insight',
+    description: [
+      `(the ability to have) a clear, deep, and sometimes sudden understanding of a complicated problem or situation`,
+      `a clear, deep, and sometimes sudden understanding of a complicated problem or situation, or the ability to have such an understanding`,
+    ],
+    sentences: [
+      `Her insightful analysis of the situation helped us understand the underlying issues.`,
+      `The book provided valuable insights into the author's creative process.`,
+      `Through her research, she gained unique insights into the behavior of certain animals.`,
+      `The mentor shared his insights and advice with the aspiring entrepreneurs.`,
+      `The lecture provided a deep insight into the historical context of the artwork.`,
+    ],
+  },
+  {
+    word: 'rural',
+    description: [
+      `in, of, or like the countryside`,
+      `in or from the countryside`,
+    ],
+    sentences: [
+      `They moved from the city to a quiet rural village to enjoy a simpler life.`,
+      `The rural landscape was dotted with farms and fields as far as the eye could see.`,
+      `The rural community celebrated their annual harvest festival with great enthusiasm.`,
+      `The small town's rural charm attracted tourists seeking a peaceful getaway.`,
+      `The lack of internet connectivity was a challenge in the rural area.`,
+    ],
+  },
+  {
+    word: 'advancement',
+    description: [
+      `the development or improvement of something`,
+      `an improvement relating to a particular activity or area of knowledge`,
+    ],
+    sentences: [
+      `The rapid technological advancements have transformed various industries.`,
+      `His dedication to self-improvement led to significant advancements in his career.`,
+      `The scientific research contributed to the advancement of medical knowledge.`,
+      `The company's focus on innovation resulted in the advancement of its products.`,
+      `The educational system plays a crucial role in societal advancement and progress.`,
+    ],
+  },
+  {
+    word: 'testify',
+    description: [
+      `(of a person) to speak seriously about something, especially in a law court, or to give or provide proof`,
+      `(of a fact, event, etc.) to show something or prove that something is true`,
+    ],
+    sentences: [
+      `The witness testified in court about what they had seen on the day of the incident.`,
+      `Several individuals testified to the defendant's good character during the trial.`,
+      `The victim bravely testified against their assailant, seeking justice.`,
+      `The expert testified about the scientific evidence supporting the hypothesis.`,
+      `The recorded video footage testified to the authenticity of the event.`,
+    ],
+  },
+  {
+    word: 'incorporate',
+    description: [`to include something as part of something larger`],
+    sentences: [
+      `The design team is incorporating user feedback to enhance the product's usability.`,
+      `The new version of the software will be released, incorporating several improvements.`,
+      `The architect's vision involves incorporating nature-inspired elements into the building's design.`,
+      `The company is actively incorporating sustainable practices into its manufacturing process.`,
+      `The artist is incorporating various textures and materials to create a dynamic sculpture.`,
+    ],
+  },
+  {
+    word: 'informative',
+    description: [
+      `providing a lot of useful information`,
+      `providing useful knowledge or ideas`,
+    ],
+    sentences: [
+      `The presentation was both engaging and informative, providing valuable insights.`,
+      `The documentary offered an informative overview of the historical event.`,
+      `The workshop aims to be both informative and interactive for participants.`,
+      `The guidebook is filled with informative descriptions of local landmarks.`,
+      `The online course provides informative modules on various aspects of digital marketing.`,
+    ],
+  },
+  {
+    word: 'period',
+    description: [
+      `a length of time`,
+      `a fixed time during the life of a person or in history`,
+    ],
+    sentences: [
+      `The Middle Ages is a historical period known for its feudal system and castles.`,
+      `The Jurassic period is famous for the dominance of dinosaurs on Earth.`,
+      `The Renaissance was a period of cultural revival and artistic achievements.`,
+      `The Romantic period in literature emphasized emotion and individualism.`,
+      `The colonial period marked the establishment of European colonies in new territories.`,
+    ],
+  },
+  {
+    word: 'captivate',
+    description: [
+      `to hold the attention of someone by being extremely interesting, exciting, pleasant, or attractive`,
+      `to hold the attention of someone by being extremely interesting, exciting, charming, or attractive`,
+    ],
+    sentences: [
+      `The children were captivated by the magician's incredible tricks.`,
+      `The audience was captivated by the actor's powerful performance on stage.`,
+      `The novel's vivid descriptions captivated readers, transporting them to another world.`,
+      `The stunning landscape captivated everyone who visited the remote village.`,
+      `The speaker's inspiring story captivated the attention of the entire audience.`,
+    ],
+  },
+  {
+    word: 'adversity',
+    description: [
+      `a difficult or unlucky situation or event`,
+      `a difficult or unlucky situation or event`,
+    ],
+    sentences: [
+      `She faced significant adversity in her life but remained resilient.`,
+      `Overcoming adversity often leads to personal growth and strength.`,
+      `The team's unity helped them overcome the adversities they encountered.`,
+      `The novel's protagonist triumphs over adversity through determination.`,
+      `The company managed to thrive despite the economic adversities of the market.`,
+    ],
+  },
+  {
+    word: 'advent',
+    description: [
+      `the fact of an event happening, an invention being made, or a person arriving`,
+      `the beginning of an event, the invention of something, or the arrival of a person`,
+    ],
+    sentences: [
+      `The advent of the internet revolutionized how people communicate.`,
+      `The advent of the space age marked a significant milestone in human exploration.`,
+      `The advent of smartphones changed the way people access information.`,
+      `The advent of renewable energy sources has transformed the energy industry.`,
+      `The advent of online shopping has reshaped consumer behavior.`,
+    ],
+  },
+  {
+    word: 'preliminary',
+    description: [
+      `coming before a more important action or event, especially introducing or preparing for it`,
+      `an event or action that introduces or prepares for something else`,
+    ],
+    sentences: [
+      `The team presented their preliminary findings before starting the full investigation.`,
+      `The project manager outlined the preliminary timeline for the construction.`,
+      `The preliminary sketches provided a rough idea of the artist's vision.`,
+      `The preliminary test results indicate a positive response to the new medication.`,
+      `The preliminary analysis suggests a potential correlation between the variables.`,
+    ],
+  },
+  {
+    word: 'picturing',
+    description: [
+      `a drawing, painting, photograph, etc.`,
+      `to imagine something`,
+      `to imagine how something looks`,
+    ],
+    sentences: [
+      `As she read the novel, she found herself picturing the characters and scenes vividly.`,
+      `The photographer is skilled at capturing candid moments, picturing reality.`,
+      `Picturing the serene beach in her mind helped her relax during a stressful day.`,
+      `The artwork succeeds in picturing the emotions and struggles of the human experience.`,
+      `Picturing a better future motivated them to work towards positive change.`,
+    ],
+  },
+  {
+    word: 'fictional',
+    description: [`imaginary`],
+    sentences: [
+      `The novel is set in a fictional world where magic and mythical creatures exist.`,
+      `The movie is a fictional adaptation of a true historical event.`,
+      `The fictional characters in the story are relatable despite their fantastical setting.`,
+      `The author skillfully weaves elements of mystery into the fictional narrative.`,
+      `The fictional universe created by the writer is rich in imaginative details.`,
+    ],
+  },
+  {
+    word: 'embrace',
+    description: [
+      `to accept something enthusiastically`,
+      `to hold someone tightly with both arms to express love, liking, or sympathy, or when greeting or leaving someone`,
+      `to include something, often as one of a number of things`,
+      `Linguistics embraces a diverse range of subjects such as phonetics and stylistics.`,
+    ],
+    sentences: [
+      `The community came together to embrace cultural diversity during the festival.`,
+      `He decided to embrace the challenges of his new role with enthusiasm.`,
+      `The company's leaders aim to embrace innovation and adapt to changing trends.`,
+      `The young artist was encouraged to embrace her unique style and creativity.`,
+      `The family embraced the opportunity to spend quality time together on vacation.`,
+    ],
+  },
+  {
+    word: 'urban',
+    description: [`of or in a city or town`, `relating to towns and cities`],
+    sentences: [
+      `The city's urban landscape is a blend of towering skyscrapers and historical buildings.`,
+      `Urban areas often have a vibrant nightlife and a range of cultural activities.`,
+      `The urban environment presents both opportunities and challenges for residents.`,
+      `The urban development project aimed to revitalize the downtown district.`,
+      `The urban community garden provided a green space in the midst of the city.`,
+    ],
+  },
+  {
+    word: 'inequality',
+    description: [
+      `the unfair situation in society when some people have more opportunities, money, etc. than other people`,
+      `a lack of equality or fair treatment in the sharing of wealth or opportunities`,
+    ],
+    sentences: [
+      `The sociologist's research focused on addressing economic inequality in society.`,
+      `The documentary shed light on the systemic inequality faced by marginalized communities.`,
+      `The government implemented policies to reduce income inequality and promote fairness.`,
+      `The discussion centered around strategies to combat gender inequality in the workplace.`,
+      `The organization advocates for educational opportunities to bridge educational inequality.`,
+    ],
+  },
+  {
+    word: 'sequentially',
+    description: [`in a way that follows a particular order`],
+    sentences: [
+      `The steps in the recipe must be followed sequentially to achieve the desired dish.`,
+      `The historical events were presented sequentially, creating a chronological narrative.`,
+      `The software development process involves completing tasks sequentially.`,
+      `The chapters of the book are arranged sequentially to form a coherent storyline.`,
+      `The data is organized sequentially based on the timestamps of the recorded events.`,
+    ],
+  },
+  {
+    word: 'getaway',
+    description: [
+      `A ___ is also a place where you go for a vacation`,
+      `an occasion when someone leaves a place quickly, usually after committing a crime`,
+      `an escape, esp. from a dangerous situation`,
+    ],
+    sentences: [
+      `They planned a weekend getaway to a cozy cabin in the mountains.`,
+      `The two masked men made their getaway in a stolen van.`,
+      `The men made their getaway in a car parked outside the bank.`,
+      `The spa resort offered a luxurious getaway from the stresses of everyday life.`,
+      `The couple enjoyed a romantic getaway to celebrate their anniversary.`,
+      `The coastal town was an ideal getaway for those seeking a peaceful retreat.`,
+    ],
+  },
+  {
+    word: 'misconduct',
+    description: [
+      `unacceptable or bad behaviour by someone in a position of authority or responsibility`,
+      `the fact that the activities of an organization are badly managed`,
+      `to manage the activities of an organization badly`,
+    ],
+    sentences: [
+      `The employee faced disciplinary action due to allegations of misconduct.`,
+      `The news article exposed instances of academic misconduct in the university.`,
+      `The employee was reprimanded for repeatedly misconducting themselves by violating company policies.`,
+      `The school implemented strict policies to prevent cheating and academic misconduct.`,
+      `The aid programme was misconducted, resulting in large quantities of food failing to reach the famine victims.`,
+      `The investigation revealed that certain members of the organization had been misconducting funds for personal gain.`,
+    ],
+  },
+  {
+    word: 'irreconcilable',
+    description: [
+      `impossible to find agreement between or with, or impossible to deal with`,
+    ],
+    sentences: [
+      `The differences in their values and beliefs made their views irreconcilable.`,
+      `The couple's constant arguments eventually led to irreconcilable differences.`,
+      `The conflict between the two parties escalated due to their irreconcilable demands.`,
+      `The company faced an irreconcilable divide between management and employees.`,
+      `The irreconcilable conflicts within the group led to its eventual dissolution.`,
+    ],
+  },
+  {
+    word: 'acclaim',
+    description: [
+      `public approval and praise`,
+      `to give public approval and praise`,
+      `to elect someone without opposition`,
+    ],
+    sentences: [
+      `She was widely acclaimed for her contribution to the discovery. (v)`,
+      `She is being acclaimed (= publicly recognized) as the greatest dancer of her generation.`,
+      `The film's powerful storytelling earned it widespread acclaim.`,
+      `Her novel achieved both commercial success and critical acclaim.`,
+      `The musician's performance was met with enthusiastic acclaim from the audience.`,
+      `The scientist's groundbreaking discovery garnered international acclaim.`,
+    ],
+  },
+  {
+    word: 'leisurely',
+    description: [
+      `used to describe an action that is done in a relaxed way, without hurrying`,
+    ],
+    sentences: [
+      `They enjoyed a leisurely stroll through the park on a sunny afternoon.`,
+      `The family spent a leisurely weekend at the countryside cabin.`,
+      `The leisurely pace of the small town was a welcome change from city life.`,
+      `We took a leisurely bike ride along the scenic coastal trail.`,
+      `They savored a leisurely brunch at their favorite café on Sunday mornings.`,
+    ],
+  },
+  {
+    word: 'deviate',
+    description: [
+      `to do something that is different from the usual or common way of behaving`,
+      `to change from the usual way, or to go in a different direction`,
+    ],
+    sentences: [
+      `The project deviated from its original scope due to unexpected challenges.`,
+      `The car deviated from its lane, triggering the driver-assist system.`,
+      `The discussion deviated from the main topic into a tangent.`,
+      `The artist intentionally deviated from traditional techniques to create a unique piece.`,
+      `The flight path deviated slightly to avoid a stormy area.`,
+    ],
+  },
+  {
+    word: 'evacuate',
+    description: [
+      `to move people from a dangerous place to somewhere safe`,
+      `to empty something of its contents, especially the bowels`,
+    ],
+    sentences: [
+      `The residents were evacuated from the coastal area ahead of the hurricane.`,
+      `The building was evacuated due to a fire alarm.`,
+      `The school conducted a drill to practice how to evacuate in case of an emergency.`,
+      `The passengers were safely evacuated from the stranded train.`,
+      `The town was evacuated as a precautionary measure during the forest fire.`,
+    ],
+  },
+  {
+    word: 'correlation',
+    description: [
+      `a connection or relationship between two or more facts, numbers, etc.`,
+      `a connection between two or more things`,
+    ],
+    sentences: [
+      `There is a strong correlation between smoking and lung cancer.`,
+      `The study aimed to explore the correlation between sleep patterns and productivity.`,
+      `The economist analyzed the correlation between interest rates and consumer spending.`,
+      `The data showed a positive correlation between exercise and overall health.`,
+      `Researchers discovered a surprising correlation between diet and cognitive function.`,
+    ],
+  },
+  {
+    word: 'trait',
+    description: [
+      `a particular characteristic that can produce a particular type of behaviour`,
+      `a characteristic, esp. of a personality`,
+    ],
+    sentences: [
+      `Kindness and empathy are admirable traits in a person.`,
+      `Her determination and perseverance are some of her strongest traits.`,
+      `Honesty and integrity are valued traits in both personal and professional life.`,
+      `The dog's loyalty and playfulness are endearing traits.`,
+      `Strong leadership and effective communication are essential traits of a successful manager.`,
+    ],
+  },
+  {
+    word: 'brave',
+    description: [
+      `showing no fear of dangerous or difficult things`,
+      `to deal with an unpleasant or difficult situation`,
+    ],
+    sentences: [
+      `The firefighter showed tremendous bravery while rescuing people from the burning building.`,
+      `She took a brave stand against injustice, even in the face of criticism.`,
+      `The soldier's bravery on the battlefield earned him a medal of honor.`,
+      `Facing a fear of heights, he summoned his bravery to climb the steep mountain.`,
+      `The brave decision to start her own business paid off in the long run.`,
+    ],
+  },
+  {
+    word: 'alleviate',
+    description: [
+      `to make something bad such as pain or problems less severe`,
+      `to make pain or problems less severe`,
+    ],
+    sentences: [
+      `The medicine helped alleviate the pain and discomfort.`,
+      `The charity's efforts aim to alleviate poverty in underprivileged communities.`,
+      `Meditation and deep breathing can help alleviate stress.`,
+      `The government implemented policies to alleviate traffic congestion in the city.`,
+      `The soothing music was designed to alleviate anxiety and promote relaxation.`,
+    ],
+  },
+  {
+    word: 'uplift',
+    description: [
+      `improvement of a person's moral or spiritual condition`,
+      `support or forces that raise an object or hold it up`,
+      `(v) to improve a person's moral or spiritual condition`,
+      `(v) to raise something to a higher position`,
+    ],
+    sentences: [
+      `The motivational speech had an uplifting effect on the audience.`,
+      `The support from friends and family can greatly uplift someone during difficult times.`,
+      `The colorful artwork added an uplifting touch to the hospital's waiting room.`,
+      `The charity's mission is to uplift the lives of orphaned children.`,
+      `The inspiring story of overcoming challenges uplifted the spirits of many.`,
+    ],
+  },
+  {
+    word: 'empower',
+    description: [
+      `to give someone official authority or the freedom to do something`,
+      `to encourage and support the ability to do something`,
+    ],
+    sentences: [
+      `The organization's mission is to empower women by providing them with education and training.`,
+      `His inspirational speeches aim to empower individuals to overcome obstacles and achieve their goals.`,
+      `The workshop focused on strategies to empower employees to take ownership of their tasks.`,
+      `The mentor's guidance and support helped empower the aspiring artists to showcase their work.`,
+      `Empowering individuals with financial literacy can lead to better economic decisions.`,
+    ],
+  },
+  {
+    word: 'reliant',
+    description: [
+      `needing a particular thing or person in order to continue, to work correctly, or to succeed`,
+      `to need or depend on something or someone in order to be able to do something`,
+    ],
+    sentences: [
+      `As a young adult, he became more self-reliant and independent.`,
+      `The company was heavily reliant on outdated technology, hampering its efficiency.`,
+      `Children often start out reliant on their parents for guidance and support.`,
+      `The success of the project was reliant on effective teamwork and collaboration.`,
+      `The region's economy was overly reliant on a single industry, making it vulnerable to changes.`,
+    ],
+  },
+  {
+    word: 'promising',
+    description: [
+      `Something that is ___ shows signs that it is going to be successful or enjoyable`,
+      `showing signs of future success or achievement`,
+    ],
+    sentences: [
+      `The young scientist's research shows promising results in the field of renewable energy.`,
+      `The startup company received a promising investment that would fuel its growth.`,
+      `The athlete's outstanding performance in the tryouts earned her a spot on the promising team.`,
+      `The new medical treatment has shown promising potential in early trials.`,
+      `The novel's first few chapters were promising, capturing the reader's interest`,
+    ],
+  },
+  {
+    word: 'embrace',
+    description: [
+      `to accept something enthusiastically`,
+      `to hold someone tightly with both arms to express love, liking, or sympathy, or when greeting or leaving someone`,
+      `to include something, often as one of a number of things`,
+    ],
+    sentences: [
+      `She was eager to embrace the new opportunities that came her way.`,
+      `The community came together to embrace diversity and inclusion.`,
+      `He decided to embrace change and explore new horizons.`,
+      `The company's culture encourages employees to embrace creativity and innovation.`,
+      `The book's central message was about learning to embrace one's true self.`,
+    ],
+  },
+  {
+    word: 'commuting',
+    description: [`the activity of travelling regularly between work and home`],
+    sentences: [
+      `His daily routine involved commuting to work on the subway.`,
+      `The city's efficient public transportation system made commuting convenient.`,
+      `She used the time spent commuting to catch up on reading and podcasts.`,
+      `Some people opt for cycling as a more eco-friendly way of commuting.`,
+      `Telecommuting allows employees to work from home and avoid daily commuting.`,
+    ],
+  },
+  {
+    word: 'nearby (adv, adj)',
+    description: [`not far away`, `not far away in distance; close`],
+    sentences: [
+      `There is a lovely park nearby where we often go for picnics.`,
+      `The grocery store is conveniently located nearby, making shopping easy.`,
+      `We decided to explore the nearby towns during our vacation.`,
+      `The hotel offered stunning views of the nearby mountains.`,
+      `The nearby café is known for its delicious pastries and coffee.`,
+    ],
+  },
+  {
+    word: 'consist',
+    description: [
+      `to be made of or formed from something`,
+      `to be something that is made or formed of various specific things`,
+    ],
+    sentences: [
+      `Her breakfast consisted of yogurt, fruit, and a cup of tea.`,
+      `The team's success consisted of hard work, dedication, and effective communication.`,
+      `The movie's plot consisted of multiple intertwining storylines.`,
+      `The company's product line consisted of a variety of electronic devices.`,
+      `The concert consisted of classical compositions performed by a renowned orchestra.`,
+    ],
+  },
+  {
+    word: 'disclaim',
+    description: [
+      `to say that you have no responsibility for, or knowledge of, something that has happened or been done`,
+      `to refuse to accept a property or right that is offered to you`,
+    ],
+    sentences: [
+      `The website had a disclaimer stating that the information provided was for educational purposes only.`,
+      `The author included a disclaimer at the beginning of the book to clarify that it was a work of fiction.`,
+      `The company's legal team advised adding a disclaimer to the advertisement.`,
+      `The product packaging included a disclaimer about potential allergens.`,
+      `The presenter made sure to disclaim that the opinions expressed were personal and not official.`,
+    ],
+  },
+  {
+    word: 'discipline',
+    description: [
+      `training that makes people more willing to obey or more able to control themselves, often in the form of rules, and punishments if these are broken, or the behaviour produced by this training`,
+      `the ability to control yourself or other people, even in difficult situations`,
+      `to punish someone`,
+    ],
+    sentences: [
+      `Developing a strong work ethic requires discipline and dedication.`,
+      `The coach emphasized the importance of discipline in achieving fitness goals.`,
+      `The practice of meditation can help cultivate mental discipline and focus.`,
+      `Effective time management is a key aspect of maintaining discipline in one's routine.`,
+      `The military emphasizes discipline as a core value among its members.`,
+    ],
+  },
+  {
+    word: 'attentive',
+    description: [
+      `listening or watching carefully`,
+      `If someone is ___, they are very helpful and take care of you`,
+    ],
+    sentences: [
+      `She listened attentively as her friend shared her experiences.`,
+      `The teacher noticed that the students were attentive and engaged in the lesson.`,
+      `The detective was attentive to every detail at the crime scene.`,
+      `The attentive waiter ensured that all the guests' needs were met during the dinner.`,
+      `Being attentive to the needs of customers is crucial for delivering exceptional service.`,
+    ],
+  },
+  {
+    word: 'solve',
+    description: [`to find an answer to a problem`],
+    sentences: [
+      `The puzzle was challenging, but with persistence, she managed to solve it.`,
+      `The engineers collaborated to solve the technical issues affecting the project.`,
+      `The team worked together to solve the complex math problem.`,
+      `The scientist's breakthrough discovery helped solve a longstanding mystery.`,
+      `Problem-solving skills are essential in various aspects of daily life.`,
+    ],
+  },
+  {
+    word: 'resolve',
+    description: [
+      `to solve or end a problem or difficulty or disagreement`,
+      `to make a decision formally or with determination`,
+      `to solve or end a problem or difficulty`,
+    ],
+    sentences: [
+      `She made a New Year's resolution to exercise regularly and lead a healthier lifestyle.`,
+      `The leader's determination and resolve inspired the team to overcome obstacles.`,
+      `The conflict was resolved through open communication and compromise.`,
+      `He approached the challenge with unwavering resolve, refusing to give up.`,
+      `The court's decision helped resolve the legal dispute between the two parties.`,
+    ],
+  },
+  {
+    word: 'intelligible',
+    description: [`(of speech and writing) clear enough to be understood`],
+    sentences: [
+      `The professor explained the complex theory in a way that was intelligible to the students.`,
+      `The foreign language teacher focused on making the lessons intelligible and accessible.`,
+      `The software's user interface was designed to be intuitive and intelligible.`,
+      `The artist's abstract painting was open to interpretation yet still intelligible.`,
+      `The technical manual provided step-by-step instructions to make the process intelligible.`,
+    ],
+  },
+  {
+    word: 'notion',
+    description: [`a belief or idea`],
+    sentences: [
+      `The notion of freedom is a central theme in many works of literature.`,
+      `He rejected the notion that success was solely based on luck.`,
+      `The notion of time travel has captured the imagination of many writers.`,
+      `The speaker challenged the common notion that hard work guarantees success.`,
+      `Her notion of happiness was rooted in personal relationships and meaningful experiences.`,
+    ],
+  },
+  {
+    word: 'panel',
+    description: [
+      `a small group of people chosen to give advice, make a decision, or publicly discuss their opinions as entertainment`,
+      `a flat, usually rectangular part, or piece of wood, metal, cloth, etc., that fits into or onto something larger`,
+      `a board or surface that has controls and other devices on it for operating an aircraft or other large machine`,
+      `(V) to cover or decorate with flat, usually rectangular pieces of wood, metal, cloth, etc`,
+    ],
+    sentences: [
+      `The expert panel discussed the latest trends in technology during the conference.`,
+      `The review panel carefully evaluated the submissions for the art exhibition.`,
+      `The control panel on the dashboard allows the driver to adjust various settings.`,
+      `The panel of judges had a challenging task of selecting the winner from a pool of talented contestants.`,
+      `The advisory panel provided valuable insights to guide the company's strategic decisions.`,
+    ],
+  },
+  {
+    word: 'recess',
+    description: [
+      `a small area in a room that is formed by one part of a wall being set back further than other parts`,
+      `a period of time in which an organized activity such as study or work is temporarily stopped`,
+      `a secret or hidden place`,
+    ],
+    sentences: [
+      `The students eagerly anticipated the recess period to play and relax.`,
+      `The court announced a recess to allow the lawyers time to prepare their arguments.`,
+      `The company's annual retreat served as a productive recess for team building and brainstorming.`,
+      `During the summer, families often take a recess to go on vacation.`,
+      `The city park offers a peaceful spot for people to enjoy a recess from their busy lives.`,
+    ],
+  },
+  {
+    word: 'moisture',
+    description: [
+      `a liquid such as water in the form of very small drops, either in the air, in a substance, or on a surface`,
+      `very small drops of water, either in the air or on a surface`,
+    ],
+    sentences: [
+      `The heavy rain overnight left the ground covered in moisture.`,
+      `The skin moisturizer helps to retain the skin's natural moisture.`,
+      `The dampness in the basement was due to excess moisture in the air.`,
+      `The morning dew is a result of moisture condensing on grass and leaves.`,
+      `The moisture content of the soil was crucial for successful plant growth.`,
+    ],
+  },
+  {
+    word: 'assembly',
+    description: [
+      `a group of people, especially one that meets regularly for a particular purpose, such as government, or, more generally, the process of coming together, or the state of being together`,
+      `the process of putting together the parts of a machine or structure`,
+    ],
+    sentences: [
+      `The school organized an assembly to honor the achievements of its students.`,
+      `The workers completed the assembly of the new furniture in record time.`,
+      `The political assembly discussed pressing issues facing the community.`,
+      `The company held an assembly to introduce its new products to the team.`,
+      `The festival featured an assembly of musicians from various genres.`,
+    ],
+  },
+  {
+    word: 'withdraw',
+    description: [
+      `to take or move out or back, or to remove`,
+      `to take money out of an account`,
+      `to stop being involved in a situation, having a particular responsibility, or belonging to an organization`,
+    ],
+    sentences: [
+      `She decided to withdraw her application from the competition due to scheduling conflicts.`,
+      `The company allowed employees to withdraw a portion of their savings from the retirement fund.`,
+      `He felt the need to withdraw from social activities to focus on his studies.`,
+      `The bank's ATM allows customers to withdraw cash conveniently.`,
+      `The country decided to withdraw its troops from the conflict zone.`,
+    ],
+  },
+  {
+    word: 'unleash',
+    description: [
+      `to suddenly release a violent force that cannot be controlled`,
+      `to let happen or begin something powerful that, once begun, cannot be controlled`,
+    ],
+    sentences: [
+      `The storm unleashed its fury, causing widespread damage to the area.`,
+      `The new software update will unleash a range of innovative features.`,
+      `The entrepreneur aims to unleash creativity through interactive workshops.`,
+      `The coach encouraged the team to unleash their full potential on the field.`,
+      `The artist's new exhibition will unleash a unique perspective on societal issues.`,
+    ],
+  },
+  {
+    word: 'deem',
+    description: [
+      `to consider or judge something in a particular way`,
+      `to consider or judge`,
+    ],
+    sentences: [
+      `The project was deemed a success by the client due to its positive impact.`,
+      `The proposal was deemed insufficient and required further elaboration.`,
+      `The film was deemed suitable for all audiences, receiving a family-friendly rating.`,
+      `The evidence was deemed admissible in court by the judge.`,
+      `The old building was deemed unsafe and was scheduled for demolition.`,
+    ],
+  },
+  {
+    word: 'lease',
+    description: [
+      `to make a legal agreement by which money is paid in order to use land, a building, a vehicle, or a piece of equipment for an agreed period of time`,
+      `(N) a legal agreement in which you pay money in order to use a building, piece of land, vehicle, etc. for a period`,
+      `to use or allow someone else to use land, property, etc. for an agreed period of time in exchange for money`,
+    ],
+    sentences: [
+      `They signed a lease agreement to rent the apartment for a year.`,
+      `The company decided to lease office space in a prime location.`,
+      `The car dealership offered attractive lease options for its vehicles.`,
+      `The landlord extended the lease for another term at the tenant's request.`,
+      `The restaurant owner decided to lease additional kitchen equipment to meet demand.`,
+    ],
+  },
+  {
+    word: 'obstacle',
+    description: [
+      `something that blocks you so that movement, going forward, or action is prevented or made more difficult`,
+      `something that blocks your way so that movement or progress is prevented or made more difficult`,
+    ],
+    sentences: [
+      `The lack of funding proved to be a significant obstacle for the project.`,
+      `The team worked together to overcome every obstacle in their path.`,
+      `He approached challenges as opportunities to conquer obstacles.`,
+      `Language barrier can be a potential obstacle in cross-cultural communication.`,
+      `The obstacle course tested participants' physical and mental endurance.`,
+    ],
+  },
+  {
+    word: 'displace',
+    description: [
+      `to force something out of its usual or original position`,
+      `to force someone to leave their home`,
+    ],
+    sentences: [
+      `The construction project required displacing several families from their homes.`,
+      `The flood had a devastating effect, displacing thousands of residents.`,
+      `The earthquake caused landslides, displacing large amounts of soil and rock.`,
+      `The company's expansion led to displacing certain departments to a new location.`,
+      `The housing crisis resulted in many individuals being displaced from affordable homes.`,
+    ],
+  },
+  {
+    word: 'prompt',
+    description: [
+      `to cause someone to say or do something`,
+      `to make something happen`,
+      `to help someone, especially an actor, to remember what they were going to say or do`,
+    ],
+    sentences: [
+      `His dedication and hard work prompted his colleagues to follow his example.`,
+      `The urgent situation prompted the need for immediate action.`,
+      `The teacher's feedback prompted the student to revise and improve the essay.`,
+      `A simple question can prompt deep introspection and self-discovery.`,
+      `The unexpected news prompted a lively discussion among the group.`,
+      `What prompted you to say that?`,
+    ],
+  },
+  {
+    word: 'resistance',
+    description: [
+      `the act of fighting against something that is attacking you, or refusing to accept something`,
+      `a force that acts to stop the progress of something or make it slower`,
+      `a situation in which people or organizations fight against something or refuse to accept or be changed by something`,
+    ],
+    sentences: [
+      `The material used in the construction had excellent resistance to extreme temperatures.`,
+      `She faced resistance from traditionalists when introducing innovative ideas.`,
+      `The resistance training helped improve the athletes' strength and endurance.`,
+      `The community's resistance against the new development project grew stronger.`,
+      `The immune system's resistance to infections is a key aspect of good health.`,
+    ],
+  },
+  {
+    word: 'eager',
+    description: [
+      `wanting very much to do or have something, especially something interesting or enjoyable`,
+      `having or showing desire or interest`,
+    ],
+    sentences: [
+      `The students were eager to start their summer vacation and relax.`,
+      `She was eager to learn new skills and advance in her career.`,
+      `The fans were eager to get a glimpse of their favorite celebrities at the event.`,
+      `The company received an eager response to its latest product launch.`,
+      `The children were eager to open their presents on Christmas morning.`,
+    ],
+  },
+  {
+    word: 'disgruntled',
+    description: [`unhappy, annoyed, and disappointed about something`],
+    sentences: [
+      `The employees became disgruntled due to the company's sudden policy changes.`,
+      `The disgruntled customers voiced their complaints about the poor service.`,
+      `The repeated delays left the passengers feeling disgruntled and frustrated.`,
+      `The team's performance decline led to a disgruntled coach and disappointed fans.`,
+      `Addressing the concerns of disgruntled stakeholders became a top priority.`,
+    ],
+  },
+  {
+    word: 'commuting',
+    description: [`the activity of travelling regularly between work and home`],
+    sentences: [
+      `The daily commuting time to work took up a significant part of her day.`,
+      `Many people prefer public transportation for their daily commuting needs.`,
+      `The traffic congestion during peak hours made commuting a frustrating experience.`,
+      `Telecommuting allows employees to work from home and avoid daily commuting.`,
+      `The company offers flexible hours to accommodate employees' commuting schedules.`,
+    ],
+  },
+  {
+    word: 'asserting',
+    description: [
+      `to behave in a way that expresses your confidence, importance, or power and earns you respect from others`,
+      `to say that something is certainly true`,
+      `to state an opinion or claim a right forcefully`,
+    ],
+    sentences: [
+      `The speaker was assertively making their point during the debate.`,
+      `The manager had no trouble asserting their authority in the team meeting.`,
+      `She was known for asserting her rights and standing up against injustice.`,
+      `The employee was assertively negotiating for a raise in salary.`,
+      `The document was drafted with assertive language to clearly convey the company's position.`,
+      `He asserts that she stole money from him.`,
+    ],
+  },
+  {
+    word: 'waver',
+    description: [
+      `to lose strength, determination, or purpose, especially temporarily`,
+      `If you ___ between two possibilities, you cannot decide which of them to choose or you keep choosing one way and then the other`,
+      `to begin to doubt or lose your determination to do something`,
+    ],
+    sentences: [
+      `Despite facing challenges, her determination didn't waver as she pursued her dreams.`,
+      `His commitment to his goals didn't waver, even when faced with setbacks.`,
+      `The team's unity didn't waver, and they stood strong in the face of adversity.`,
+      `Her dedication to the cause didn't waver, and she continued to work tirelessly.`,
+      `The company's values didn't waver, and they maintained their ethical standards.`,
+    ],
+  },
+  {
+    word: 'diversity',
+    description: [
+      `the fact of many different types of things or people being included in something; a range of different things or people`,
+      `the fact that there are many different ideas or opinions about something`,
+      `the condition or fact of being different or varied; variety`,
+    ],
+    sentences: [
+      `The university campus celebrated cultural diversity with events from around the world.`,
+      `The team's diversity in skills and backgrounds contributed to innovative problem-solving.`,
+      `The city's population reflects a rich diversity of languages, cultures, and traditions.`,
+      `The company's commitment to diversity is evident in its inclusive hiring practices.`,
+      `The conference aimed to promote diversity and inclusion in the workplace.`,
+    ],
+  },
+  {
+    word: 'poverty',
+    description: [
+      `the condition of being extremely poor`,
+      `a lack of something or when the quality of something is extremely low`,
+    ],
+    sentences: [
+      `The nonprofit organization focused on providing aid to communities struggling with poverty.`,
+      `The documentary shed light on the challenges faced by families living in poverty.`,
+      `The government implemented programs to alleviate poverty and provide social support.`,
+      `The cycle of poverty can be difficult to break without access to education and resources.`,
+      `The economic disparities between regions contribute to higher rates of poverty.`,
+    ],
+  },
+  {
+    word: 'impaired',
+    description: [
+      `damaged in a way that makes something less effective`,
+      `damaged or weakened`,
+    ],
+    sentences: [
+      `His impaired vision required him to use special devices to read and navigate.`,
+      `The accident left him with an impaired ability to walk, requiring physical therapy.`,
+      `The impaired hearing of the elderly woman made communication challenging.`,
+      `The impaired functionality of the software hindered the completion of the project.`,
+      `Driving under the influence of alcohol can result in impaired judgment and reactions.`,
+    ],
+  },
   // {
   //   word: '__',
-  //   description: [`__`, `__`, `__`, `__`],
-  //   sentences: [`___`, `___`, `___`, `___`],
+  //   description: [
+  //
+  //
+  //
+  // ],
+  //   sentences: [
+  //   `___`,
+  //   `___`,
+  //   `___`,
+  //   `___`,
+  //   `___`],
   // },
 ];
