@@ -6133,6 +6133,7 @@ export const vocabularies: Data[] = [
     word: 'undersold',
     description: [
       `made to seem less attractive or effective than something really is`,
+      `sold in smaller numbers of amounts than necessary or possible`,
     ],
     sentences: [
       `The product was undersold, and its true value was not recognized by potential buyers.`,
@@ -6515,7 +6516,7 @@ export const vocabularies: Data[] = [
     word: 'possess',
     description: [`to have or own something, or to have a particular quality`],
     sentences: [
-      `In the past the root of this plant was thought to possess magical powers`,
+      `In the past, the root of this plant was thought to possess magical powers`,
       `Ruth possessed great writing skills.`,
       `He was charged with possessing a fake passport.`,
       `She possesses the unusual talent of knowing when to say nothing.`,
@@ -6976,20 +6977,6 @@ export const vocabularies: Data[] = [
       `The economist analyzed the correlation between interest rates and consumer spending.`,
       `The data showed a positive correlation between exercise and overall health.`,
       `Researchers discovered a surprising correlation between diet and cognitive function.`,
-    ],
-  },
-  {
-    word: 'trait',
-    description: [
-      `a particular characteristic that can produce a particular type of behaviour`,
-      `a characteristic, esp. of a personality`,
-    ],
-    sentences: [
-      `Kindness and empathy are admirable traits in a person.`,
-      `Her determination and perseverance are some of her strongest traits.`,
-      `Honesty and integrity are valued traits in both personal and professional life.`,
-      `The dog's loyalty and playfulness are endearing traits.`,
-      `Strong leadership and effective communication are essential traits of a successful manager.`,
     ],
   },
   {
@@ -7506,18 +7493,149 @@ export const vocabularies: Data[] = [
       `Driving under the influence of alcohol can result in impaired judgment and reactions.`,
     ],
   },
+  {
+    word: 'attention',
+    description: [
+      `notice, thought, or interest`,
+      `get/attract/catch someone's attention`,
+      `to make someone notice you`,
+    ],
+    sentences: [
+      `Ladies and gentlemen, could I have your attention, please?`,
+      `The speaker captured the audience's attention with a compelling opening statement.`,
+      `The teacher reminded the students to pay attention and take notes during the lecture.`,
+      `The new product launch attracted a lot of attention from customers.`,
+      `The detective's attention to detail helped solve the complex case.`,
+      `The artist's attention to color and texture added depth to the painting.`,
+      `If you don't pay attention now, you'll get it all wrong later.`,
+    ],
+  },
+  {
+    word: 'outline (n)',
+    description: [
+      `the main shape or edge of something, without any details`,
+      `a description of the main facts about something`,
+    ],
+    sentences: [
+      `If you read the minutes of the meeting, they'll give you a broad outline of what was discussed.`,
+      `She drew the outline of the boat and then coloured it in.`,
+      `The report clearly outlined the steps required to complete the project.`,
+      `She outlined her plans for the upcoming event in a detailed email.`,
+      `The professor outlined the main topics that would be covered in the semester.`,
+      `The CEO outlined the company's goals and vision during the annual meeting.`,
+      `The architect outlined the design concept for the new building in the presentation.`,
+      `The government has outlined a series of environmental goals it is seeking to meet by 2020.`,
+    ],
+  },
+  {
+    word: 'outline (v)',
+    description: [
+      `to draw the main shape or edge of something`,
+      `to describe something, for example a new plan or idea, in a general way without giving too many details`,
+      `___`,
+    ],
+    sentences: [
+      `The area we're interested in is outlined in red on the map.`,
+      `The CEO outlined the company's goals and vision during the annual meeting.`,
+      `The architect outlined the design concept for the new building in the presentation.`,
+      `The government has outlined a series of environmental goals it is seeking to meet by 2020.`,
+      `(be) outlined in sth Recommendations outlined in the recent report have angered investors.`,
+      `outline a plan/proposal/strategy Senior figures from the energy industry will hold a public meeting to outline plans to build a $300m plant.`,
+      `(be) outlined by sb/sth The commission's position was outlined by its general counsel, Julie Hodgkin`,
+      `outline how/what/when, etc. The Pensions Board will be obliged to outline how future pensions systems might operate.`,
+    ],
+  },
+  {
+    word: 'diverse',
+    description: [
+      `including many different types of people or things`,
+      `very different from each other`,
+      `varied or different`,
+    ],
+    sentences: [
+      `The university campus is known for its diverse student population from all over the world.`,
+      `The team's diverse skill sets contributed to a well-rounded project outcome.`,
+      `The city's culture festival showcased a diverse range of traditions and cuisines.`,
+      `The company values diversity and promotes an inclusive work environment.`,
+      `The panel discussion featured diverse viewpoints on the topic of climate change.`,
+    ],
+  },
+  {
+    word: 'reshape',
+    description: [
+      `to shape something again or differently`,
+      `to change the character or organization of something`,
+      `to make an organization, industry, system, etc. operate differently`,
+    ],
+    sentences: [
+      `The new CEO had a vision to reshape the company's strategic direction.`,
+      `The architect proposed to reshape the city's skyline with innovative skyscraper designs.`,
+      `The fitness program aims to reshape participants' bodies through targeted exercises.`,
+      `The feedback from customers helped reshape the product features to better meet their needs.`,
+      `The artist used clay to reshape the sculpture into a more refined form.`,
+    ],
+  },
+  {
+    word: 'rehearse',
+    description: [
+      `to practise a play, a piece of music, etc. in order to prepare it for public performance`,
+      `When someone ___s a story or an argument, they repeat it with all the details`,
+      `to practice something, such as music or a speech, or lead a person or group in practicing it, in order to prepare for a public performance`,
+    ],
+    sentences: [
+      `The actors spent hours rehearsing their lines and blocking for the upcoming play.`,
+      `The band members gathered to rehearse their setlist for the upcoming concert.`,
+      `She wanted to rehearse her presentation multiple times to ensure it was polished.`,
+      `The dance troupe rehearsed their routine tirelessly to perfect their synchronization.`,
+      `The team members met to rehearse their pitch before the important client meeting.`,
+    ],
+  },
+  {
+    word: 'revise',
+    description: [
+      `to look at or consider again an idea, piece of writing, etc. in order to correct or improve it`,
+      `to study again something you have already learned, in preparation for an exam`,
+      `to change or correct something, esp. a piece of writing`,
+    ],
+    sentences: [
+      `His publishers made him revise his manuscript three times.`,
+      `The author took the editor's feedback seriously and began to revise the manuscript.`,
+      `He decided to revise his resume to emphasize his recent accomplishments.`,
+      `The student spent hours revising their essay to improve its clarity and coherence.`,
+      `The company revised its pricing strategy to remain competitive in the market.`,
+      `The initial draft of the contract required several revisions to address legal concerns.`,
+      `With the final exam, you don’t revise it after the teacher reads it.`,
+    ],
+  },
+  {
+    word: 'lightheaded',
+    description: [
+      `having a feeling that you may fall over or become unconscious:
+If I don’t eat something`,
+    ],
+    sentences: [
+      `After standing up too quickly, she felt lightheaded and had to sit back down.`,
+      `The hiker experienced lightheadedness due to the high altitude of the mountain.`,
+      `He skipped breakfast and felt lightheaded during the morning meeting.`,
+      `The doctor advised the patient to drink more water to avoid feeling lightheaded.`,
+      `The heat and dehydration made some participants in the marathon feel lightheaded.`,
+    ],
+  },
   // {
   //   word: '__',
   //   description: [
-  //
-  //
-  //
-  // ],
+  //   `___`,
+  //   `___`,
+  //   `___`,
+  //   `___`,
+  //   `___`
+  //   ],
   //   sentences: [
   //   `___`,
   //   `___`,
   //   `___`,
   //   `___`,
-  //   `___`],
+  //   `___`
+  //   ],
   // },
 ];

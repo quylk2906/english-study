@@ -357,6 +357,20 @@ export const uncommonVocabularies: Data[] = [
       `The legal implications of the contract should be carefully reviewed before signing.`,
     ],
   },
+  {
+    word: 'trait',
+    description: [
+      `a particular characteristic that can produce a particular type of behaviour`,
+      `a characteristic, esp. of a personality`,
+    ],
+    sentences: [
+      `Kindness and empathy are admirable traits in a person.`,
+      `Her determination and perseverance are some of her strongest traits.`,
+      `Honesty and integrity are valued traits in both personal and professional life.`,
+      `The dog's loyalty and playfulness are endearing traits.`,
+      `Strong leadership and effective communication are essential traits of a successful manager.`,
+    ],
+  },
   // {
   //   word: 'profound',
   //   description: [`__`, `__`, `__`, `__`],
