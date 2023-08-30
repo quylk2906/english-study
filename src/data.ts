@@ -7081,17 +7081,6 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'commuting',
-    description: [`the activity of travelling regularly between work and home`],
-    sentences: [
-      `His daily routine involved commuting to work on the subway.`,
-      `The city's efficient public transportation system made commuting convenient.`,
-      `She used the time spent commuting to catch up on reading and podcasts.`,
-      `Some people opt for cycling as a more eco-friendly way of commuting.`,
-      `Telecommuting allows employees to work from home and avoid daily commuting.`,
-    ],
-  },
-  {
     word: 'nearby (adv, adj)',
     description: [`not far away`, `not far away in distance; close`],
     sentences: [
@@ -7420,7 +7409,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'asserting',
+    word: 'assert',
     description: [
       `to behave in a way that expresses your confidence, importance, or power and earns you respect from others`,
       `to say that something is certainly true`,
