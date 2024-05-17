@@ -117,7 +117,6 @@ export const vocabularies: Data[] = [
       'to add more information to or explain something that you have said',
     ],
     sentences: [
-      "He came out with such an elaborate excuse that I didn't quite believe him.",
       'They had created elaborate computer programs to run the system.',
       "They're making the most elaborate preparations for the wedding.",
     ],
@@ -542,7 +541,6 @@ export const vocabularies: Data[] = [
     ],
     sentences: [
       `After a long hike, she had a ravenous appetite and devoured a large meal.`,
-      `The tantalizing aroma from the kitchen whetted their appetite for the upcoming dinner.`,
       `The flu left him with a diminished appetite, and he struggled to eat.`,
       `The restaurant's extensive menu caters to different tastes and appetites.`,
     ],
