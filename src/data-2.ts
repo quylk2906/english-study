@@ -1,6 +1,6 @@
 export const uncommonVocabularies: Data[] = [
   {
-    word: 'accusation',
+    word: 'accusation test ddd',
     description: [
       `a statement saying that someone has done something morally wrong, illegal, or unkind, or the fact of accusing someone`,
     ],
