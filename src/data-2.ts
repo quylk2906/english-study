@@ -371,6 +371,33 @@ export const uncommonVocabularies: Data[] = [
       `Strong leadership and effective communication are essential traits of a successful manager.`,
     ],
   },
+  {
+    word: 'compelled',
+    description: [
+      `having to do something, because you are forced to or feel it is necessary`,
+    ],
+    sentences: [
+      `The compelling story in the book compelled readers to stay up all night to finish it.`,
+      `The evidence presented in court compelled the jury to reach a guilty verdict.`,
+      `She felt compelled to help the less fortunate and volunteered at a local shelter.`,
+      `The compelling performance by the actor moved the audience to tears.`,
+    ],
+  },
+  {
+    word: 'conservative (c2) (n,v)',
+    description: [
+      `not usually liking or trusting change, especially sudden change`,
+      `If you are ___ in your appearance, you wear clothes in traditional colors and styles`,
+      `not involving or taking unnecessary risks`,
+    ],
+    sentences: [
+      `He holds conservative political views and supports limited government intervention.`,
+      `The company took a conservative approach to financial planning to minimize risks.`,
+      `Her conservative dress sense reflected her traditional values.`,
+      `The conservative estimate for the project's completion was six months.`,
+      `The firm has always had a conservative approach to investment.`,
+    ],
+  },
   // {
   //   word: 'profound',
   //   description: [`__`, `__`, `__`, `__`],

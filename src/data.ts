@@ -609,7 +609,6 @@ export const vocabularies: Data[] = [
       `I don't feel I'm achieving my full potential in my present job.`,
       `These equity securities are believed to have the potential for high earnings growth.`,
       `She keeps saying I should live up to my potential.`,
-      `The region has enormous potential for economic development.`,
     ],
   },
   {
@@ -635,7 +634,6 @@ export const vocabularies: Data[] = [
     sentences: [
       `The beautiful melody of the music aroused feelings of nostalgia within her.`,
       `The controversial speech by the politician aroused a strong reaction from the crowd.`,
-      `The artist's thought-provoking artwork aimed to arouse discussions about societal issues.`,
       `The thrilling movie plotline successfully aroused the audience's curiosity.`,
     ],
   },
@@ -1182,18 +1180,6 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'compelled',
-    description: [
-      `having to do something, because you are forced to or feel it is necessary`,
-    ],
-    sentences: [
-      `The compelling story in the book compelled readers to stay up all night to finish it.`,
-      `The evidence presented in court compelled the jury to reach a guilty verdict.`,
-      `She felt compelled to help the less fortunate and volunteered at a local shelter.`,
-      `The compelling performance by the actor moved the audience to tears.`,
-    ],
-  },
-  {
     word: 'compensate',
     description: [
       `to pay someone money in exchange for something that has been lost or damaged or for some problem`,
@@ -1438,21 +1424,6 @@ export const vocabularies: Data[] = [
       `His reckless behavior had serious consequences, resulting in an accident.`,
       `The new policy had positive consequences for the company's bottom line.`,
       `The consequence of his actions led to strained relationships with his friends.`,
-    ],
-  },
-  {
-    word: 'conservative (c2) (n,v)',
-    description: [
-      `not usually liking or trusting change, especially sudden change`,
-      `If you are ___ in your appearance, you wear clothes in traditional colors and styles`,
-      `not involving or taking unnecessary risks`,
-    ],
-    sentences: [
-      `He holds conservative political views and supports limited government intervention.`,
-      `The company took a conservative approach to financial planning to minimize risks.`,
-      `Her conservative dress sense reflected her traditional values.`,
-      `The conservative estimate for the project's completion was six months.`,
-      `The firm has always had a conservative approach to investment.`,
     ],
   },
   {
