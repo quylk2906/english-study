@@ -57,6 +57,7 @@ function App() {
     vocabularies.slice(0, 2)
   );
   const [activeCard, setActiveCard] = useState(0);
+  const [revealAll, setRevealAll] = useState(false);
   const firstFieldRef = useRef<HTMLInputElement[]>([]);
   const { userData } = useWordsStore();
   const savedWordsLocal = useRef<string[]>(userData.savedWords ?? []);
@@ -90,8 +91,6 @@ function App() {
   const word = useMemo(() => {
     return currentVocabularies[activeCard].word.split(' (')[0];
   }, [activeCard, currentVocabularies]);
-
-  console.log({ '🚀': word });
 
   useEffect(() => {
     if (!isOpen) {
@@ -203,7 +202,7 @@ function App() {
       }}
       paddingBlock="8"
     >
-      <Center mb={8}>
+      <Center mb={8} onClick={() => setRevealAll(true)}>
         <img src={viteLogo} className="logo" alt="Vite logo" />
       </Center>
 
@@ -234,7 +233,7 @@ function App() {
                         }
                       }}
                     >
-                      {el.checked ? (
+                      {el.checked || revealAll ? (
                         <CopyText
                           onClick={handleCopy}
                           text={el.word.toLowerCase()}
@@ -368,7 +367,7 @@ function App() {
                           <CopyText onClick={handleCopy}>
                             {apartSentence.map((part, idx3) =>
                               idx3 === 1 ? (
-                                el.checked ? (
+                                el.checked || revealAll ? (
                                   <Text
                                     key={idx3}
                                     fontWeight={500}
@@ -410,18 +409,29 @@ function App() {
         paddingInline={8}
       >
         {Array.from({ length: Math.ceil(vocabularies.length / PAGE_SIZE) }).map(
-          (_, el) => (
-            <Button
-              key={el}
-              size="sm"
-              variant={el === page ? 'solid' : 'outline'}
-              borderWidth={el === page ? '' : '2px'}
-              colorScheme={el === page ? 'facebook' : undefined}
-              onClick={() => setPage(el)}
-            >
-              {el + 1}
-            </Button>
-          )
+          (_, idx) => {
+            const nextPage = idx + 1;
+            return (
+              <Button
+                key={idx}
+                size="sm"
+                variant={idx === page ? 'solid' : 'outline'}
+                borderWidth={idx === page ? '' : '2px'}
+                colorScheme={idx === page ? 'facebook' : undefined}
+                onClick={() => {
+                  setPage(idx);
+                  const { origin, pathname } = window.location;
+                  window.history.replaceState(
+                    { p: nextPage },
+                    `Page ${nextPage}`,
+                    `${origin}${pathname}?p=${nextPage}`
+                  );
+                }}
+              >
+                {nextPage}
+              </Button>
+            );
+          }
         )}
       </Flex>
       <WelcomeModal />

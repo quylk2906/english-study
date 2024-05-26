@@ -1504,19 +1504,6 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'convict',
-    description: [
-      `to decide officially in a law court that someone is guilty of a crime`,
-      `(n) someone who is in prison because they are guilty of a crime`,
-    ],
-    sentences: [
-      `The jury found the defendant guilty and convicted him of the crime.`,
-      `The DNA evidence played a crucial role in convicting the murderer.`,
-      `The judge sentenced the convict to ten years in prison.`,
-      `The lawyer worked tirelessly to prove the innocence of the wrongly convicted.`,
-    ],
-  },
-  {
     word: 'correspondence',
     description: [
       `letters, especially official or business letters`,
@@ -1556,16 +1543,6 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'courteous (c2)',
-    description: [`polite and showing respect`],
-    sentences: [
-      `The receptionist greeted guests with a warm and courteous smile.`,
-      `It's important to be courteous and respectful to others, regardless of their background.`,
-      `He always held the door open for others as a courteous gesture.`,
-      `The waiter provided excellent service, being attentive and courteous throughout the meal.`,
-    ],
-  },
-  {
     word: 'crisis',
     description: [
       `a moment during a serious illness when there is the possibility of suddenly getting either better or worse`,
@@ -1602,20 +1579,6 @@ export const vocabularies: Data[] = [
       `Proper time management is crucial for meeting deadlines.`,
       `The witness's testimony played a crucial role in solving the case.`,
       `The crucial step in the experiment was the accurate measurement of the ingredients.`,
-    ],
-  },
-  {
-    word: 'cruise',
-    description: [
-      `a journey on a large ship for pleasure, during which you visit several places`,
-      `(adj) (of a ship or person) to sail around for pleasure`,
-    ],
-    sentences: [
-      `They went on a romantic cruise to the Caribbean for their honeymoon.`,
-      `The cruise ship sailed smoothly through the calm waters of the ocean.`,
-      `The family enjoyed the various onboard activities during their cruise vacation.`,
-      `The cruise line offered a luxury experience with gourmet dining and live entertainment.`,
-      `They spent the summer cruising around the Mediterranean.`,
     ],
   },
   {
