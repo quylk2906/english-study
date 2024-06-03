@@ -462,6 +462,29 @@ export const uncommonVocabularies: Data[] = [
       `The faculty of the arts organized an exhibition showcasing the creative works of students.`,
     ],
   },
+  {
+    word: 'assay',
+    description: [
+      `to examine a substance to find out how pure it is or what its properties (= qualities) are`,
+    ],
+    sentences: [
+      `The scientist conducted an assay to determine the chemical composition of the substance.`,
+      `The laboratory performed an assay to test the efficacy of the new drug.`,
+      `The company commissioned an assay of the mineral deposits in the area.`,
+      `The jeweler used an assay to verify the authenticity of the diamond`,
+    ],
+  },
+  {
+    word: 'deed',
+    description: [`an intentional act, especially a very bad or very good one`],
+    sentences: [
+      `The generous philanthropist's deeds had a positive impact on the community.`,
+      `He was recognized for his heroic deeds during the rescue mission.`,
+      `The lawyer prepared the legal documents for the transfer of property deed.`,
+      `The volunteer group aimed to perform acts of kindness and good deeds in their community.`,
+      `She's always helping people and doing good deeds.`,
+    ],
+  },
   // {
   //   word: 'profound',
   //   description: [`__`, `__`, `__`, `__`],

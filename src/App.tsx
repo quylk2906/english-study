@@ -419,13 +419,13 @@ function App() {
                 borderWidth={idx === page ? '' : '2px'}
                 colorScheme={idx === page ? 'facebook' : undefined}
                 onClick={() => {
-                  setPage(idx);
                   const { origin, pathname } = window.location;
                   window.history.replaceState(
                     { p: nextPage },
                     `Page ${nextPage}`,
                     `${origin}${pathname}?p=${nextPage}`
                   );
+                  setPage(idx);
                 }}
               >
                 {nextPage}

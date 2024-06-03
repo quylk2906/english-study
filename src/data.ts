@@ -688,18 +688,6 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'assay',
-    description: [
-      `to examine a substance to find out how pure it is or what its properties (= qualities) are`,
-    ],
-    sentences: [
-      `The scientist conducted an assay to determine the chemical composition of the substance.`,
-      `The laboratory performed an assay to test the efficacy of the new drug.`,
-      `The company commissioned an assay of the mineral deposits in the area.`,
-      `The jeweler used an assay to verify the authenticity of the diamond`,
-    ],
-  },
-  {
     word: 'assemble (manufacture)',
     description: [
       `to come together in a single place or bring parts together in a single group`,
@@ -759,6 +747,10 @@ export const vocabularies: Data[] = [
       `The driver swerved to avert a collision with a speeding car.`,
       `The company implemented safety measures to avert workplace accidents.`,
       `The diplomat's negotiation skills were crucial in helping avert a diplomatic crisis.`,
+      `Can you avert your eyes from the disturbing images on the news?`,
+      `Please avert any potential conflicts during the meeting.`,
+      `Can you avert any unnecessary risks while working on this project?`,
+      `Can you avert any potential misunderstandings by clearly communicating your thoughts?`,
     ],
   },
   {
@@ -1646,17 +1638,6 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'deed',
-    description: [`an intentional act, especially a very bad or very good one`],
-    sentences: [
-      `The generous philanthropist's deeds had a positive impact on the community.`,
-      `He was recognized for his heroic deeds during the rescue mission.`,
-      `The lawyer prepared the legal documents for the transfer of property deed.`,
-      `The volunteer group aimed to perform acts of kindness and good deeds in their community.`,
-      `She's always helping people and doing good deeds.`,
-    ],
-  },
-  {
     word: 'defect',
     description: [
       `a fault or problem in something or someone that spoils that thing or person or causes it, him, or her not to work correctly`,
@@ -2018,7 +1999,7 @@ export const vocabularies: Data[] = [
   {
     word: 'dispensable',
     description: [
-      `more than you need and therefore not necessary; that can be got rid o`,
+      `more than you need and therefore not necessary; that can be got rid of`,
     ],
     sentences: [
       `The unnecessary features of the product were considered dispensable and were removed to reduce costs.`,
@@ -3088,8 +3069,6 @@ export const vocabularies: Data[] = [
       `The journalist asked impertinent questions during the press conference, irritating the speaker.`,
       `It's impertinent to comment on someone's personal life without their consent.`,
       `The lawyer objected to the impertinent line of questioning from the opposing counsel.`,
-      `He's a very rude man.`,
-      `It's rude not to say "Thank you" when you are given something.`,
     ],
   },
   {
@@ -3166,7 +3145,7 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: ' (n)',
+    word: 'incentive (n)',
     description: [`something that encourages a person to do something`],
     sentences: [
       `The company offered a performance-based bonus as an incentive for employees to achieve their targets.`,
