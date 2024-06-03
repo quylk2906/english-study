@@ -435,6 +435,33 @@ export const uncommonVocabularies: Data[] = [
       `The waiter provided excellent service, being attentive and courteous throughout the meal.`,
     ],
   },
+  {
+    word: 'freight',
+    description: [
+      `goods, but not passengers, that are carried from one place to another, by ship, aircraft, train, or truck, or the system of transporting these goods`,
+      `to send goods by air, sea, or train`,
+    ],
+    sentences: [
+      `The cargo ship transported a large quantity of freight across international waters.`,
+      `The logistics company specialized in providing efficient freight services to businesses.`,
+      `The delivery truck was loaded with various types of freight, including packages and pallets.`,
+      `The port was bustling with activity as cranes unloaded freight from cargo ships.`,
+      `Grapes from this region are freighted all over the world.`,
+    ],
+  },
+  {
+    word: 'faculty',
+    description: [
+      `a natural ability to hear, see, think, move, etc.`,
+      `the people who teach in a university, college, or US high school, or in one of its departments (education)`,
+    ],
+    sentences: [
+      `The university's faculty comprises experienced professors and scholars in various academic disciplines.`,
+      `The faculty members were actively involved in research and published their findings in prestigious journals.`,
+      `The faculty meeting discussed important curriculum changes and student performance.`,
+      `The faculty of the arts organized an exhibition showcasing the creative works of students.`,
+    ],
+  },
   // {
   //   word: 'profound',
   //   description: [`__`, `__`, `__`, `__`],

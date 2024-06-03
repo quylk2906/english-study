@@ -2620,19 +2620,6 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'faculty',
-    description: [
-      `a natural ability to hear, see, think, move, etc.`,
-      `the people who teach in a university, college, or US high school, or in one of its departments (education)`,
-    ],
-    sentences: [
-      `The university's faculty comprises experienced professors and scholars in various academic disciplines.`,
-      `The faculty members were actively involved in research and published their findings in prestigious journals.`,
-      `The faculty meeting discussed important curriculum changes and student performance.`,
-      `The faculty of the arts organized an exhibition showcasing the creative works of students.`,
-    ],
-  },
-  {
     word: 'faint',
     description: [
       `not strong or clear; slight`,
