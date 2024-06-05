@@ -1300,19 +1300,6 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'concierge',
-    description: [
-      `a person who is employed to take care of an apartment building, especially in France`,
-      `a person working in a hotel, etc. whose job is to help guests, for example by giving them information about restaurants, local places to see, etc`,
-    ],
-    sentences: [
-      `The hotel concierge provided excellent recommendations for local restaurants and attractions.`,
-      `The concierge arranged transportation for the guests and ensured their stay was comfortable.`,
-      `The concierge at the apartment building helped residents with various requests and services.`,
-      `The concierge desk was available 24/7 to assist guests with any inquiries or needs.`,
-    ],
-  },
-  {
     word: 'conclusive',
     description: [
       `proving that something is true, or ending any doubt`,
@@ -3782,7 +3769,6 @@ export const vocabularies: Data[] = [
   {
     word: 'morale',
     description: [
-      `the amount of confidence felt by a person or group of people, especially when in a dangerous or difficult situation`,
       `the amount of confidence felt by a person or group of people, esp. when in a dangerous or difficult situation`,
     ],
     sentences: [
@@ -3885,11 +3871,11 @@ export const vocabularies: Data[] = [
     word: 'oddly',
     description: [`in a strange or surprising way`, `strangely and unusually`],
     sentences: [
-      `The old bookshop, hidden in a corner of the city, oddly exuded an enchanting aroma of leather and ancient paper.`,
-      `As the sun set, the sky turned an oddly mesmerizing shade of lavender, painting the horizon in a dreamlike hue.`,
-      `The cat seemed oddly fascinated by the flickering flame of the candle, its eyes fixated on the dancing light.`,
-      `Despite its small size, the quaint village had an oddly welcoming atmosphere that made visitors feel right at home.`,
-      `In an oddly amusing turn of events, the parrot mimicked the baby's laughter, creating a delightful and unexpected harmony of sounds.`,
+      `The weather forecast predicted rain for the weekend, but oddly enough, the sun was shining all day.`,
+      `Oddly, my cat doesn't seem to like fish even though it's a common favorite among felines.`,
+      `The teacher's strict demeanor was oddly comforting to some students, who found structure in her rigid rules.`,
+      `Oddly enough, the missing keys were found in the freezer next to a carton of ice cream.`,
+      `The new restaurant's menu was oddly limited, offering only a few options for each course.`,
     ],
   },
   {
@@ -3955,19 +3941,6 @@ export const vocabularies: Data[] = [
       // `He used painting as an outlet for his emotions, expressing himself through art.`,
       `The power outlet in the wall stopped working, requiring an electrician to fix it.`,
       `The outlet store offered discounted prices on designer goods, attracting bargain shoppers.`,
-    ],
-  },
-  {
-    word: 'outright',
-    description: [
-      `completely or immediately`,
-      `directly and plainly, or immediately instead of in stages`,
-    ],
-    sentences: [
-      `She rejected the offer outright, as it did not align with her career goals.`,
-      `The company made an outright donation to the charitable organization, supporting their cause.`,
-      `He expressed his outright disagreement with the proposed changes during the meeting.`,
-      `The athlete won the race outright, leaving no doubt about their victory.`,
     ],
   },
   {
@@ -4400,7 +4373,7 @@ export const vocabularies: Data[] = [
       `The company's business model primarily focuses on sustainability and environmental responsibility.`,
       `The festival primarily features local artists and musicians.`,
       `The study's findings indicate that diet and exercise are primarily responsible for weight loss.`,
-      `The company's primary objective is to provide high-quality customer service.`,
+      `The company's primarily objective is to provide high-quality customer service.`,
     ],
   },
   {
@@ -4516,19 +4489,6 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'prosecute',
-    description: [
-      `to officially accuse someone of committing a crime in a law court, or (of a lawyer) to try to prove that a person accused of committing a crime is guilty of that crime`,
-      `to continue to take part in a planned group of activities, especially a war`,
-    ],
-    sentences: [
-      `The district attorney decided to prosecute the suspect for the alleged crime.`,
-      `The company decided to prosecute the individual responsible for embezzlement.`,
-      `The legal team gathered evidence to prepare for the trial and prosecute the accused.`,
-      `The police diligently investigated the case to build a strong case for prosecution.`,
-    ],
-  },
-  {
     word: 'prospect',
     description: [
       `the possibility that something good might happen in the future`,
@@ -4539,6 +4499,9 @@ export const vocabularies: Data[] = [
       `The company is actively seeking new prospects for partnership and expansion.`,
       `The real estate agent showed them several promising prospects for their new home.`,
       `The job candidate had an impressive resume and showed great prospects for the position.`,
+      `The company is currently prospecting new markets for expansion.`,
+      `As a real estate agent, I often prospect for potential buyers in the neighborhood.`,
+      `We should prospect for talented individuals to join our team.`,
     ],
   },
   {
@@ -4569,6 +4532,9 @@ export const vocabularies: Data[] = [
       `The law requires employers to make provisions for employee safety.`,
       `Of course there's provision in the plan for population increase.`,
       `The company has revealed that it has provisioned £235m for asbestos-related claims.`,
+      `The chef will provision the kitchen with fresh ingredients for tonight's dinner service.`,
+      `The contract includes a provision for annual salary increases based on performance.`,
+      `As part of their job, the team leader must provision resources to support project development.`,
     ],
   },
   {
@@ -5261,19 +5227,6 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'sightseeing',
-    description: [
-      `the activity of visiting interesting places, especially by people on holiday`,
-      `the act of visiting interesting places, esp. while on vacation`,
-    ],
-    sentences: [
-      `They spent the day sightseeing, visiting famous landmarks and museums.`,
-      `The tour guide provided interesting facts and anecdotes during the sightseeing tour.`,
-      `We took a sightseeing cruise along the river to enjoy the scenic views of the city.`,
-      `Sightseeing is a popular activity for tourists to explore a new destination.`,
-    ],
-  },
-  {
     word: 'silly',
     description: [
       `showing little thought or judgment`,
@@ -5543,17 +5496,6 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'strike',
-    description: [
-      `to refuse to continue working because of an argument with an employer about working conditions, pay levels, or job losses`,
-    ],
-    sentences: [
-      `The workers decided to go on strike to demand better working conditions and higher wages.`,
-      `We're striking for better pay and improved safety standards.`,
-      `The only option available to us is to strike.`,
-    ],
-  },
-  {
     word: 'struggling',
     description: [`unsuccessful but trying hard to succeed`],
     sentences: [
@@ -5571,19 +5513,6 @@ export const vocabularies: Data[] = [
       `She published several research papers on the subject in subsequent years.`,
       `The company released subsequent versions of the software, addressing user feedback and improving functionality.`,
       `The accident and subsequent investigation caused a delay in the project timeline.`,
-    ],
-  },
-  {
-    word: 'substantial',
-    description: [
-      `large in size, value, or importance`,
-      `relating to the main or most important things being considered`,
-    ],
-    sentences: [
-      `They made a substantial investment in real estate, expecting high returns in the future.`,
-      `The company reported a substantial increase in sales revenue compared to the previous year.`,
-      `The evidence presented against the defendant was substantial, leading to a conviction.`,
-      `They faced substantial challenges but remained determined to achieve their goals.`,
     ],
   },
   {
@@ -6575,20 +6504,6 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'testify',
-    description: [
-      `(of a person) to speak seriously about something, especially in a law court, or to give or provide proof`,
-      `(of a fact, event, etc.) to show something or prove that something is true`,
-    ],
-    sentences: [
-      `The witness testified in court about what they had seen on the day of the incident.`,
-      `Several individuals testified to the defendant's good character during the trial.`,
-      `The victim bravely testified against their assailant, seeking justice.`,
-      `The expert testified about the scientific evidence supporting the hypothesis.`,
-      `The recorded video footage testified to the authenticity of the event.`,
-    ],
-  },
-  {
     word: 'incorporate',
     description: [`to include something as part of something larger`],
     sentences: [
@@ -6715,14 +6630,17 @@ export const vocabularies: Data[] = [
       `to accept something enthusiastically`,
       `to hold someone tightly with both arms to express love, liking, or sympathy, or when greeting or leaving someone`,
       `to include something, often as one of a number of things`,
-      `Linguistics embraces a diverse range of subjects such as phonetics and stylistics.`,
     ],
     sentences: [
+      `Linguistics embraces a diverse range of subjects such as phonetics and stylistics.`,
       `The community came together to embrace cultural diversity during the festival.`,
       `He decided to embrace the challenges of his new role with enthusiasm.`,
-      `The company's leaders aim to embrace innovation and adapt to changing trends.`,
       `The young artist was encouraged to embrace her unique style and creativity.`,
       `The family embraced the opportunity to spend quality time together on vacation.`,
+      `She was eager to embrace the new opportunities that came her way.`,
+      `The community came together to embrace diversity and inclusion.`,
+      `The company's culture encourages employees to embrace creativity and innovation.`,
+      `The book's central message was about learning to embrace one's true self.`,
     ],
   },
   {
@@ -6964,21 +6882,6 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'embrace',
-    description: [
-      `to accept something enthusiastically`,
-      `to hold someone tightly with both arms to express love, liking, or sympathy, or when greeting or leaving someone`,
-      `to include something, often as one of a number of things`,
-    ],
-    sentences: [
-      `She was eager to embrace the new opportunities that came her way.`,
-      `The community came together to embrace diversity and inclusion.`,
-      `He decided to embrace change and explore new horizons.`,
-      `The company's culture encourages employees to embrace creativity and innovation.`,
-      `The book's central message was about learning to embrace one's true self.`,
-    ],
-  },
-  {
     word: 'nearby (adv, adj)',
     description: [`not far away`, `not far away in distance; close`],
     sentences: [
@@ -7062,7 +6965,6 @@ export const vocabularies: Data[] = [
     description: [
       `to solve or end a problem or difficulty or disagreement`,
       `to make a decision formally or with determination`,
-      `to solve or end a problem or difficulty`,
     ],
     sentences: [
       `She made a New Year's resolution to exercise regularly and lead a healthier lifestyle.`,
@@ -7285,17 +7187,6 @@ export const vocabularies: Data[] = [
     ],
   },
   {
-    word: 'disgruntled',
-    description: [`unhappy, annoyed, and disappointed about something`],
-    sentences: [
-      `The employees became disgruntled due to the company's sudden policy changes.`,
-      `The disgruntled customers voiced their complaints about the poor service.`,
-      `The repeated delays left the passengers feeling disgruntled and frustrated.`,
-      `The team's performance decline led to a disgruntled coach and disappointed fans.`,
-      `Addressing the concerns of disgruntled stakeholders became a top priority.`,
-    ],
-  },
-  {
     word: 'commuting',
     description: [`the activity of travelling regularly between work and home`],
     sentences: [
@@ -7419,7 +7310,6 @@ export const vocabularies: Data[] = [
     description: [
       `to draw the main shape or edge of something`,
       `to describe something, for example a new plan or idea, in a general way without giving too many details`,
-      `___`,
     ],
     sentences: [
       `The area we're interested in is outlined in red on the map.`,
@@ -7506,6 +7396,53 @@ If I don’t eat something`,
       `He skipped breakfast and felt lightheaded during the morning meeting.`,
       `The doctor advised the patient to drink more water to avoid feeling lightheaded.`,
       `The heat and dehydration made some participants in the marathon feel lightheaded.`,
+    ],
+  },
+  {
+    word: 'intense',
+    description: [
+      `extreme and forceful or (of a feeling) very strong`,
+      `___ people are very serious, and usually have strong emotions or opinions`,
+    ],
+    sentences: [
+      `The intense heatwave caused temperatures to soar above 100 degrees Fahrenheit.`,
+      `She felt an intense passion for music from a young age, leading her to pursue a career in the industry`,
+      `The intense workout left him feeling exhausted but satisfied with his progress.`,
+      `The intense competition for the scholarship made it difficult for applicants to stand out.`,
+      `The intense storm produced heavy rainfall and powerful winds, causing widespread damage in the area.`,
+    ],
+  },
+  {
+    word: 'introspect',
+    description: [
+      `to examine and consider your own ideas, thoughts, and feelings`,
+    ],
+    sentences: [
+      `Sometimes we need to introspect about our own motives.
+    SMART `,
+      `Introspect is the process of examining and reflecting on one's own thoughts, feelings, and actions.`,
+      `It is important to regularly introspect in order to gain self-awareness and understand ourselves better.`,
+      `Through introspection, we can identify our strengths and weaknesses, and work towards personal growth and improvement.`,
+      `Introspect allows us to explore our motivations, values, and beliefs, helping us make more conscious decisions in our lives.`,
+      `Taking time to introspect can lead to greater self-acceptance and a deeper sense of fulfillment and contentment.`,
+    ],
+  },
+  {
+    word: 'retain (c2)',
+    description: [
+      `to keep or continue to have something`,
+      `to keep or continue to have something, especially a position or money, or control of something`,
+      `(HR) to continue to employ people in a company or organization:`,
+    ],
+    sentences: [
+      `She has lost her battle to retain control of the company.`,
+      `He managed to retain his dignity throughout the performance.`,
+      `She succeeded in retaining her lead in the second half of the race.`,
+      `I have a good memory and am able to retain (= remember) facts easily.`,
+      `Salespeople have developed novel ways to use the Web to reach or retain customers.`,
+      `You retain the right to take legal action if you do not accept his decision.`,
+      `Companies will achieve a competitive advantage by attracting and retaining the best talent.`,
+      `Recruiting and retaining good staff will be among his top priorities.`,
     ],
   },
   // {

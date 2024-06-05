@@ -485,6 +485,107 @@ export const uncommonVocabularies: Data[] = [
       `She's always helping people and doing good deeds.`,
     ],
   },
+  {
+    word: 'prosecute',
+    description: [
+      `to officially accuse someone of committing a crime in a law court, or (of a lawyer) to try to prove that a person accused of committing a crime is guilty of that crime`,
+      `to continue to take part in a planned group of activities, especially a war`,
+    ],
+    sentences: [
+      `The district attorney decided to prosecute the suspect for the alleged crime.`,
+      `The company decided to prosecute the individual responsible for embezzlement.`,
+      `The legal team gathered evidence to prepare for the trial and prosecute the accused.`,
+      `The police diligently investigated the case to build a strong case for prosecution.`,
+    ],
+  },
+  {
+    word: 'sightseeing',
+    description: [
+      `the activity of visiting interesting places, especially by people on holiday`,
+      `the act of visiting interesting places, esp. while on vacation`,
+    ],
+    sentences: [
+      `They spent the day sightseeing, visiting famous landmarks and museums.`,
+      `The tour guide provided interesting facts and anecdotes during the sightseeing tour.`,
+      `We took a sightseeing cruise along the river to enjoy the scenic views of the city.`,
+      `Sightseeing is a popular activity for tourists to explore a new destination.`,
+    ],
+  },
+  {
+    word: 'strike',
+    description: [
+      `to refuse to continue working because of an argument with an employer about working conditions, pay levels, or job losses`,
+    ],
+    sentences: [
+      `The workers decided to go on strike to demand better working conditions and higher wages.`,
+      `We're striking for better pay and improved safety standards.`,
+      `The only option available to us is to strike.`,
+    ],
+  },
+  {
+    word: 'substantial',
+    description: [
+      `large in size, value, or importance`,
+      `relating to the main or most important things being considered`,
+    ],
+    sentences: [
+      `They made a substantial investment in real estate, expecting high returns in the future.`,
+      `The company reported a substantial increase in sales revenue compared to the previous year.`,
+      `The evidence presented against the defendant was substantial, leading to a conviction.`,
+      `They faced substantial challenges but remained determined to achieve their goals.`,
+    ],
+  },
+  {
+    word: 'testify',
+    description: [
+      `(of a person) to speak seriously about something, especially in a law court, or to give or provide proof`,
+      `(of a fact, event, etc.) to show something or prove that something is true`,
+    ],
+    sentences: [
+      `The witness testified in court about what they had seen on the day of the incident.`,
+      `Several individuals testified to the defendant's good character during the trial.`,
+      `The victim bravely testified against their assailant, seeking justice.`,
+      `The expert testified about the scientific evidence supporting the hypothesis.`,
+      `The recorded video footage testified to the authenticity of the event.`,
+    ],
+  },
+  {
+    word: 'disgruntled',
+    description: [`unhappy, annoyed, and disappointed about something`],
+    sentences: [
+      `The employees became disgruntled due to the company's sudden policy changes.`,
+      `The disgruntled customers voiced their complaints about the poor service.`,
+      `The repeated delays left the passengers feeling disgruntled and frustrated.`,
+      `The team's performance decline led to a disgruntled coach and disappointed fans.`,
+      `Addressing the concerns of disgruntled stakeholders became a top priority.`,
+    ],
+  },
+  {
+    word: 'outright',
+    description: [
+      `completely or immediately`,
+      `directly and plainly, or immediately instead of in stages`,
+    ],
+    sentences: [
+      `She rejected the offer outright, as it did not align with her career goals.`,
+      `The company made an outright donation to the charitable organization, supporting their cause.`,
+      `He expressed his outright disagreement with the proposed changes during the meeting.`,
+      `The athlete won the race outright, leaving no doubt about their victory.`,
+    ],
+  },
+  {
+    word: 'concierge',
+    description: [
+      `a person who is employed to take care of an apartment building, especially in France`,
+      `a person working in a hotel, etc. whose job is to help guests, for example by giving them information about restaurants, local places to see, etc`,
+    ],
+    sentences: [
+      `The hotel concierge provided excellent recommendations for local restaurants and attractions.`,
+      `The concierge arranged transportation for the guests and ensured their stay was comfortable.`,
+      `The concierge at the apartment building helped residents with various requests and services.`,
+      `The concierge desk was available 24/7 to assist guests with any inquiries or needs.`,
+    ],
+  },
   // {
   //   word: 'profound',
   //   description: [`__`, `__`, `__`, `__`],
